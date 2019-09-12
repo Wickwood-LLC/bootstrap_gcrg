@@ -16,6 +16,10 @@
 // jQuery UI style overrides.
 @import "drupal-bootstrap/jquery-ui/autocomplete";
 
+body {
+    margin-top: 0;
+}
+
 ol,
 ul {
 	padding-left: 1.5em;
@@ -23,6 +27,28 @@ ul {
 	.popover &:last-child {
 		margin-bottom: 0;
 	}
+}
+
+// Navbar
+#navbar {
+    position: absolute;
+    width: 100%;
+    max-width: unset;
+}
+
+// Banner
+.banner-header {
+    background-image: url('../images/banner_bg.jpeg');
+    background-size: cover;
+    padding: 20% 0;
+    
+    @include breakpoint(1200px) {
+        padding: 237px;
+    }
+
+    body.path-frontpage & {
+        padding: 150px 0;
+    }
 }
 
 // Page header.

@@ -8398,6 +8398,10 @@ body.toolbar-loading.toolbar {
   color: #fff;
 }
 
+body {
+  margin-top: 0;
+}
+
 ol,
 ul {
   padding-left: 1.5em;
@@ -8406,6 +8410,28 @@ ul {
 .popover ol:last-child, .popover
 ul:last-child {
   margin-bottom: 0;
+}
+
+#navbar {
+  position: absolute;
+  width: 100%;
+  max-width: unset;
+}
+
+.banner-header {
+  background-image: url("../images/banner_bg.jpeg");
+  background-size: cover;
+  padding: 20% 0;
+}
+
+@media (min-width: 1200px) {
+  .banner-header {
+    padding: 237px;
+  }
+}
+
+body.path-frontpage .banner-header {
+  padding: 150px 0;
 }
 
 .page-header {
