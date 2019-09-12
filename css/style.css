@@ -8416,22 +8416,69 @@ ul:last-child {
   position: absolute;
   width: 100%;
   max-width: unset;
+  z-index: 1;
+  background: unset;
+  border: unset;
+}
+
+#navbar .navbar-brand {
+  color: #FFF;
+}
+
+#navbar .navbar-nav > li > a {
+  color: #FFF;
+}
+
+#navbar .navbar-nav > li > a:hover {
+  border-bottom: 2px solid #fff;
+}
+
+#navbar .navbar-nav .active > a {
+  color: #FFF;
+  background: unset;
+  border-bottom: 2px solid #fff;
+}
+
+#navbar .region-navigation-collapsible {
+  display: flex;
+  justify-content: flex-end;
 }
 
 .banner-header {
-  background-image: url("../images/banner_bg.jpeg");
+  position: relative;
+  width: 100%;
+  height: 50vw;
+  max-height: 400px;
+  display: flex;
+}
+
+.banner-header .banner-bg {
+  background-image: url(../images/banner_bg.jpeg);
   background-size: cover;
-  padding: 20% 0;
+  background-position: center center;
+  background-color: rgba(0, 0, 0, 0.3);
+  -webkit-filter: brightness(0.7);
+          filter: brightness(0.7);
+  height: 335px;
+  position: absolute;
 }
 
-@media (min-width: 1200px) {
-  .banner-header {
-    padding: 237px;
-  }
+body.path-frontpage .banner-header .banner-bg {
+  padding: 0;
+  display: table;
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  height: 100%;
+  max-height: 400px;
 }
 
-body.path-frontpage .banner-header {
-  padding: 150px 0;
+.banner-header h1 {
+  color: white;
+  font-size: 68px;
+  margin: auto;
+  text-align: center;
 }
 
 .page-header {
