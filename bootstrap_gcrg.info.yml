@@ -6,6 +6,7 @@ type: theme
 base theme: bootstrap
 
 regions:
+  header: 'Header'
   navigation: 'Navigation'
   navigation_collapsible: 'Navigation (Collapsible)'
   header: 'Top Bar'
