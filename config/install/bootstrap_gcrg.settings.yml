@@ -19,6 +19,6 @@ schemas: []
 cdn_provider: ''
 
 logo:
-  path: 'themes/bootstrap_gcrg/logo.png'
+  path: '/themes/bootstrap_gcrg/logo.png'
   use_default: false
 
