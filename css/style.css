@@ -8402,6 +8402,10 @@ body {
   margin-top: 0;
 }
 
+body.navbar-is-fixed-top {
+  margin-top: 52px;
+}
+
 ol,
 ul {
   padding-left: 1.5em;
@@ -8412,41 +8416,89 @@ ul:last-child {
   margin-bottom: 0;
 }
 
-.navbar.container {
+.navbar {
   position: absolute;
   width: 100%;
-  max-width: unset;
+  max-width: unset !important;
   z-index: 1;
-  background: unset;
+  background: #75635b;
   border: unset;
 }
 
-.navbar.container .navbar-brand {
-  color: #FFF;
+.navbar.navbar-fixed-top {
+  position: fixed;
 }
 
-.navbar.container .navbar-nav > li > a {
+.navbar .navbar-brand {
+  color: #FFF;
+  display: none;
+  margin-left: 64px !important;
+}
+
+@media (min-width: 992px) {
+  .navbar .navbar-brand {
+    display: block;
+  }
+}
+
+.navbar .navbar-nav > li > a {
   color: #FFF;
   border-bottom: 2px solid transparent;
+  white-space: nowrap;
 }
 
-.navbar.container .navbar-nav > li > a:hover {
+.navbar .navbar-nav > li > a:hover {
+  background-color: transparent;
   border-bottom: 2px solid #fff;
+  color: #DDD;
 }
 
-.navbar.container .navbar-nav .active > a {
+.navbar .navbar-nav .active > a {
   color: #FFF;
   background: unset;
   border-bottom: 2px solid #fff;
 }
 
-.navbar.container .region-navigation-collapsible {
+.navbar .navbar-nav.menu--main, .navbar .navbar-nav.menu--account {
   display: flex;
-  justify-content: flex-end;
+  flex-flow: column nowrap;
+  align-items: flex-end;
 }
 
-.logo img {
+@media (min-width: 768px) {
+  .navbar .navbar-nav.menu--main, .navbar .navbar-nav.menu--account {
+    flex-flow: row wrap;
+  }
+}
+
+.navbar .region-navigation-collapsible {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  flex-flow: column wrap;
+  margin-left: 64px;
+}
+
+@media (min-width: 768px) {
+  .navbar .region-navigation-collapsible {
+    flex-flow: row wrap;
+  }
+}
+
+@media (min-width: 992px) {
+  .navbar .region-navigation-collapsible {
+    margin-left: 0;
+  }
+}
+
+.navbar .logo {
+  margin: 0;
+}
+
+.navbar .logo img {
+  margin-top: 1em;
   width: 64px;
+  position: absolute;
 }
 
 .banner-header {

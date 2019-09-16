@@ -18,6 +18,9 @@
 
 body {
     margin-top: 0;
+    &.navbar-is-fixed-top {
+        margin-top: 52px;
+    }
 }
 
 ol,
@@ -30,24 +33,37 @@ ul {
 }
 
 // Navbar
-.navbar.container {
+.navbar {
     position: absolute;
     width: 100%;
-    max-width: unset;
+    max-width: unset !important;
     z-index: 1;
-    background: unset;
+    background: #75635b;
     border: unset;
+
+    &.navbar-fixed-top {
+        position: fixed;
+    }
 
     .navbar-brand {
         color: #FFF;
+        display: none;
+        margin-left: 64px !important;
+
+        @include breakpoint(992px) {
+            display: block;
+        }
     }
     .navbar-nav {
         > li > a {
             color: #FFF;
             border-bottom: 2px solid transparent;
+            white-space: nowrap;
 
             &:hover {
+                background-color: transparent;
                 border-bottom: 2px solid #fff;
+                color: #DDD;
             }
         }
 
@@ -56,16 +72,42 @@ ul {
             background: unset;
             border-bottom: 2px solid #fff;
         }
+
+        &.menu--main,
+        &.menu--account {
+            display: flex;
+            flex-flow: column nowrap;
+            align-items: flex-end;
+
+            @include breakpoint(768px){
+                flex-flow: row wrap;
+            }
+        }
     }
 
     .region-navigation-collapsible {
         display: flex;
+        align-items: flex-end;
         justify-content: flex-end;
-    }
-}
+        flex-flow: column wrap;
+        margin-left: 64px;
 
-.logo img {
-    width: 64px;
+        @include breakpoint(768px){
+            flex-flow: row wrap;
+        }
+        @include breakpoint(992px){
+            margin-left: 0;
+        }
+    }
+
+    .logo {
+        margin: 0;
+        img {
+            margin-top: 1em;
+            width: 64px;
+            position: absolute;
+        }
+    }
 }
 
 // Banner
