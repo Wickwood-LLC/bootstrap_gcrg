@@ -8413,6 +8413,7 @@ ul:last-child {
 }
 
 .navbar {
+  position: absolute;
   width: 100%;
   max-width: unset;
   z-index: 1;
@@ -8442,6 +8443,10 @@ ul:last-child {
 .navbar .region-navigation-collapsible {
   display: flex;
   justify-content: flex-end;
+}
+
+.logo img {
+  width: 64px;
 }
 
 .banner-header {
