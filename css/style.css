@@ -8413,7 +8413,6 @@ ul:last-child {
 }
 
 #navbar {
-  position: absolute;
   width: 100%;
   max-width: unset;
   z-index: 1;
