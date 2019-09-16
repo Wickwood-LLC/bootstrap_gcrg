@@ -8412,7 +8412,7 @@ ul:last-child {
   margin-bottom: 0;
 }
 
-.navbar {
+.navbar.container {
   position: absolute;
   width: 100%;
   max-width: unset;
@@ -8421,26 +8421,26 @@ ul:last-child {
   border: unset;
 }
 
-.navbar .navbar-brand {
+.navbar.container .navbar-brand {
   color: #FFF;
 }
 
-.navbar .navbar-nav > li > a {
+.navbar.container .navbar-nav > li > a {
   color: #FFF;
   border-bottom: 2px solid transparent;
 }
 
-.navbar .navbar-nav > li > a:hover {
+.navbar.container .navbar-nav > li > a:hover {
   border-bottom: 2px solid #fff;
 }
 
-.navbar .navbar-nav .active > a {
+.navbar.container .navbar-nav .active > a {
   color: #FFF;
   background: unset;
   border-bottom: 2px solid #fff;
 }
 
-.navbar .region-navigation-collapsible {
+.navbar.container .region-navigation-collapsible {
   display: flex;
   justify-content: flex-end;
 }
