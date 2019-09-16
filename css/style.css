@@ -8412,7 +8412,7 @@ ul:last-child {
   margin-bottom: 0;
 }
 
-#navbar {
+.navbar {
   width: 100%;
   max-width: unset;
   z-index: 1;
@@ -8420,26 +8420,26 @@ ul:last-child {
   border: unset;
 }
 
-#navbar .navbar-brand {
+.navbar .navbar-brand {
   color: #FFF;
 }
 
-#navbar .navbar-nav > li > a {
+.navbar .navbar-nav > li > a {
   color: #FFF;
   border-bottom: 2px solid transparent;
 }
 
-#navbar .navbar-nav > li > a:hover {
+.navbar .navbar-nav > li > a:hover {
   border-bottom: 2px solid #fff;
 }
 
-#navbar .navbar-nav .active > a {
+.navbar .navbar-nav .active > a {
   color: #FFF;
   background: unset;
   border-bottom: 2px solid #fff;
 }
 
-#navbar .region-navigation-collapsible {
+.navbar .region-navigation-collapsible {
   display: flex;
   justify-content: flex-end;
 }
