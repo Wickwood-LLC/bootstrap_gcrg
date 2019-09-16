@@ -8427,6 +8427,7 @@ ul:last-child {
 
 #navbar .navbar-nav > li > a {
   color: #FFF;
+  border-bottom: 2px solid transparent;
 }
 
 #navbar .navbar-nav > li > a:hover {
