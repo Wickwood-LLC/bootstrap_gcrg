@@ -179,6 +179,50 @@ ul {
     }
 }
 
+#block-socialsharingblock {
+    position: fixed;
+    top: 215px;
+    left: -378px;
+    padding: 1em;
+    border: 1px solid #ccc;
+    background-color: white;
+    width: 378px;
+    transition: 0.5s;
+
+    &:hover {
+        left: 0;
+        box-shadow: 2px 3px 10px 0 #333;
+
+        &:before {
+            opacity: 0;
+            transition: 0.5s;
+        }
+    }
+
+    &:before {
+        display: table;
+        content: '\f1e0';
+        font-family: 'Font Awesome 5 Pro';
+        font-size: 24px;
+        position: absolute;
+        right: -36px;
+        width: 36px;
+        height: 36px;
+        background-color: white;
+        top: -1px;
+        box-sizing: border-box;
+        text-align: center;
+        border: 1px solid #ccc;
+        box-shadow: 2px 2px 30px -3px #383838;
+        opacity: 1;
+        transition: all 1s ease 0.5s;
+    }
+
+    .block-title {
+        margin-top: 0;
+    }
+}
+
 .container {
     max-width: 100%;
 }
