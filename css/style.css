@@ -7669,6 +7669,7 @@ button.close {
   }
 }
 
+/* Fluid Typography */
 /**
  * Alert styling.
  */
@@ -8428,6 +8429,10 @@ ul:last-child {
   position: fixed;
 }
 
+.navbar .container {
+  width: 100%;
+}
+
 .navbar .navbar-brand {
   color: #FFF;
   display: none;
@@ -8470,6 +8475,7 @@ ul:last-child {
 .navbar .navbar-nav > li.active a:hover,
 .navbar .navbar-nav > li.active a:focus {
   background-color: transparent;
+  color: #DDD;
 }
 
 .navbar .navbar-nav .active > a {
@@ -8517,8 +8523,14 @@ ul:last-child {
 
 .navbar .logo img {
   margin-top: 1em;
-  width: 110px;
+  width: 64px;
   position: absolute;
+}
+
+@media (min-width: 768px) {
+  .navbar .logo img {
+    width: 110px;
+  }
 }
 
 .banner-header {
@@ -8553,9 +8565,21 @@ body.path-frontpage .banner-header .banner-bg {
 
 .banner-header h1 {
   color: white;
-  font-size: 68px;
   margin: auto;
   text-align: center;
+  width: 80vw;
+}
+
+@media screen and (min-width: 320px) {
+  .banner-header h1 {
+    font-size: calc(34px + 34 * ((100vw - 320px) / 880));
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .banner-header h1 {
+    font-size: 68px;
+  }
 }
 
 .container {
