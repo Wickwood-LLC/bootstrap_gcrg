@@ -35,7 +35,6 @@ ul {
 // Navbar
 .navbar {
     position: absolute;
-    width: 100%;
     max-width: unset !important;
     z-index: 1;
     background: #75635b;
@@ -48,23 +47,41 @@ ul {
     .navbar-brand {
         color: #FFF;
         display: none;
-        margin-left: 64px !important;
+        margin-left: 110px !important;
 
         @include breakpoint(992px) {
             display: block;
         }
+
+        &:hover {
+            color: #DDD;
+        }
     }
     .navbar-nav {
-        > li > a {
-            color: #FFF;
-            border-bottom: 2px solid transparent;
-            white-space: nowrap;
-
-            &:hover {
-                background-color: transparent;
-                border-bottom: 2px solid #fff;
-                color: #DDD;
+        > li {
+            width: 100%;
+            text-align: right;
+            
+            @include breakpoint(768px){
+                width: auto;
             }
+            
+            > a {
+                color: #FFF;
+                border-bottom: 2px solid transparent;
+                white-space: nowrap;
+    
+                &:hover {
+                    background-color: transparent;
+                    border-bottom: 2px solid #fff;
+                    color: #DDD;
+                }
+            }
+        }
+
+        >li.active a:hover,
+        >li.active a:focus {
+            background-color: transparent;
         }
 
         .active > a {
@@ -78,6 +95,7 @@ ul {
             display: flex;
             flex-flow: column nowrap;
             align-items: flex-end;
+            margin: 0;
 
             @include breakpoint(768px){
                 flex-flow: row wrap;
@@ -104,7 +122,7 @@ ul {
         margin: 0;
         img {
             margin-top: 1em;
-            width: 64px;
+            width: 110px;
             position: absolute;
         }
     }
@@ -145,6 +163,10 @@ ul {
         margin: auto;
         text-align: center;
     }
+}
+
+.container {
+    max-width: 100%;
 }
 
 // Page header.

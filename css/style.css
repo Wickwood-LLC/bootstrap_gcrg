@@ -8418,7 +8418,6 @@ ul:last-child {
 
 .navbar {
   position: absolute;
-  width: 100%;
   max-width: unset !important;
   z-index: 1;
   background: #75635b;
@@ -8432,12 +8431,27 @@ ul:last-child {
 .navbar .navbar-brand {
   color: #FFF;
   display: none;
-  margin-left: 64px !important;
+  margin-left: 110px !important;
 }
 
 @media (min-width: 992px) {
   .navbar .navbar-brand {
     display: block;
+  }
+}
+
+.navbar .navbar-brand:hover {
+  color: #DDD;
+}
+
+.navbar .navbar-nav > li {
+  width: 100%;
+  text-align: right;
+}
+
+@media (min-width: 768px) {
+  .navbar .navbar-nav > li {
+    width: auto;
   }
 }
 
@@ -8453,6 +8467,11 @@ ul:last-child {
   color: #DDD;
 }
 
+.navbar .navbar-nav > li.active a:hover,
+.navbar .navbar-nav > li.active a:focus {
+  background-color: transparent;
+}
+
 .navbar .navbar-nav .active > a {
   color: #FFF;
   background: unset;
@@ -8463,6 +8482,7 @@ ul:last-child {
   display: flex;
   flex-flow: column nowrap;
   align-items: flex-end;
+  margin: 0;
 }
 
 @media (min-width: 768px) {
@@ -8497,7 +8517,7 @@ ul:last-child {
 
 .navbar .logo img {
   margin-top: 1em;
-  width: 64px;
+  width: 110px;
   position: absolute;
 }
 
@@ -8536,6 +8556,10 @@ body.path-frontpage .banner-header .banner-bg {
   font-size: 68px;
   margin: auto;
   text-align: center;
+}
+
+.container {
+  max-width: 100%;
 }
 
 .page-header {
