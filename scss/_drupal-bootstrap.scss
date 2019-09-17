@@ -170,7 +170,7 @@ ul {
         color: white;
         margin: auto;
         text-align: center;
-        @include fluid-type(320px, 1200px, 34px, 68px);
+        @include fluid-type(320px, 1200px, 24px, 68px);
         width: 80vw;
     }
 }
