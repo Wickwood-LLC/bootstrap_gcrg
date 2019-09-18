@@ -8723,6 +8723,10 @@ body.path-frontpage .banner-header .banner-bg {
   margin-top: 0;
 }
 
+div[role="heading"] {
+  display: inline-block;
+}
+
 .container {
   max-width: 100%;
 }
