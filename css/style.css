@@ -8417,6 +8417,90 @@ ul:last-child {
   margin-bottom: 0;
 }
 
+@media screen and (min-width: 320px) {
+  h1 {
+    font-size: calc(24px + 16 * ((100vw - 320px) / 880));
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  h1 {
+    font-size: 40px;
+  }
+}
+
+@media screen and (min-width: 320px) {
+  h2 {
+    font-size: calc(20px + 16 * ((100vw - 320px) / 880));
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  h2 {
+    font-size: 36px;
+  }
+}
+
+@media screen and (min-width: 320px) {
+  h3 {
+    font-size: calc(18px + 12 * ((100vw - 320px) / 880));
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  h3 {
+    font-size: 30px;
+  }
+}
+
+@media screen and (min-width: 320px) {
+  h4 {
+    font-size: calc(16px + 8 * ((100vw - 320px) / 880));
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  h4 {
+    font-size: 24px;
+  }
+}
+
+@media screen and (min-width: 320px) {
+  h5 {
+    font-size: calc(14px + 4 * ((100vw - 320px) / 880));
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  h5 {
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 320px) {
+  h6 {
+    font-size: calc(12px + 2 * ((100vw - 320px) / 880));
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  h6 {
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 320px) {
+  p {
+    font-size: calc(14px + 2 * ((100vw - 320px) / 930));
+  }
+}
+
+@media screen and (min-width: 1250px) {
+  p {
+    font-size: 16px;
+  }
+}
+
 .navbar {
   position: absolute;
   max-width: unset !important;
@@ -8435,12 +8519,18 @@ ul:last-child {
 
 .navbar .navbar-brand {
   color: #FFF;
-  margin-left: 110px !important;
+  margin-left: 68px !important;
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
   .navbar .navbar-brand {
     display: none;
+  }
+}
+
+@media (min-width: 992px) {
+  .navbar .navbar-brand {
+    margin-left: 110px !important;
   }
 }
 
