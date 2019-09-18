@@ -76,6 +76,12 @@ p {
         width: calc(100% - 128px);
         text-align: center;
 
+        @include breakpoint(0px 768px) {
+            width: calc(100% - 64px);
+            float: none;
+            display: inline-block;
+            height: auto;
+        }
         @include breakpoint(768px 991px) {
             display: none;
         }
@@ -88,6 +94,11 @@ p {
         &:hover {
             color: #DDD;
         }
+    }
+    .navbar-toggle {
+        display: inline-block;
+        float: none;
+        vertical-align: top;
     }
     .navbar-nav {
         > li {
@@ -130,9 +141,16 @@ p {
             align-items: flex-end;
             margin: 0;
 
-            @include breakpoint(768px){
+            @include breakpoint(768px) {
                 flex-flow: row wrap;
             }
+        }
+    }
+
+    .region-navigation {
+        @include breakpoint(0px 768px) {
+            display: inline-block;
+            width: calc(100% - 64px);
         }
     }
 
@@ -143,10 +161,10 @@ p {
         flex-flow: column wrap;
         margin-left: 64px;
 
-        @include breakpoint(768px){
+        @include breakpoint(768px) {
             flex-flow: row wrap;
         }
-        @include breakpoint(992px){
+        @include breakpoint(992px) {
             margin-left: 0;
         }
     }

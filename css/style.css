@@ -8524,6 +8524,15 @@ ul:last-child {
   text-align: center;
 }
 
+@media (min-width: 0px) and (max-width: 768px) {
+  .navbar .navbar-brand {
+    width: calc(100% - 64px);
+    float: none;
+    display: inline-block;
+    height: auto;
+  }
+}
+
 @media (min-width: 768px) and (max-width: 991px) {
   .navbar .navbar-brand {
     display: none;
@@ -8540,6 +8549,12 @@ ul:last-child {
 
 .navbar .navbar-brand:hover {
   color: #DDD;
+}
+
+.navbar .navbar-toggle {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
 }
 
 .navbar .navbar-nav > li {
@@ -8587,6 +8602,13 @@ ul:last-child {
 @media (min-width: 768px) {
   .navbar .navbar-nav.menu--main, .navbar .navbar-nav.menu--account {
     flex-flow: row wrap;
+  }
+}
+
+@media (min-width: 0px) and (max-width: 768px) {
+  .navbar .region-navigation {
+    display: inline-block;
+    width: calc(100% - 64px);
   }
 }
 
@@ -8688,6 +8710,7 @@ body.path-frontpage .banner-header .banner-bg {
   background-color: white;
   width: 282px;
   transition: 0.5s;
+  z-index: 1;
 }
 
 #block-socialsharingblock:hover {
