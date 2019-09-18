@@ -50,11 +50,13 @@ ul {
 
     .navbar-brand {
         color: #FFF;
-        display: none;
-        margin-left: 110px !important;
+        margin-left: 68px !important;
 
+        @include breakpoint(768px 991px) {
+            display: none;
+        }
         @include breakpoint(992px) {
-            display: block;
+            margin-left: 110px !important;
         }
 
         &:hover {

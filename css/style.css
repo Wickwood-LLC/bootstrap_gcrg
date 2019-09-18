@@ -8435,13 +8435,12 @@ ul:last-child {
 
 .navbar .navbar-brand {
   color: #FFF;
-  display: none;
   margin-left: 110px !important;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 768px) and (max-width: 991px) {
   .navbar .navbar-brand {
-    display: block;
+    display: none;
   }
 }
 
