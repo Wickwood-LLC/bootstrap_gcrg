@@ -73,12 +73,16 @@ p {
     .navbar-brand {
         color: #FFF;
         margin-left: 68px !important;
+        width: calc(100% - 128px);
+        text-align: center;
 
         @include breakpoint(768px 991px) {
             display: none;
         }
         @include breakpoint(992px) {
             margin-left: 110px !important;
+            text-align: left;
+            width: auto;
         }
 
         &:hover {
@@ -206,11 +210,11 @@ p {
 #block-socialsharingblock {
     position: fixed;
     top: 215px;
-    left: -378px;
+    left: -282px;
     padding: 1em;
     border: 1px solid #ccc;
     background-color: white;
-    width: 378px;
+    width: 282px;
     transition: 0.5s;
 
     &:hover {
