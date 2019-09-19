@@ -8562,7 +8562,7 @@ ul:last-child {
 .navbar .navbar-nav > li {
   width: 100%;
   text-align: right;
-  margin: 3px 0;
+  margin: 3px;
 }
 
 @media (min-width: 768px) {
