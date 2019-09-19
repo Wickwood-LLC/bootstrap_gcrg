@@ -106,6 +106,7 @@ p {
         > li {
             width: 100%;
             text-align: right;
+            margin: 3px;
             
             @include breakpoint(768px){
                 width: auto;
@@ -131,7 +132,7 @@ p {
         }
 
         .active > a {
-            color: #FFF;
+            color: #75635b;
             background: #ddd;
         }
 
