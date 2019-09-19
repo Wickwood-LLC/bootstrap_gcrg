@@ -8401,6 +8401,7 @@ body.toolbar-loading.toolbar {
 
 body {
   margin-top: 0;
+  font-family: adobe-garamond-pro, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 body.navbar-is-fixed-top {
