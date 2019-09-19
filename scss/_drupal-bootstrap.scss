@@ -96,9 +96,11 @@ p {
         }
     }
     .navbar-toggle {
-        display: inline-block;
-        float: none;
-        vertical-align: top;
+        @include breakpoint(0px 768px) {
+            display: inline-block;
+            float: none;
+            vertical-align: top;
+        }
     }
     .navbar-nav {
         > li {

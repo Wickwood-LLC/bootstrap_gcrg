@@ -8551,10 +8551,12 @@ ul:last-child {
   color: #DDD;
 }
 
-.navbar .navbar-toggle {
-  display: inline-block;
-  float: none;
-  vertical-align: top;
+@media (min-width: 0px) and (max-width: 768px) {
+  .navbar .navbar-toggle {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+  }
 }
 
 .navbar .navbar-nav > li {
