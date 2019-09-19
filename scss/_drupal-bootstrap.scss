@@ -82,7 +82,7 @@ p {
             display: inline-block;
             height: auto;
         }
-        @include breakpoint(768px 991px) {
+        @include breakpoint(768px) {
             display: none;
         }
         @include breakpoint(992px) {
