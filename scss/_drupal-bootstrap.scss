@@ -283,6 +283,7 @@ p {
 
     .block-title {
         margin-top: 0;
+        @include fluid-type(320px, 1200px, 18px, 30px); // values inside are ($min_width,$max_width, $min_font, $max_font);
     }
 }
 
