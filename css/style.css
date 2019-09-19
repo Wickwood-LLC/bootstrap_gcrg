@@ -8614,6 +8614,17 @@ ul:last-child {
   }
 }
 
+@media (min-width: 0px) and (max-width: 768px) {
+  .navbar .navbar-collapse {
+    position: absolute;
+    right: 0px;
+    background-color: #75635b;
+  }
+  .navbar .navbar-collapse .region-navigation-collapsible {
+    margin-left: 0;
+  }
+}
+
 .navbar .region-navigation-collapsible {
   display: flex;
   align-items: flex-end;

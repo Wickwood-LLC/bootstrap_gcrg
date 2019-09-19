@@ -156,6 +156,18 @@ p {
         }
     }
 
+    .navbar-collapse {
+        @include breakpoint(0px 768px) {
+            position: absolute;
+            right: 0px;
+            background-color: rgb(117, 99, 91);
+
+            .region-navigation-collapsible {
+                margin-left: 0;
+            }
+        }
+    }
+
     .region-navigation-collapsible {
         display: flex;
         align-items: flex-end;
