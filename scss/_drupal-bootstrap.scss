@@ -19,7 +19,8 @@
 body {
     font-family: adobe-garamond-pro, "Helvetica Neue", Helvetica, Arial, sans-serif;
     margin-top: 0;
-    
+    font-size: 16px;
+
     &.navbar-is-fixed-top {
         margin-top: 0;
     }
@@ -38,22 +39,22 @@ h1 {
     @include fluid-type(320px, 1200px, 24px, 40px); // values inside are ($min_width,$max_width, $min_font, $max_font);
 }
 h2 {
-    @include fluid-type(320px, 1200px, 20px, 36px); // values inside are ($min_width,$max_width, $min_font, $max_font);
+    @include fluid-type(320px, 1200px, 22px, 36px); // values inside are ($min_width,$max_width, $min_font, $max_font);
 }
 h3 {
-    @include fluid-type(320px, 1200px, 18px, 30px); // values inside are ($min_width,$max_width, $min_font, $max_font);
+    @include fluid-type(320px, 1200px, 20px, 30px); // values inside are ($min_width,$max_width, $min_font, $max_font);
 }
 h4 {
-    @include fluid-type(320px, 1200px, 16px, 24px); // values inside are ($min_width,$max_width, $min_font, $max_font);
+    @include fluid-type(320px, 1200px, 18px, 24px); // values inside are ($min_width,$max_width, $min_font, $max_font);
 }
 h5 {
-    @include fluid-type(320px, 1200px, 14px, 18px); // values inside are ($min_width,$max_width, $min_font, $max_font);
+    @include fluid-type(320px, 1200px, 17px, 18px); // values inside are ($min_width,$max_width, $min_font, $max_font);
 }
 h6 {
-    @include fluid-type(320px, 1200px, 12px, 14px); // values inside are ($min_width,$max_width, $min_font, $max_font);
+    @include fluid-type(320px, 1250px, 16px, 20px); // values inside are ($min_width,$max_width, $min_font, $max_font);
 }
 p {
-    @include fluid-type(320px, 1250px, 14px, 16px); // values inside are ($min_width,$max_width, $min_font, $max_font);
+    @include fluid-type(320px, 1250px, 16px, 20px); // values inside are ($min_width,$max_width, $min_font, $max_font);
 }
 
 // Navbar
