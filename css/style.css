@@ -8510,6 +8510,8 @@ ul:last-child {
   z-index: 1;
   background: #75635b;
   border: unset;
+  display: flex;
+  align-items: center;
 }
 
 .navbar.navbar-fixed-top {
@@ -8579,6 +8581,13 @@ ul:last-child {
   display: inline-block;
   white-space: nowrap;
   border-radius: 4px;
+  padding: 5px;
+}
+
+@media (min-width: 768px) {
+  .navbar .navbar-nav > li > a {
+    padding: 5px 10px;
+  }
 }
 
 .navbar .navbar-nav > li > a:hover {
@@ -8655,7 +8664,7 @@ ul:last-child {
 }
 
 .navbar .logo img {
-  margin-top: 1em;
+  padding: 5px 0;
   width: 64px;
   position: absolute;
 }

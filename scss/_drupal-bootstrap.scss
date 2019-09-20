@@ -64,6 +64,8 @@ p {
     z-index: 1;
     background: #75635b;
     border: unset;
+    display: flex;
+    align-items: center;
 
     &.navbar-fixed-top {
         position: fixed;
@@ -120,6 +122,11 @@ p {
                 display: inline-block;
                 white-space: nowrap;
                 border-radius: 4px;
+                padding: 5px;
+
+                @include breakpoint(768px){
+                    padding: 5px 10px;
+                }
     
                 &:hover {
                     color: #75635b;
@@ -191,7 +198,7 @@ p {
     .logo {
         margin: 0;
         img {
-            margin-top: 1em;
+            padding: 5px 0;
             width: 64px;
             position: absolute;
             
