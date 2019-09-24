@@ -57,6 +57,13 @@ p {
     @include fluid-type(320px, 1250px, 16px, 20px); // values inside are ($min_width,$max_width, $min_font, $max_font);
 }
 
+.align-center {
+    text-align: center;
+    > img {
+        display: inline-block;
+    }
+}
+
 // Navbar
 .navbar {
     position: absolute;
