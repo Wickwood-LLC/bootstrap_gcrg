@@ -72,6 +72,7 @@ p {
 
 // Navbar
 .navbar {
+    font-family: proxima-nova, sans-serif;
     position: absolute;
     max-width: unset !important;
     z-index: 1;
@@ -403,6 +404,10 @@ p:last-child,
 			border-radius: 0 5px 5px 0;
 		}
 	}
+}
+
+.tabs--primary {
+    font-family: proxima-nova, sans-serif;
 }
 
 .breadcrumb {

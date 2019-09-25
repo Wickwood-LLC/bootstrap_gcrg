@@ -8565,6 +8565,7 @@ p {
 }
 
 .navbar {
+  font-family: proxima-nova, sans-serif;
   position: absolute;
   max-width: unset !important;
   z-index: 1;
