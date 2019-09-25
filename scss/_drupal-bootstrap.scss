@@ -257,10 +257,11 @@ p {
 
     h1 {
         color: white;
+        font-family: adobe-garamond-pro, "Helvetica Neue", Helvetica, Arial, sans-serif;
         margin: auto;
         text-align: center;
-        @include fluid-type(320px, 1200px, 24px, 68px);
         width: 80vw;
+        @include fluid-type(320px, 1200px, 24px, 68px);
     }
 }
 
