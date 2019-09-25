@@ -8948,6 +8948,10 @@ p:last-child,
   border-radius: 0 5px 5px 0;
 }
 
+.tabs--primary {
+  font-family: proxima-nova, sans-serif;
+}
+
 .breadcrumb > li + li:before {
   padding: 0 5px;
   color: #777777;
