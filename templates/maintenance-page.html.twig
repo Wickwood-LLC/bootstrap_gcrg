@@ -49,6 +49,13 @@
   </header>
 {% endblock %}
 
+<div class="banner-header">
+  <div class="banner-bg"></div>
+  {% if is_front %}
+    <h1> {{ site_name }} </h1>
+  {% endif %}
+</div>
+
 {# Main #}
 <main role="main" class="main-container {{ container }}">
   <div class="row">
