@@ -19,7 +19,7 @@
 body {
     font-family: adobe-garamond-pro, "Helvetica Neue", Helvetica, Arial, sans-serif;
     margin-top: 0;
-    font-size: 16px;
+    @include fluid-type(320px, 1250px, 16px, 20px); // values inside are ($min_width,$max_width, $min_font, $max_font);
 
     &.navbar-is-fixed-top {
         margin-top: 0;
@@ -612,6 +612,12 @@ p:last-child,
     }
 }
 
+.action-links {
+    list-style: none;
+    margin-bottom: 0.5em;
+    font-family: proxima-nova, sans-serif;
+}
+
 /********************* FORUMS *********************/
 .path-forum {
     table {
@@ -639,6 +645,18 @@ p:last-child,
         }
     }
 
+}
+
+.region-sidebar-first {
+    .block-title {
+        background-color: #449d44;
+        border-radius: 5px 5px 0 0;
+        font-size: 1.2em;
+        text-transform: uppercase;
+        margin: 0;
+        padding: 16px 15px 13px;
+        color: #fff;
+    }
 }
 
 /********************* MAINTENANCE *********************/
