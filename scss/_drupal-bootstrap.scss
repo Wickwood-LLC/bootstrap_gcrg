@@ -611,3 +611,33 @@ p:last-child,
         }
     }
 }
+
+/********************* FORUMS *********************/
+.path-forum {
+    table {
+        thead th {
+            text-align: left;
+            padding: 5px 15px;
+            background: #333;
+            color: white;
+            white-space: nowrap;
+        }
+        tbody {
+            tr {
+                background: #fff;
+                border-bottom: 1px solid #eaeaea;
+    
+                &:last-child {
+                    border-bottom: none;
+                }
+            }
+            td {
+                border: medium none;
+                padding: 15px;
+                vertical-align: text-top;
+            }
+        }
+    }
+
+}
+

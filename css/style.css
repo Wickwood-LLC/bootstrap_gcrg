@@ -9156,4 +9156,28 @@ p:last-child,
 #block-superfish-1 #superfish-1-accordion li a {
   color: #00728e;
 }
+
+/********************* FORUMS *********************/
+.path-forum table thead th {
+  text-align: left;
+  padding: 5px 15px;
+  background: #333;
+  color: white;
+  white-space: nowrap;
+}
+
+.path-forum table tbody tr {
+  background: #fff;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.path-forum table tbody tr:last-child {
+  border-bottom: none;
+}
+
+.path-forum table tbody td {
+  border: medium none;
+  padding: 15px;
+  vertical-align: text-top;
+}
 /*# sourceMappingURL=style.css.map */
