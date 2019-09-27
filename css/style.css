@@ -8400,25 +8400,25 @@ body.toolbar-loading.toolbar {
   color: #fff;
 }
 
-body {
-  font-family: adobe-garamond-pro, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin-top: 0;
-}
-
-body {
+html {
   font-size: 16px;
 }
 
 @media screen and (min-width: 320px) {
-  body {
+  html {
     font-size: calc(16px + 4 * ((100vw - 320px) / 930));
   }
 }
 
 @media screen and (min-width: 1250px) {
-  body {
+  html {
     font-size: 20px;
   }
+}
+
+body {
+  font-family: adobe-garamond-pro, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin-top: 0;
 }
 
 body.navbar-is-fixed-top {
