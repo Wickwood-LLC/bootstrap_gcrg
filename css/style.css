@@ -8615,7 +8615,7 @@ p {
   text-align: center;
 }
 
-@media (min-width: 0px) and (max-width: 768px) {
+@media (min-width: 0px) and (max-width: 767px) {
   .navbar .navbar-brand {
     width: calc(100% - 64px);
     float: none;
@@ -8642,7 +8642,7 @@ p {
   color: #DDD;
 }
 
-@media (min-width: 0px) and (max-width: 768px) {
+@media (min-width: 0px) and (max-width: 767px) {
   .navbar .navbar-toggle {
     display: inline-block;
     float: none;
@@ -8705,14 +8705,14 @@ p {
   }
 }
 
-@media (min-width: 0px) and (max-width: 768px) {
+@media (min-width: 0px) and (max-width: 767px) {
   .navbar .region-navigation {
     display: inline-block;
     width: calc(100% - 64px);
   }
 }
 
-@media (min-width: 0px) and (max-width: 768px) {
+@media (min-width: 0px) and (max-width: 767px) {
   .navbar .navbar-collapse {
     position: absolute;
     right: 15px;
@@ -9203,6 +9203,23 @@ p:last-child,
   font-family: proxima-nova, sans-serif;
 }
 
+/********************* BLOCKS *********************/
+.block {
+  border: 1px solid #4e7332;
+  border-radius: 8px;
+  margin-bottom: 1em;
+}
+
+.block .block-title {
+  background-color: #4e7332;
+  border-radius: 5px 5px 0 0;
+  font-size: 1em;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 16px 15px 13px;
+  color: #fff;
+}
+
 /********************* FORUMS *********************/
 .path-forum table thead th {
   text-align: left;
@@ -9225,16 +9242,6 @@ p:last-child,
   border: medium none;
   padding: 15px;
   vertical-align: text-top;
-}
-
-.region-sidebar-first .block-title {
-  background-color: #449d44;
-  border-radius: 5px 5px 0 0;
-  font-size: 1em;
-  text-transform: uppercase;
-  margin: 0;
-  padding: 16px 15px 13px;
-  color: #fff;
 }
 
 /********************* MAINTENANCE *********************/

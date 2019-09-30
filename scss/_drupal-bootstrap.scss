@@ -105,7 +105,7 @@ p {
         width: calc(100% - 128px);
         text-align: center;
 
-        @include breakpoint(0px 768px) {
+        @include breakpoint(0px 767px) {
             width: calc(100% - 64px);
             float: none;
             display: inline-block;
@@ -125,7 +125,7 @@ p {
         }
     }
     .navbar-toggle {
-        @include breakpoint(0px 768px) {
+        @include breakpoint(0px 767px) {
             display: inline-block;
             float: none;
             vertical-align: top;
@@ -184,14 +184,14 @@ p {
     }
 
     .region-navigation {
-        @include breakpoint(0px 768px) {
+        @include breakpoint(0px 767px) {
             display: inline-block;
             width: calc(100% - 64px);
         }
     }
 
     .navbar-collapse {
-        @include breakpoint(0px 768px) {
+        @include breakpoint(0px 767px) {
             position: absolute;
             right: 15px;
             background-color: rgb(117, 99, 91);
@@ -643,6 +643,35 @@ p:last-child,
     font-family: proxima-nova, sans-serif;
 }
 
+/********************* BLOCKS *********************/
+
+.block {
+    border: 1px solid #4e7332;
+    border-radius: 8px;
+    margin-bottom: 1em;
+    padding-bottom: 0.5em;
+
+    .block-title {
+        background-color: #4e7332;
+        border-radius: 5px 5px 0 0;
+        font-size: 1em;
+        text-transform: uppercase;
+        margin: 0;
+        padding: 16px 15px 13px;
+        color: #fff;
+    }
+
+    .more-link {
+        text-align: right;
+        margin-right: 1em;
+        font-weight: bold;
+        
+        a {
+            color: #e24f4c;
+        }
+    }
+}
+
 /********************* FORUMS *********************/
 .path-forum {
     table {
@@ -670,18 +699,6 @@ p:last-child,
         }
     }
 
-}
-
-.region-sidebar-first {
-    .block-title {
-        background-color: #449d44;
-        border-radius: 5px 5px 0 0;
-        font-size: 1em;
-        text-transform: uppercase;
-        margin: 0;
-        padding: 16px 15px 13px;
-        color: #fff;
-    }
 }
 
 /********************* MAINTENANCE *********************/
