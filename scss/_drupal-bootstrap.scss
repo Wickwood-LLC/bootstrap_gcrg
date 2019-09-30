@@ -441,6 +441,16 @@ p:last-child,
     }
 }
 
+.region-highlighted {
+    display: flex;
+    flex-flow: row wrap;
+    
+    .block {
+        margin: 0.5em;
+        flex: 1 1 25%;
+    }
+}
+
 /********************* FORMS *********************/
 .btn, .form-control {
     font-size: inherit;

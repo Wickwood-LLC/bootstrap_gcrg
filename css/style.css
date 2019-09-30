@@ -8996,6 +8996,16 @@ p:last-child,
   margin-left: 0;
 }
 
+.region-highlighted {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.region-highlighted .block {
+  margin: 0.5em;
+  flex: 1 1 25%;
+}
+
 /********************* FORMS *********************/
 .btn, .form-control {
   font-size: inherit;
@@ -9208,6 +9218,7 @@ p:last-child,
   border: 1px solid #4e7332;
   border-radius: 8px;
   margin-bottom: 1em;
+  padding-bottom: 0.5em;
 }
 
 .block .block-title {
@@ -9218,6 +9229,16 @@ p:last-child,
   margin: 0;
   padding: 16px 15px 13px;
   color: #fff;
+}
+
+.block .more-link {
+  text-align: right;
+  margin-right: 1em;
+  font-weight: bold;
+}
+
+.block .more-link a {
+  color: #e24f4c;
 }
 
 /********************* FORUMS *********************/
