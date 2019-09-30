@@ -21,7 +21,7 @@ html {
 }
 
 body {
-    font-family: adobe-garamond-pro, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: proxima-nova, "Helvetica Neue", Helvetica, Arial, sans-serif;
     margin-top: 0;
     font-size: inherit;
 
@@ -64,6 +64,7 @@ h6 {
     @include fluid-type(320px, 1250px, 16px, 20px); // values inside are ($min_width,$max_width, $min_font, $max_font);
 }
 p {
+    font-family: adobe-garamond-pro, "Helvetica Neue", Helvetica, Arial, sans-serif;
     @include fluid-type(320px, 1250px, 16px, 20px); // values inside are ($min_width,$max_width, $min_font, $max_font);
 }
 
@@ -435,7 +436,22 @@ p:last-child,
     }
 }
 
-/****** MAIN MENU ******/
+/********************* FORMS *********************/
+.btn, .form-control {
+    font-size: inherit;
+}
+
+#user-login-form {
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    #edit-actions {
+        text-align: center;
+    }
+}
+
+/********************* MAIN MENU *********************/
 
 #block-superfish-1 {
     position: static;
