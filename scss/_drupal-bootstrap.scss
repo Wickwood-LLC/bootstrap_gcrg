@@ -46,26 +46,32 @@ ul {
 
 h1 {
     font-family: proxima-nova, sans-serif;
+    font-weigh: bold;
     @include fluid-type(320px, 1200px, 24px, 40px); // values inside are ($min_width,$max_width, $min_font, $max_font);
 }
 h2 {
     font-family: proxima-nova, sans-serif;
+    font-weigh: bold;
     @include fluid-type(320px, 1200px, 22px, 36px); // values inside are ($min_width,$max_width, $min_font, $max_font);
 }
 h3 {
     font-family: proxima-nova, sans-serif;
+    font-weigh: bold;
     @include fluid-type(320px, 1200px, 20px, 30px); // values inside are ($min_width,$max_width, $min_font, $max_font);
 }
 h4 {
     font-family: proxima-nova, sans-serif;
+    font-weigh: bold;
     @include fluid-type(320px, 1200px, 18px, 24px); // values inside are ($min_width,$max_width, $min_font, $max_font);
 }
 h5 {
     font-family: proxima-nova, sans-serif;
+    font-weigh: bold;
     @include fluid-type(320px, 1200px, 17px, 22px); // values inside are ($min_width,$max_width, $min_font, $max_font);
 }
 h6 {
     font-family: proxima-nova, sans-serif;
+    font-weigh: bold;
     @include fluid-type(320px, 1250px, 16px, 20px); // values inside are ($min_width,$max_width, $min_font, $max_font);
 }
 p {
@@ -282,6 +288,7 @@ p {
     left: -282px;
     padding: 1em;
     border: 1px solid #ccc;
+    border-radius: 0;
     background-color: white;
     width: 282px;
     transition: 0.5s;
@@ -317,6 +324,8 @@ p {
     }
 
     .block-title {
+        background-color: unset;
+        color: unset;
         margin-top: 0;
         @include fluid-type(320px, 1200px, 18px, 30px); // values inside are ($min_width,$max_width, $min_font, $max_font);
     }

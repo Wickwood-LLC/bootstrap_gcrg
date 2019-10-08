@@ -8443,6 +8443,7 @@ ul:last-child {
 
 h1 {
   font-family: proxima-nova, sans-serif;
+  font-weigh: bold;
 }
 
 h1 {
@@ -8463,6 +8464,7 @@ h1 {
 
 h2 {
   font-family: proxima-nova, sans-serif;
+  font-weigh: bold;
 }
 
 h2 {
@@ -8483,6 +8485,7 @@ h2 {
 
 h3 {
   font-family: proxima-nova, sans-serif;
+  font-weigh: bold;
 }
 
 h3 {
@@ -8503,6 +8506,7 @@ h3 {
 
 h4 {
   font-family: proxima-nova, sans-serif;
+  font-weigh: bold;
 }
 
 h4 {
@@ -8523,6 +8527,7 @@ h4 {
 
 h5 {
   font-family: proxima-nova, sans-serif;
+  font-weigh: bold;
 }
 
 h5 {
@@ -8543,6 +8548,7 @@ h5 {
 
 h6 {
   font-family: proxima-nova, sans-serif;
+  font-weigh: bold;
 }
 
 h6 {
@@ -8825,6 +8831,7 @@ body.path-frontpage .banner-header .banner-bg {
   left: -282px;
   padding: 1em;
   border: 1px solid #ccc;
+  border-radius: 0;
   background-color: white;
   width: 282px;
   transition: 0.5s;
@@ -8861,6 +8868,8 @@ body.path-frontpage .banner-header .banner-bg {
 }
 
 #block-socialsharingblock .block-title {
+  background-color: unset;
+  color: unset;
   margin-top: 0;
 }
 
