@@ -735,6 +735,15 @@ p:last-child,
     }
 }
 
+.page-node-type-forum {
+    .author {
+        text-align: center;
+    }
+    .field--name-taxonomy-forums {
+        margin: 1em 0;
+    }
+}
+
 /********************* MAINTENANCE *********************/
 .maintenance-page {
     main {
