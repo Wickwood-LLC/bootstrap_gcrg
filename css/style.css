@@ -9251,12 +9251,25 @@ p:last-child,
 }
 
 /********************* FORUMS *********************/
+.path-forum .region-content {
+  max-width: 100%;
+  overflow-x: auto;
+}
+
 .path-forum table thead th {
   text-align: left;
   padding: 5px 15px;
-  background: #333;
+  background: #4e7232;
   color: white;
   white-space: nowrap;
+}
+
+.path-forum table thead th:first-child {
+  border-radius: 5px 0 0 5px;
+}
+
+.path-forum table thead th:last-child {
+  border-radius: 0 5px 5px 0;
 }
 
 .path-forum table tbody tr {
@@ -9272,6 +9285,10 @@ p:last-child,
   border: medium none;
   padding: 15px;
   vertical-align: text-top;
+}
+
+.path-forum .indent {
+  margin-left: 1em;
 }
 
 /********************* MAINTENANCE *********************/

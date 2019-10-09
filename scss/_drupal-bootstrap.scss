@@ -693,13 +693,25 @@ p:last-child,
 
 /********************* FORUMS *********************/
 .path-forum {
+    .region-content {
+        max-width: 100%;
+        overflow-x: auto;    
+    }
+
     table {
         thead th {
             text-align: left;
             padding: 5px 15px;
-            background: #333;
+            background: #4e7232;
             color: white;
             white-space: nowrap;
+
+            &:first-child {
+                border-radius: 5px 0 0 5px;
+            }
+            &:last-child {
+                border-radius: 0 5px 5px 0;
+            }
         }
         tbody {
             tr {
@@ -718,6 +730,9 @@ p:last-child,
         }
     }
 
+    .indent {
+        margin-left: 1em;
+    }
 }
 
 /********************* MAINTENANCE *********************/
