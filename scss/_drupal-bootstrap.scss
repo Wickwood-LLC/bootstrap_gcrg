@@ -481,6 +481,11 @@ p:last-child,
     font-size: inherit;
 }
 
+.btn {
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
 #user-login-form {
     max-width: 600px;
     margin-left: auto;
@@ -769,7 +774,16 @@ p:last-child,
         text-align: center;
     }
     .field--name-taxonomy-forums {
-        margin: 1em 0;
+        margin-bottom: 1em;
+        text-align: center;
+
+        .field--label {
+            float: none;
+            display: inline-block;
+        }
+        .field--item {
+            display: inline-block;
+        }
     }
 }
 

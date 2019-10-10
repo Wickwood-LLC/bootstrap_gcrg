@@ -9084,6 +9084,11 @@ p:last-child,
   font-size: inherit;
 }
 
+.btn {
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
 #user-login-form {
   max-width: 600px;
   margin-left: auto;
@@ -9375,7 +9380,17 @@ p:last-child,
 }
 
 .page-node-type-forum .field--name-taxonomy-forums {
-  margin: 1em 0;
+  margin-bottom: 1em;
+  text-align: center;
+}
+
+.page-node-type-forum .field--name-taxonomy-forums .field--label {
+  float: none;
+  display: inline-block;
+}
+
+.page-node-type-forum .field--name-taxonomy-forums .field--item {
+  display: inline-block;
 }
 
 /********************* MAINTENANCE *********************/
