@@ -8911,6 +8911,7 @@ body.path-frontpage .banner-header .banner-bg {
   background-color: unset;
   color: unset;
   margin-top: 0;
+  text-align: center;
 }
 
 #block-socialsharingblock .block-title {
@@ -8940,6 +8941,7 @@ div[role="heading"] {
 .page-header {
   margin-top: 0;
   text-align: center;
+  clear: both;
 }
 
 .footer {

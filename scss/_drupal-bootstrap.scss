@@ -327,6 +327,7 @@ p {
         background-color: unset;
         color: unset;
         margin-top: 0;
+        text-align: center;
         @include fluid-type(320px, 1200px, 18px, 30px); // values inside are ($min_width,$max_width, $min_font, $max_font);
     }
 }
@@ -343,6 +344,7 @@ div[role="heading"]{
 .page-header {
   	margin-top: 0;
     text-align: center;
+    clear: both;
 }
 
 // Footer.
