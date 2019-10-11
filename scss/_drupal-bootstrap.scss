@@ -720,7 +720,8 @@ p:last-child,
     }
 
     table {
-        thead th {
+        thead th,
+        thead th a {
             text-align: left;
             padding: 5px 15px;
             background: #4e7232;
