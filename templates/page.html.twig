@@ -88,16 +88,13 @@
     {% if not navbar_attributes.hasClass(container) %}
       </div>
     {% endif %}
+
+    {% if is_front %}
+      <h1 class="banner-header"> {{ site_name }} </h1>
+    {% endif %}
   </header>
 {% endblock %}
 {% endif %}
-
-<div class="banner-header">
-  <div class="banner-bg"></div>
-  {% if is_front %}
-    <h1> {{ site_name }} </h1>
-  {% endif %}
-</div>
 
 {# Main #}
 {% block main %}
