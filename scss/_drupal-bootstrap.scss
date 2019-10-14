@@ -92,7 +92,6 @@ p {
     position: absolute;
     max-width: unset !important;
     z-index: 1;
-    background: #75635b;
     border: unset;
     display: flex;
     align-items: center;
@@ -135,6 +134,8 @@ p {
             display: inline-block;
             float: none;
             vertical-align: top;
+            position: absolute;
+            right: 8px;
         }
     }
     .navbar-nav {
@@ -192,17 +193,22 @@ p {
     .region-navigation {
         @include breakpoint(0px 767px) {
             display: inline-block;
-            width: calc(100% - 64px);
         }
     }
 
     .navbar-collapse {
+        background: #75635b;
+        position: absolute;
+        width: 100%;
+
         @include breakpoint(0px 767px) {
             position: absolute;
             right: 15px;
             background-color: rgb(117, 99, 91);
             border-top: 0px;
             padding: 7px 15px;
+            top: 50px;
+            width: auto !important;
 
             .region-navigation-collapsible {
                 margin-left: 0;
@@ -226,17 +232,25 @@ p {
     }
 
     .logo {
+        left: 8px;
         margin: 0;
+        position: absolute;
+        z-index: 1;
+
         img {
             padding: 5px 0;
             width: 64px;
-            position: absolute;
             
             @include breakpoint(768px){
                 width: 110px;
             }
         }
     }
+}
+
+#block-views-block-header-slide-show-block-1 {
+    margin: 0;
+    padding: 0;
 }
 
 // Banner
