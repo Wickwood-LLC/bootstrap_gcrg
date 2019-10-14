@@ -8610,6 +8610,8 @@ p {
 }
 
 .navbar .container {
+  background: #75635b;
+  padding: 0;
   width: 100%;
 }
 
