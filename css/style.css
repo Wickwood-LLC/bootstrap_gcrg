@@ -8430,10 +8430,6 @@ body.navbar-is-fixed-top.toolbar-horizontal #navbar-collapse {
   top: 39px;
 }
 
-body.navbar-is-fixed-top.toolbar-horizontal .navbar-header {
-  margin-top: 39px;
-}
-
 body.navbar-is-fixed-top.toolbar-horizontal.toolbar-tray-open #navbar-collapse {
   top: 79px;
 }
@@ -8755,7 +8751,7 @@ p {
     background-color: #75635b;
     border-top: 0px;
     padding: 7px 15px;
-    top: 50px;
+    top: 90px;
     width: auto !important;
   }
   .navbar .navbar-collapse .region-navigation-collapsible {
