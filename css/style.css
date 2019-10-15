@@ -8617,6 +8617,7 @@ p {
 
 .navbar .navbar-header {
   position: relative;
+  margin: 0;
 }
 
 .navbar .navbar-brand {
