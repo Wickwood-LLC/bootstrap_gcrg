@@ -8430,6 +8430,10 @@ body.navbar-is-fixed-top.toolbar-horizontal #navbar-collapse {
   top: 39px;
 }
 
+body.navbar-is-fixed-top.toolbar-horizontal .navbar-header {
+  margin-top: 39px;
+}
+
 body.navbar-is-fixed-top.toolbar-horizontal.toolbar-tray-open #navbar-collapse {
   top: 79px;
 }
@@ -8812,7 +8816,7 @@ h1.banner-header {
   height: 100%;
   box-sizing: border-box;
   margin: 0;
-  display: flex;
+  display: none;
   justify-content: center;
   align-items: center;
   background: rgba(0, 0, 0, 0.15);
@@ -8832,6 +8836,12 @@ h1.banner-header {
 @media screen and (min-width: 1200px) {
   h1.banner-header {
     font-size: 68px;
+  }
+}
+
+@media (min-width: 768px) {
+  h1.banner-header {
+    display: flex;
   }
 }
 

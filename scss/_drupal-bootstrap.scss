@@ -32,12 +32,19 @@ body {
             #navbar-collapse {
                 top: 39px;
             }
+            .navbar-header {
+                margin-top: 39px;
+            }
 
             &.toolbar-tray-open {
                 #navbar-collapse {
                     top: 79px;
                 }
             }
+        }
+
+        &.toolbar-vertical {
+            
         }
     }
 }
@@ -289,11 +296,15 @@ h1.banner-header {
     height: 100%;
     box-sizing: border-box;
     margin: 0;
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
     background: rgba(0, 0, 0, 0.15);
     top: 0px;
+
+    @include breakpoint (768px) {
+        display: flex;
+    }
 }
 
 #block-socialsharingblock {
