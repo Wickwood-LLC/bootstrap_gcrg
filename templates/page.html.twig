@@ -66,6 +66,15 @@
     {% if not navbar_attributes.hasClass(container) %}
       <div class="{{ container }}">
     {% endif %}
+    {# Navigation (collapsible) #}
+    {% if page.navigation_collapsible %}
+      <div id="navbar-collapse" class="navbar-collapse collapse">
+        {{ page.navigation_collapsible }}
+      </div>
+    {% endif %}
+    {% if not navbar_attributes.hasClass(container) %}
+      </div>
+    {% endif %}
     <div class="navbar-header">
       {{ page.navigation }}
       {# .btn-navbar is used as the toggle for collapsed navbar content #}
@@ -77,21 +86,11 @@
           <span class="icon-bar"></span>
         </button>
       {% endif %}
+
+      {% if is_front %}
+        <h1 class="banner-header"> {{ site_name }} </h1>
+      {% endif %}
     </div>
-
-    {# Navigation (collapsible) #}
-    {% if page.navigation_collapsible %}
-      <div id="navbar-collapse" class="navbar-collapse collapse">
-        {{ page.navigation_collapsible }}
-      </div>
-    {% endif %}
-    {% if not navbar_attributes.hasClass(container) %}
-      </div>
-    {% endif %}
-
-    {% if is_front %}
-      <h1 class="banner-header"> {{ site_name }} </h1>
-    {% endif %}
   </header>
 {% endblock %}
 {% endif %}

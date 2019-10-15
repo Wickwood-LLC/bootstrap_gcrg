@@ -8606,13 +8606,17 @@ p {
 }
 
 .navbar.navbar-fixed-top {
-  position: fixed;
+  position: static;
 }
 
 .navbar .container {
   background: #75635b;
   padding: 0;
   width: 100%;
+}
+
+.navbar .navbar-header {
+  position: relative;
 }
 
 .navbar .navbar-brand {
@@ -8722,7 +8726,7 @@ p {
 
 .navbar .navbar-collapse {
   background: #75635b;
-  position: absolute;
+  position: fixed;
   width: 100%;
   z-index: 2;
 }
