@@ -8624,6 +8624,8 @@ p {
   margin-left: 68px !important;
   width: calc(100% - 128px);
   text-align: center;
+  position: relative;
+  z-index: 1;
 }
 
 @media (min-width: 0px) and (max-width: 767px) {
@@ -8660,6 +8662,7 @@ p {
     vertical-align: top;
     position: absolute;
     right: 8px;
+    z-index: 1;
   }
 }
 

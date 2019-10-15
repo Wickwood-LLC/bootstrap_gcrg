@@ -116,6 +116,8 @@ p {
         margin-left: 68px !important;
         width: calc(100% - 128px);
         text-align: center;
+        position: relative;
+        z-index: 1;
 
         @include breakpoint(0px 767px) {
             width: calc(100% - 64px);
@@ -143,6 +145,7 @@ p {
             vertical-align: top;
             position: absolute;
             right: 8px;
+            z-index: 1;
         }
     }
     .navbar-nav {
