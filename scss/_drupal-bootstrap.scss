@@ -284,7 +284,7 @@ p {
 }
 
 // Banner
-h1.banner-header {
+.banner-header {
     color: white;
     font-family: adobe-garamond-pro, "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-align: center;
@@ -303,6 +303,10 @@ h1.banner-header {
 
     @include breakpoint (768px) {
         display: flex;
+    }
+
+    h1  {
+        width: 80vw;
     }
 }
 
