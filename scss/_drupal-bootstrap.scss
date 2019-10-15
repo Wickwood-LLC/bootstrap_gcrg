@@ -132,14 +132,13 @@ p {
 
     .navbar-brand {
         color: #FFF;
-        margin-left: 68px !important;
-        width: calc(100% - 128px);
+        margin-left: 94px !important;
+        width: calc(100% - 164px);
         text-align: center;
         position: relative;
         z-index: 1;
 
         @include breakpoint(0px 767px) {
-            width: calc(100% - 64px);
             float: none;
             display: inline-block;
             height: auto;
@@ -317,7 +316,7 @@ h1.banner-header {
     background-color: white;
     width: 282px;
     transition: 0.5s;
-    z-index: 1;
+    z-index: 5;
 
     &:hover {
         left: 0;
