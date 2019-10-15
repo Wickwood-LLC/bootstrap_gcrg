@@ -8807,7 +8807,7 @@ p {
 
 .banner-header {
   color: white;
-  font-family: adobe-garamond-pro, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: proxima-nova, sans-serif;
   text-align: center;
   position: absolute;
   width: 100%;
@@ -8822,22 +8822,6 @@ p {
   top: 0px;
 }
 
-.banner-header {
-  font-size: 24px;
-}
-
-@media screen and (min-width: 320px) {
-  .banner-header {
-    font-size: calc(24px + 44 * ((100vw - 320px) / 880));
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .banner-header {
-    font-size: 68px;
-  }
-}
-
 @media (min-width: 768px) {
   .banner-header {
     display: flex;
@@ -8846,6 +8830,22 @@ p {
 
 .banner-header h1 {
   width: 80vw;
+}
+
+.banner-header h1 {
+  font-size: 24px;
+}
+
+@media screen and (min-width: 320px) {
+  .banner-header h1 {
+    font-size: calc(24px + 44 * ((100vw - 320px) / 880));
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .banner-header h1 {
+    font-size: 68px;
+  }
 }
 
 #block-socialsharingblock {

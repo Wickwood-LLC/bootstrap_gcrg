@@ -286,12 +286,11 @@ p {
 // Banner
 .banner-header {
     color: white;
-    font-family: adobe-garamond-pro, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: proxima-nova, sans-serif;
     text-align: center;
     position: absolute;
     width: 100%;
     text-align: center;
-    @include fluid-type(320px, 1200px, 24px, 68px);
     height: 100%;
     box-sizing: border-box;
     margin: 0;
@@ -307,6 +306,7 @@ p {
 
     h1  {
         width: 80vw;
+        @include fluid-type(320px, 1200px, 24px, 68px);
     }
 }
 
