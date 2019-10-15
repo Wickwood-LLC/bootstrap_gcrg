@@ -27,6 +27,18 @@ body {
 
     &.navbar-is-fixed-top {
         margin-top: 0;
+
+        &.toolbar-horizontal {
+            #navbar-collapse {
+                top: 39px;
+            }
+
+            &.toolbar-tray-open {
+                #navbar-collapse {
+                    top: 79px;
+                }
+            }
+        }
     }
 }
 
@@ -208,6 +220,7 @@ p {
 
     .navbar-collapse {
         background: #75635b;
+        min-height: 39px;
         position: fixed;
         width: 100%;
         z-index: 2;

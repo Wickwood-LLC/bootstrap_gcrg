@@ -8426,6 +8426,14 @@ body.navbar-is-fixed-top {
   margin-top: 0;
 }
 
+body.navbar-is-fixed-top.toolbar-horizontal #navbar-collapse {
+  top: 39px;
+}
+
+body.navbar-is-fixed-top.toolbar-horizontal.toolbar-tray-open #navbar-collapse {
+  top: 79px;
+}
+
 a {
   color: #116690;
   text-decoration: none;
@@ -8730,6 +8738,7 @@ p {
 
 .navbar .navbar-collapse {
   background: #75635b;
+  min-height: 39px;
   position: fixed;
   width: 100%;
   z-index: 2;
