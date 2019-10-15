@@ -8430,6 +8430,10 @@ body.navbar-is-fixed-top.toolbar-horizontal #navbar-collapse {
   top: 39px;
 }
 
+body.navbar-is-fixed-top.toolbar-horizontal .navbar-header {
+  margin-top: 39px;
+}
+
 body.navbar-is-fixed-top.toolbar-horizontal.toolbar-tray-open #navbar-collapse {
   top: 79px;
 }
