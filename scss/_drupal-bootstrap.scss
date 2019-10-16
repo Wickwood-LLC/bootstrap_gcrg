@@ -152,7 +152,11 @@ p {
 
     .navbar-header {
         position: relative;
-        margin: 0;        
+        margin: 0; 
+        
+        @include breakpoint(768px) {
+            margin-top: 39px;
+        }   
     }
 
     .navbar-brand {
@@ -323,7 +327,7 @@ p {
     top: 0;
 
     @include breakpoint(768px){
-        top: -24px;
+        top: -38px;
     }
 
     img {

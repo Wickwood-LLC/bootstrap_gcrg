@@ -8667,6 +8667,12 @@ p {
   margin: 0;
 }
 
+@media (min-width: 768px) {
+  .navbar .navbar-header {
+    margin-top: 39px;
+  }
+}
+
 .navbar .navbar-brand {
   color: #FFF;
   margin-left: 94px !important;
@@ -8874,7 +8880,7 @@ p {
 
 @media (min-width: 768px) {
   .logo {
-    top: -24px;
+    top: -38px;
   }
 }
 
