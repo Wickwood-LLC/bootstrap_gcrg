@@ -22,21 +22,22 @@ html {
 
 body {
     font-family: proxima-nova, "Helvetica Neue", Helvetica, Arial, sans-serif;
-    margin-top: 0;
     font-size: inherit;
 
-    &.adminimal-admin-toolbar.navbar-is-fixed-top {
+    &.navbar-is-fixed-top {
         margin-top: 0;
 
+        #navbar-collapse {
+            top: 0;
+        }
+    }
+
+    &.adminimal-admin-toolbar.navbar-is-fixed-top {
         &.toolbar-horizontal {
             padding-top: 39px;
             
             #navbar-collapse {
                 top: 39px;
-
-                @include breakpoint(0px 767px) {
-                    top: 90px;
-                }
             }
             .navbar-header {
                 margin-top: 39px;
@@ -55,8 +56,15 @@ body {
         }
 
         &.toolbar-vertical {
+            #navbar-collapse {
+                top: 39px;
+
+                @include breakpoint(0px 767px) {
+                    top: 90px;
+                }
+            }
             .logo {
-                top: 0;
+                top: -24px;
             }
         }
     }
@@ -282,7 +290,7 @@ p {
     margin: 0;
     position: absolute;
     z-index: 3;
-    top: 0px;
+    top: -24px;
 
     img {
         padding: 5px 0;

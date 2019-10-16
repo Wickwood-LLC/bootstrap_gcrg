@@ -8418,12 +8418,15 @@ html {
 
 body {
   font-family: proxima-nova, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin-top: 0;
   font-size: inherit;
 }
 
-body.adminimal-admin-toolbar.navbar-is-fixed-top {
+body.navbar-is-fixed-top {
   margin-top: 0;
+}
+
+body.navbar-is-fixed-top #navbar-collapse {
+  top: 0;
 }
 
 body.adminimal-admin-toolbar.navbar-is-fixed-top.toolbar-horizontal {
@@ -8432,12 +8435,6 @@ body.adminimal-admin-toolbar.navbar-is-fixed-top.toolbar-horizontal {
 
 body.adminimal-admin-toolbar.navbar-is-fixed-top.toolbar-horizontal #navbar-collapse {
   top: 39px;
-}
-
-@media (min-width: 0px) and (max-width: 767px) {
-  body.adminimal-admin-toolbar.navbar-is-fixed-top.toolbar-horizontal #navbar-collapse {
-    top: 90px;
-  }
 }
 
 body.adminimal-admin-toolbar.navbar-is-fixed-top.toolbar-horizontal .navbar-header {
@@ -8456,8 +8453,18 @@ body.adminimal-admin-toolbar.navbar-is-fixed-top.toolbar-horizontal.toolbar-tray
   top: 79px;
 }
 
+body.adminimal-admin-toolbar.navbar-is-fixed-top.toolbar-vertical #navbar-collapse {
+  top: 39px;
+}
+
+@media (min-width: 0px) and (max-width: 767px) {
+  body.adminimal-admin-toolbar.navbar-is-fixed-top.toolbar-vertical #navbar-collapse {
+    top: 90px;
+  }
+}
+
 body.adminimal-admin-toolbar.navbar-is-fixed-top.toolbar-vertical .logo {
-  top: 0;
+  top: -24px;
 }
 
 a {
@@ -8813,7 +8820,7 @@ p {
   margin: 0;
   position: absolute;
   z-index: 3;
-  top: 0px;
+  top: -24px;
 }
 
 .logo img {
