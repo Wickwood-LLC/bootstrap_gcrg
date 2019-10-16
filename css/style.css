@@ -8457,7 +8457,7 @@ body.adminimal-admin-toolbar.navbar-is-fixed-top.toolbar-horizontal.toolbar-tray
 }
 
 body.adminimal-admin-toolbar.navbar-is-fixed-top.toolbar-vertical .logo {
-  top: -40px;
+  top: 0;
 }
 
 a {
@@ -8813,7 +8813,7 @@ p {
   margin: 0;
   position: absolute;
   z-index: 3;
-  top: -25px;
+  top: 0px;
 }
 
 .logo img {

@@ -56,7 +56,7 @@ body {
 
         &.toolbar-vertical {
             .logo {
-                top: -40px;
+                top: 0;
             }
         }
     }
@@ -282,7 +282,7 @@ p {
     margin: 0;
     position: absolute;
     z-index: 3;
-    top: -25px;
+    top: 0px;
 
     img {
         padding: 5px 0;
