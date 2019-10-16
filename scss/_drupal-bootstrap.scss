@@ -222,10 +222,23 @@ p {
                 text-align: right;
                 > a {
                     color: #fff;
+                    width: auto;
+                    display: inline-block;
+                    border-radius: 4px;
                     
                     &:hover {
                         color: #75635b;
                         background: #ddd;
+                    }
+                }
+
+                @include breakpoint(768px){
+                    text-align: left;
+                    border-radius: 0;
+
+                    a {
+                        color: #75635b;
+                        width: 100%;
                     }
                 }
             }

@@ -8750,11 +8750,25 @@ p {
 
 .navbar .navbar-nav > li.open .dropdown-menu > li > a {
   color: #fff;
+  width: auto;
+  display: inline-block;
+  border-radius: 4px;
 }
 
 .navbar .navbar-nav > li.open .dropdown-menu > li > a:hover {
   color: #75635b;
   background: #ddd;
+}
+
+@media (min-width: 768px) {
+  .navbar .navbar-nav > li.open .dropdown-menu > li {
+    text-align: left;
+    border-radius: 0;
+  }
+  .navbar .navbar-nav > li.open .dropdown-menu > li a {
+    color: #75635b;
+    width: 100%;
+  }
 }
 
 .navbar .navbar-nav > li.active a:hover,
