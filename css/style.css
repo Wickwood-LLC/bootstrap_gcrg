@@ -8436,7 +8436,7 @@ body.navbar-is-fixed-top #navbar-collapse {
 }
 
 body.adminimal-admin-toolbar.navbar-is-fixed-top.toolbar-horizontal {
-  padding-top: 39px;
+  padding-top: 42px;
 }
 
 body.adminimal-admin-toolbar.navbar-is-fixed-top.toolbar-horizontal #navbar-collapse {
@@ -8452,11 +8452,15 @@ body.adminimal-admin-toolbar.navbar-is-fixed-top.toolbar-horizontal .logo {
 }
 
 body.adminimal-admin-toolbar.navbar-is-fixed-top.toolbar-horizontal.toolbar-tray-open {
-  padding-top: 79px !important;
+  padding-top: 82px !important;
 }
 
 body.adminimal-admin-toolbar.navbar-is-fixed-top.toolbar-horizontal.toolbar-tray-open #navbar-collapse {
   top: 79px;
+}
+
+body.adminimal-admin-toolbar.navbar-is-fixed-top.toolbar-vertical {
+  padding-top: 42px;
 }
 
 body.adminimal-admin-toolbar.navbar-is-fixed-top.toolbar-vertical #navbar-collapse {

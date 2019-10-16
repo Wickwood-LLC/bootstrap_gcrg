@@ -38,7 +38,7 @@ body {
 
     &.adminimal-admin-toolbar.navbar-is-fixed-top {
         &.toolbar-horizontal {
-            padding-top: 39px;
+            padding-top: 42px;
             
             #navbar-collapse {
                 top: 39px;
@@ -51,7 +51,7 @@ body {
             }
 
             &.toolbar-tray-open {
-                padding-top: 79px !important;
+                padding-top: 82px !important;
                 
                 #navbar-collapse {
                     top: 79px;
@@ -60,6 +60,8 @@ body {
         }
 
         &.toolbar-vertical {
+            padding-top: 42px;
+            
             #navbar-collapse {
                 top: 39px;
 
