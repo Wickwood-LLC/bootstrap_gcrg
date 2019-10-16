@@ -39,7 +39,7 @@ body {
             }
 
             &.toolbar-tray-open {
-                padding-top: 79px;
+                padding-top: 79px !important;
                 
                 #navbar-collapse {
                     top: 79px;
