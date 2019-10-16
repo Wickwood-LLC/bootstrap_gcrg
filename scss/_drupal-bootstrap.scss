@@ -28,7 +28,11 @@ body {
         margin-top: 0;
 
         #navbar-collapse {
-            top: 0;
+            top: 50px;
+
+            @include breakpoint(768px) {
+                top: 0;
+            }
         }
     }
 
@@ -64,7 +68,7 @@ body {
                 }
             }
             .logo {
-                top: -24px;
+                top: 0;
             }
         }
     }
@@ -290,7 +294,11 @@ p {
     margin: 0;
     position: absolute;
     z-index: 3;
-    top: -24px;
+    top: 0;
+
+    @include breakpoint(768px){
+        top: -24px;
+    }
 
     img {
         padding: 5px 0;
