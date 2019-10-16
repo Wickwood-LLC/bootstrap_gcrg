@@ -29,6 +29,8 @@ body {
         margin-top: 0;
 
         &.toolbar-horizontal {
+            padding-top: 39px;
+            
             #navbar-collapse {
                 top: 39px;
             }
@@ -37,6 +39,8 @@ body {
             }
 
             &.toolbar-tray-open {
+                padding-top: 79px;
+                
                 #navbar-collapse {
                     top: 79px;
                 }
@@ -297,7 +301,7 @@ p {
     display: none;
     justify-content: center;
     align-items: center;
-    background: rgba(0, 0, 0, 0.15);
+    background: rgba(0, 0, 0, 0.25);
     top: 0px;
 
     @include breakpoint (768px) {
