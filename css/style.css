@@ -8422,28 +8422,42 @@ body {
   font-size: inherit;
 }
 
-body.navbar-is-fixed-top {
+body.adminimal-admin-toolbar.navbar-is-fixed-top {
   margin-top: 0;
 }
 
-body.navbar-is-fixed-top.toolbar-horizontal {
+body.adminimal-admin-toolbar.navbar-is-fixed-top.toolbar-horizontal {
   padding-top: 39px;
 }
 
-body.navbar-is-fixed-top.toolbar-horizontal #navbar-collapse {
+body.adminimal-admin-toolbar.navbar-is-fixed-top.toolbar-horizontal #navbar-collapse {
   top: 39px;
 }
 
-body.navbar-is-fixed-top.toolbar-horizontal .navbar-header {
+@media (min-width: 0px) and (max-width: 767px) {
+  body.adminimal-admin-toolbar.navbar-is-fixed-top.toolbar-horizontal #navbar-collapse {
+    top: 90px;
+  }
+}
+
+body.adminimal-admin-toolbar.navbar-is-fixed-top.toolbar-horizontal .navbar-header {
   margin-top: 39px;
 }
 
-body.navbar-is-fixed-top.toolbar-horizontal.toolbar-tray-open {
+body.adminimal-admin-toolbar.navbar-is-fixed-top.toolbar-horizontal .logo {
+  top: -40px;
+}
+
+body.adminimal-admin-toolbar.navbar-is-fixed-top.toolbar-horizontal.toolbar-tray-open {
   padding-top: 79px !important;
 }
 
-body.navbar-is-fixed-top.toolbar-horizontal.toolbar-tray-open #navbar-collapse {
+body.adminimal-admin-toolbar.navbar-is-fixed-top.toolbar-horizontal.toolbar-tray-open #navbar-collapse {
   top: 79px;
+}
+
+body.adminimal-admin-toolbar.navbar-is-fixed-top.toolbar-vertical .logo {
+  top: -40px;
 }
 
 a {
@@ -8741,6 +8755,10 @@ p {
   }
 }
 
+.navbar .region-navigation {
+  width: 100%;
+}
+
 @media (min-width: 0px) and (max-width: 767px) {
   .navbar .region-navigation {
     display: inline-block;
@@ -8762,7 +8780,7 @@ p {
     background-color: #75635b;
     border-top: 0px;
     padding: 7px 15px;
-    top: 90px;
+    top: 50px;
     width: auto !important;
   }
   .navbar .navbar-collapse .region-navigation-collapsible {
@@ -8790,20 +8808,21 @@ p {
   }
 }
 
-.navbar .logo {
+.logo {
   left: 8px;
   margin: 0;
   position: absolute;
   z-index: 3;
+  top: -25px;
 }
 
-.navbar .logo img {
+.logo img {
   padding: 5px 0;
   width: 64px;
 }
 
 @media (min-width: 768px) {
-  .navbar .logo img {
+  .logo img {
     width: 110px;
   }
 }

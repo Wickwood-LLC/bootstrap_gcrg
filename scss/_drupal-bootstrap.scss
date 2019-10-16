@@ -25,7 +25,7 @@ body {
     margin-top: 0;
     font-size: inherit;
 
-    &.navbar-is-fixed-top {
+    &.adminimal-admin-toolbar.navbar-is-fixed-top {
         margin-top: 0;
 
         &.toolbar-horizontal {
@@ -33,9 +33,16 @@ body {
             
             #navbar-collapse {
                 top: 39px;
+
+                @include breakpoint(0px 767px) {
+                    top: 90px;
+                }
             }
             .navbar-header {
                 margin-top: 39px;
+            }
+            .logo {
+                top: -40px;
             }
 
             &.toolbar-tray-open {
@@ -48,7 +55,9 @@ body {
         }
 
         &.toolbar-vertical {
-            
+            .logo {
+                top: -40px;
+            }
         }
     }
 }
@@ -223,6 +232,8 @@ p {
     }
 
     .region-navigation {
+        width: 100%;
+
         @include breakpoint(0px 767px) {
             display: inline-block;
         }
@@ -241,7 +252,7 @@ p {
             background-color: rgb(117, 99, 91);
             border-top: 0px;
             padding: 7px 15px;
-            top: 90px;
+            top: 50px;
             width: auto !important;
 
             .region-navigation-collapsible {
@@ -264,20 +275,21 @@ p {
             margin-left: 0;
         }
     }
+}
 
-    .logo {
-        left: 8px;
-        margin: 0;
-        position: absolute;
-        z-index: 3;
+.logo {
+    left: 8px;
+    margin: 0;
+    position: absolute;
+    z-index: 3;
+    top: -25px;
 
-        img {
-            padding: 5px 0;
-            width: 64px;
-            
-            @include breakpoint(768px){
-                width: 110px;
-            }
+    img {
+        padding: 5px 0;
+        width: 64px;
+        
+        @include breakpoint(768px){
+            width: 110px;
         }
     }
 }
