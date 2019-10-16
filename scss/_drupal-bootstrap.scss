@@ -217,6 +217,18 @@ p {
                     background: #ddd;
                 }
             }
+
+            &.open .dropdown-menu > li {
+                text-align: right;
+                > a {
+                    color: #fff;
+                    
+                    &:hover {
+                        color: #75635b;
+                        background: #ddd;
+                    }
+                }
+            }
         }
 
         >li.active a:hover,

@@ -8744,6 +8744,19 @@ p {
   background: #ddd;
 }
 
+.navbar .navbar-nav > li.open .dropdown-menu > li {
+  text-align: right;
+}
+
+.navbar .navbar-nav > li.open .dropdown-menu > li > a {
+  color: #fff;
+}
+
+.navbar .navbar-nav > li.open .dropdown-menu > li > a:hover {
+  color: #75635b;
+  background: #ddd;
+}
+
 .navbar .navbar-nav > li.active a:hover,
 .navbar .navbar-nav > li.active a:focus {
   color: #75635b;
