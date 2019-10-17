@@ -8669,6 +8669,7 @@ p {
 .navbar .navbar-header {
   position: relative;
   margin: 0;
+  width: 100%;
 }
 
 @media (min-width: 768px) {
@@ -8899,15 +8900,18 @@ p {
   }
 }
 
-#block-views-block-header-slide-show-block-1 {
+#block-views-block-header-slide-show-block-1,
+.view-header-slide-show {
   margin: 0;
   padding: 0;
 }
 
-#block-views-block-header-slide-show-block-1 img {
+#block-views-block-header-slide-show-block-1 img,
+.view-header-slide-show img {
   max-height: 300px;
   -o-object-fit: cover;
      object-fit: cover;
+  width: 100%;
 }
 
 .banner-header {
@@ -9479,6 +9483,23 @@ p:last-child,
 }
 
 /********************* MAINTENANCE *********************/
+.maintenance-page #navbar {
+  margin-bottom: 0;
+  min-height: 0;
+}
+
+.maintenance-page .banner-header {
+  position: relative;
+}
+
+.maintenance-page .banner-bg {
+  background-image: url("../images/maintenance_bg.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
 .maintenance-page main {
   text-align: center;
   margin-top: 2em;
