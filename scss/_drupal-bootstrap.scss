@@ -345,6 +345,11 @@ p {
 #block-views-block-header-slide-show-block-1 {
     margin: 0;
     padding: 0;
+    
+    img {
+        max-height: 300px;
+        object-fit: cover;
+    }
 }
 
 // Banner
