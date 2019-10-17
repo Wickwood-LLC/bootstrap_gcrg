@@ -900,9 +900,11 @@ p:last-child,
     .banner-bg {
         background-image: url('../images/maintenance_bg.jpg');
         background-size: cover;
+        background-position: center;
         width: 100%;
         height: 100%;
         position: absolute;
+        z-index: -1;
     }
 
     main {
