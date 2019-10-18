@@ -895,7 +895,9 @@ p:last-child,
     }
 
     .banner-header {
-        position: relative;    
+        display: flex;
+        min-height: 200px; 
+        position: relative;   
     }
     .banner-bg {
         background-image: url('../images/maintenance_bg.jpg');
