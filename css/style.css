@@ -8455,7 +8455,7 @@ body.adminimal-admin-toolbar.navbar-is-fixed-top.toolbar-horizontal .navbar-head
 
 @media (min-width: 0px) and (max-width: 979px) {
   body.adminimal-admin-toolbar.navbar-is-fixed-top.toolbar-horizontal .navbar-header {
-    top: 0px;
+    margin-top: 0px;
   }
 }
 
@@ -8479,7 +8479,7 @@ body.adminimal-admin-toolbar.navbar-is-fixed-top.toolbar-horizontal.toolbar-tray
 
 @media (min-width: 0px) and (max-width: 979px) {
   body.adminimal-admin-toolbar.navbar-is-fixed-top.toolbar-horizontal.toolbar-tray-open #navbar-collapse {
-    top: 90px;
+    top: 130px;
   }
 }
 
