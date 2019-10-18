@@ -8429,7 +8429,7 @@ body.navbar-is-fixed-top #navbar-collapse {
   top: 50px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 980px) {
   body.navbar-is-fixed-top #navbar-collapse {
     top: 0;
   }
@@ -8672,7 +8672,7 @@ p {
   width: 100%;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 980px) {
   .navbar .navbar-header {
     margin-top: 39px;
   }
@@ -8695,7 +8695,7 @@ p {
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 980px) {
   .navbar .navbar-brand {
     display: none;
   }
@@ -8713,7 +8713,7 @@ p {
   color: #DDD;
 }
 
-@media (min-width: 0px) and (max-width: 767px) {
+@media (min-width: 0px) and (max-width: 979px) {
   .navbar .navbar-toggle {
     display: inline-block;
     float: none;
@@ -8724,13 +8724,19 @@ p {
   }
 }
 
+@media (min-width: 980px) {
+  .navbar .navbar-toggle {
+    display: none;
+  }
+}
+
 .navbar .navbar-nav > li {
   width: 100%;
   text-align: right;
   margin: 3px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 980px) {
   .navbar .navbar-nav > li {
     width: auto;
   }
@@ -8760,12 +8766,6 @@ p {
   }
 }
 
-@media (min-width: 768px) {
-  .navbar .navbar-nav > li > a {
-    padding: 5px 10px;
-  }
-}
-
 .navbar .navbar-nav > li > a:hover {
   color: #75635b;
   background: #ddd;
@@ -8787,7 +8787,7 @@ p {
   background: #ddd;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 980px) {
   .navbar .navbar-nav > li.open .dropdown-menu > li {
     text-align: left;
     border-radius: 0;
@@ -8816,7 +8816,7 @@ p {
   margin: 0;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 980px) {
   .navbar .navbar-nav.menu--main, .navbar .navbar-nav.menu--account {
     flex-flow: row wrap;
   }
@@ -8840,7 +8840,7 @@ p {
   z-index: 2;
 }
 
-@media (min-width: 0px) and (max-width: 767px) {
+@media (min-width: 0px) and (max-width: 979px) {
   .navbar .navbar-collapse {
     position: absolute;
     right: 15px;
@@ -8863,7 +8863,7 @@ p {
   margin-left: 64px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 980px) {
   .navbar .region-navigation-collapsible {
     flex-flow: row wrap;
   }
@@ -8883,7 +8883,7 @@ p {
   top: 0;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 980px) {
   .logo {
     top: -38px;
   }
@@ -8894,7 +8894,7 @@ p {
   width: 64px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 980px) {
   .logo img {
     width: 110px;
   }
@@ -8931,7 +8931,7 @@ p {
   top: 0px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 980px) {
   .banner-header {
     display: flex;
   }

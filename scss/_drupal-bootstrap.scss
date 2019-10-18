@@ -30,7 +30,7 @@ body {
         #navbar-collapse {
             top: 50px;
 
-            @include breakpoint(768px) {
+            @include breakpoint(980px) {
                 top: 0;
             }
         }
@@ -157,7 +157,7 @@ p {
         margin: 0; 
         width: 100%;
         
-        @include breakpoint(768px) {
+        @include breakpoint(980px) {
             margin-top: 39px;
         }   
     }
@@ -175,7 +175,7 @@ p {
             display: inline-block;
             height: auto;
         }
-        @include breakpoint(768px) {
+        @include breakpoint(980px) {
             display: none;
         }
         @include breakpoint(992px) {
@@ -189,7 +189,7 @@ p {
         }
     }
     .navbar-toggle {
-        @include breakpoint(0px 767px) {
+        @include breakpoint(0px 979px) {
             display: inline-block;
             float: none;
             vertical-align: top;
@@ -197,6 +197,10 @@ p {
             right: 8px;
             z-index: 1;
         }
+        @include breakpoint(980px){
+            display: none;
+        }
+
     }
     .navbar-nav {
         > li {
@@ -204,7 +208,7 @@ p {
             text-align: right;
             margin: 3px;
             
-            @include breakpoint(768px){
+            @include breakpoint(980px){
                 width: auto;
             }
             
@@ -215,10 +219,6 @@ p {
                 border-radius: 4px;
                 padding: 5px;
                 @include fluid-type(320px, 1200px, 14px, 18px); // values inside are ($min_width,$max_width, $min_font, $max_font);
-
-                @include breakpoint(768px){
-                    padding: 5px 10px;
-                }
     
                 &:hover {
                     color: #75635b;
@@ -240,7 +240,7 @@ p {
                     }
                 }
 
-                @include breakpoint(768px){
+                @include breakpoint(980px){
                     text-align: left;
                     border-radius: 0;
 
@@ -270,7 +270,7 @@ p {
             align-items: flex-end;
             margin: 0;
 
-            @include breakpoint(768px) {
+            @include breakpoint(980px) {
                 flex-flow: row wrap;
             }
         }
@@ -291,7 +291,7 @@ p {
         width: 100%;
         z-index: 2;
 
-        @include breakpoint(0px 767px) {
+        @include breakpoint(0px 979px) {
             position: absolute;
             right: 15px;
             background-color: rgb(117, 99, 91);
@@ -313,7 +313,7 @@ p {
         flex-flow: column wrap;
         margin-left: 64px;
 
-        @include breakpoint(768px) {
+        @include breakpoint(980px) {
             flex-flow: row wrap;
         }
         @include breakpoint(992px) {
@@ -329,7 +329,7 @@ p {
     z-index: 3;
     top: 0;
 
-    @include breakpoint(768px){
+    @include breakpoint(980px){
         top: -38px;
     }
 
@@ -337,7 +337,7 @@ p {
         padding: 5px 0;
         width: 64px;
         
-        @include breakpoint(768px){
+        @include breakpoint(980px){
             width: 110px;
         }
     }
@@ -372,7 +372,7 @@ p {
     background: rgba(0, 0, 0, 0.25);
     top: 0px;
 
-    @include breakpoint (768px) {
+    @include breakpoint (980px) {
         display: flex;
     }
 
