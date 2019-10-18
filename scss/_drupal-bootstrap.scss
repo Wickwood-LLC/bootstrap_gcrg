@@ -42,6 +42,10 @@ body {
             
             #navbar-collapse {
                 top: 39px;
+
+                @include breakpoint(0px 979px) {
+                    top: 90px;
+                }
             }
             .navbar-header {
                 margin-top: 39px;
@@ -51,7 +55,7 @@ body {
             }
 
             &.toolbar-tray-open {
-                padding-top: 82px !important;
+                padding-top: 79px !important;
                 
                 #navbar-collapse {
                     top: 79px;
@@ -315,7 +319,7 @@ p {
             
             &.in {
                 display: block !important;
-                overflow-y: auto;
+                overflow-y: auto !important;
             }
 
             .region-navigation-collapsible {

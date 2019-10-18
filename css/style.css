@@ -8443,6 +8443,12 @@ body.adminimal-admin-toolbar.navbar-is-fixed-top.toolbar-horizontal #navbar-coll
   top: 39px;
 }
 
+@media (min-width: 0px) and (max-width: 979px) {
+  body.adminimal-admin-toolbar.navbar-is-fixed-top.toolbar-horizontal #navbar-collapse {
+    top: 90px;
+  }
+}
+
 body.adminimal-admin-toolbar.navbar-is-fixed-top.toolbar-horizontal .navbar-header {
   margin-top: 39px;
 }
@@ -8452,7 +8458,7 @@ body.adminimal-admin-toolbar.navbar-is-fixed-top.toolbar-horizontal .logo {
 }
 
 body.adminimal-admin-toolbar.navbar-is-fixed-top.toolbar-horizontal.toolbar-tray-open {
-  padding-top: 82px !important;
+  padding-top: 79px !important;
 }
 
 body.adminimal-admin-toolbar.navbar-is-fixed-top.toolbar-horizontal.toolbar-tray-open #navbar-collapse {
@@ -8465,12 +8471,6 @@ body.adminimal-admin-toolbar.navbar-is-fixed-top.toolbar-vertical {
 
 body.adminimal-admin-toolbar.navbar-is-fixed-top.toolbar-vertical #navbar-collapse {
   top: 39px;
-}
-
-@media (min-width: 0px) and (max-width: 979px) {
-  body.adminimal-admin-toolbar.navbar-is-fixed-top.toolbar-vertical #navbar-collapse {
-    top: 90px;
-  }
 }
 
 body.adminimal-admin-toolbar.navbar-is-fixed-top.toolbar-vertical .logo {
@@ -8865,7 +8865,7 @@ p {
   }
   .navbar .navbar-collapse.in {
     display: block !important;
-    overflow-y: auto;
+    overflow-y: auto !important;
   }
   .navbar .navbar-collapse .region-navigation-collapsible {
     margin-left: 0;
