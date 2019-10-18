@@ -299,6 +299,11 @@ p {
             padding: 7px 15px;
             top: 50px;
             width: auto !important;
+            display: none;
+            
+            &.in {
+                display: block;
+            }
 
             .region-navigation-collapsible {
                 margin-left: 0;

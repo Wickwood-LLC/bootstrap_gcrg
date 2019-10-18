@@ -8849,6 +8849,10 @@ p {
     padding: 7px 15px;
     top: 50px;
     width: auto !important;
+    display: none;
+  }
+  .navbar .navbar-collapse.in {
+    display: block;
   }
   .navbar .navbar-collapse .region-navigation-collapsible {
     margin-left: 0;
