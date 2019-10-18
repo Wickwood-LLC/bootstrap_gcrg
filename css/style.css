@@ -8453,8 +8453,20 @@ body.adminimal-admin-toolbar.navbar-is-fixed-top.toolbar-horizontal .navbar-head
   margin-top: 39px;
 }
 
+@media (min-width: 0px) and (max-width: 979px) {
+  body.adminimal-admin-toolbar.navbar-is-fixed-top.toolbar-horizontal .navbar-header {
+    top: 0px;
+  }
+}
+
 body.adminimal-admin-toolbar.navbar-is-fixed-top.toolbar-horizontal .logo {
   top: -40px;
+}
+
+@media (min-width: 0px) and (max-width: 979px) {
+  body.adminimal-admin-toolbar.navbar-is-fixed-top.toolbar-horizontal .logo {
+    top: 0px;
+  }
 }
 
 body.adminimal-admin-toolbar.navbar-is-fixed-top.toolbar-horizontal.toolbar-tray-open {
@@ -8465,12 +8477,24 @@ body.adminimal-admin-toolbar.navbar-is-fixed-top.toolbar-horizontal.toolbar-tray
   top: 79px;
 }
 
+@media (min-width: 0px) and (max-width: 979px) {
+  body.adminimal-admin-toolbar.navbar-is-fixed-top.toolbar-horizontal.toolbar-tray-open #navbar-collapse {
+    top: 90px;
+  }
+}
+
 body.adminimal-admin-toolbar.navbar-is-fixed-top.toolbar-vertical {
   padding-top: 42px;
 }
 
 body.adminimal-admin-toolbar.navbar-is-fixed-top.toolbar-vertical #navbar-collapse {
   top: 39px;
+}
+
+@media (min-width: 0px) and (max-width: 979px) {
+  body.adminimal-admin-toolbar.navbar-is-fixed-top.toolbar-vertical #navbar-collapse {
+    top: 90px;
+  }
 }
 
 body.adminimal-admin-toolbar.navbar-is-fixed-top.toolbar-vertical .logo {

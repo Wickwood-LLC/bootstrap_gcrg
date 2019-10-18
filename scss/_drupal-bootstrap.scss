@@ -49,9 +49,17 @@ body {
             }
             .navbar-header {
                 margin-top: 39px;
+
+                @include breakpoint(0px 979px) {
+                    top: 0px;
+                }
             }
             .logo {
                 top: -40px;
+
+                @include breakpoint(0px 979px) {
+                    top: 0px;
+                }
             }
 
             &.toolbar-tray-open {
@@ -59,6 +67,10 @@ body {
                 
                 #navbar-collapse {
                     top: 79px;
+
+                    @include breakpoint(0px 979px) {
+                        top: 90px;
+                    }
                 }
             }
         }
