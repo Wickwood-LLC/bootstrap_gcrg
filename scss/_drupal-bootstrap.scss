@@ -226,27 +226,39 @@ p {
                 }
             }
 
-            &.open .dropdown-menu > li {
-                text-align: right;
-                > a {
-                    color: #fff;
+            &.open .dropdown-menu {
+                @include breakpoint(0px 979px){
+                    position: static;
+                    float: none;
                     width: auto;
-                    display: inline-block;
-                    border-radius: 4px;
-                    
-                    &:hover {
-                        color: #75635b;
-                        background: #ddd;
-                    }
+                    margin-top: 0;
+                    background-color: transparent;
+                    border: 0;
+                    box-shadow: none;
                 }
-
-                @include breakpoint(980px){
-                    text-align: left;
-                    border-radius: 0;
-
-                    a {
-                        color: #75635b;
-                        width: 100%;
+                
+                > li {
+                    text-align: right;
+                    > a {
+                        color: #fff;
+                        width: auto;
+                        display: inline-block;
+                        border-radius: 4px;
+                        
+                        &:hover {
+                            color: #75635b;
+                            background: #ddd;
+                        }
+                    }
+    
+                    @include breakpoint(980px){
+                        text-align: left;
+                        border-radius: 0;
+    
+                        a {
+                            color: #75635b;
+                            width: 100%;
+                        }
                     }
                 }
             }
@@ -299,10 +311,10 @@ p {
             padding: 7px 15px;
             top: 50px;
             width: auto !important;
-            display: none;
+            display: none !important;
             
             &.in {
-                display: block;
+                display: block !important;
             }
 
             .region-navigation-collapsible {

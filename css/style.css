@@ -8771,6 +8771,18 @@ p {
   background: #ddd;
 }
 
+@media (min-width: 0px) and (max-width: 979px) {
+  .navbar .navbar-nav > li.open .dropdown-menu {
+    position: static;
+    float: none;
+    width: auto;
+    margin-top: 0;
+    background-color: transparent;
+    border: 0;
+    box-shadow: none;
+  }
+}
+
 .navbar .navbar-nav > li.open .dropdown-menu > li {
   text-align: right;
 }
@@ -8849,10 +8861,10 @@ p {
     padding: 7px 15px;
     top: 50px;
     width: auto !important;
-    display: none;
+    display: none !important;
   }
   .navbar .navbar-collapse.in {
-    display: block;
+    display: block !important;
   }
   .navbar .navbar-collapse .region-navigation-collapsible {
     margin-left: 0;
