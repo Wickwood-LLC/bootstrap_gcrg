@@ -315,6 +315,7 @@ p {
             
             &.in {
                 display: block !important;
+                overflow-y: auto;
             }
 
             .region-navigation-collapsible {

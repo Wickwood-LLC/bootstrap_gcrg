@@ -8865,6 +8865,7 @@ p {
   }
   .navbar .navbar-collapse.in {
     display: block !important;
+    overflow-y: auto;
   }
   .navbar .navbar-collapse .region-navigation-collapsible {
     margin-left: 0;
