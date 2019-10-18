@@ -9506,4 +9506,15 @@ p:last-child,
   text-align: center;
   margin-top: 2em;
 }
+
+/********************************************************/
+.view-press-coverage .views-row,
+.view-letters-to-the-editor .views-row {
+  margin-bottom: 1em;
+}
+
+.view-press-coverage .views-field-title h4,
+.view-letters-to-the-editor .views-field-title h4 {
+  margin: 0;
+}
 /*# sourceMappingURL=style.css.map */

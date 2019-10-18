@@ -913,3 +913,13 @@ p:last-child,
     }
 }
 
+/********************************************************/
+.view-press-coverage,
+.view-letters-to-the-editor {
+    .views-row {
+        margin-bottom: 1em;
+    }
+    .views-field-title h4 {
+        margin: 0;
+    }
+}
