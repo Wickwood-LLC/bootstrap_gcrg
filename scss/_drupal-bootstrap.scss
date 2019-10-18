@@ -186,12 +186,12 @@ p {
         position: relative;
         z-index: 1;
 
-        @include breakpoint(0px 767px) {
+        @include breakpoint(0px 979px) {
             float: none;
             display: inline-block;
             height: auto;
         }
-        @include breakpoint(768px) {
+        @include breakpoint(980px) {
             display: none;
         }
         @include breakpoint(992px) {
@@ -406,7 +406,7 @@ p {
     background: rgba(0, 0, 0, 0.25);
     top: 0px;
 
-    @include breakpoint (768px) {
+    @include breakpoint (980px) {
         display: flex;
     }
 
