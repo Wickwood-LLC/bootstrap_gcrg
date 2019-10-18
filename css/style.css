@@ -8467,7 +8467,7 @@ body.adminimal-admin-toolbar.navbar-is-fixed-top.toolbar-vertical #navbar-collap
   top: 39px;
 }
 
-@media (min-width: 0px) and (max-width: 767px) {
+@media (min-width: 0px) and (max-width: 979px) {
   body.adminimal-admin-toolbar.navbar-is-fixed-top.toolbar-vertical #navbar-collapse {
     top: 90px;
   }
@@ -8687,7 +8687,7 @@ p {
   z-index: 1;
 }
 
-@media (min-width: 0px) and (max-width: 767px) {
+@media (min-width: 0px) and (max-width: 979px) {
   .navbar .navbar-brand {
     float: none;
     display: inline-block;
@@ -8826,7 +8826,7 @@ p {
   width: 100%;
 }
 
-@media (min-width: 0px) and (max-width: 767px) {
+@media (min-width: 0px) and (max-width: 979px) {
   .navbar .region-navigation {
     display: inline-block;
   }

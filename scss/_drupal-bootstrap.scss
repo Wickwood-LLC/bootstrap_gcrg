@@ -65,7 +65,7 @@ body {
             #navbar-collapse {
                 top: 39px;
 
-                @include breakpoint(0px 767px) {
+                @include breakpoint(0px 979px) {
                     top: 90px;
                 }
             }
@@ -170,7 +170,7 @@ p {
         position: relative;
         z-index: 1;
 
-        @include breakpoint(0px 767px) {
+        @include breakpoint(0px 979px) {
             float: none;
             display: inline-block;
             height: auto;
@@ -279,7 +279,7 @@ p {
     .region-navigation {
         width: 100%;
 
-        @include breakpoint(0px 767px) {
+        @include breakpoint(0px 979px) {
             display: inline-block;
         }
     }
