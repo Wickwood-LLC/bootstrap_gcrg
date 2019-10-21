@@ -66,7 +66,7 @@ body {
                 top: 39px;
 
                 @include breakpoint(0px 979px) {
-                    top: 90px;
+                    top: 89px;
                 }
             }
             .logo {
@@ -226,27 +226,37 @@ p {
                 }
             }
 
-            &.open .dropdown-menu > li {
-                text-align: right;
+            &.open {
+                background-color: #e7e7e7;
+                border-radius: 4px;
+
                 > a {
-                    color: #fff;
-                    width: auto;
-                    display: inline-block;
-                    border-radius: 4px;
-                    
-                    &:hover {
-                        color: #75635b;
-                        background: #ddd;
-                    }
+                    background: none;
                 }
 
-                @include breakpoint(980px){
-                    text-align: left;
-                    border-radius: 0;
-
-                    a {
-                        color: #75635b;
-                        width: 100%;
+                .dropdown-menu > li {
+                    text-align: right;
+                    > a {
+                        color: #75625b;
+                        margin-right: 5px;
+                        width: auto;
+                        display: inline-block;
+                        border-radius: 4px;
+                        
+                        &:hover, &.is-active {
+                            color: #75635b;
+                            background: #ddd;
+                        }
+                    }
+    
+                    @include breakpoint(980px){
+                        text-align: left;
+                        border-radius: 0;
+    
+                        a {
+                            color: #75635b;
+                            width: 100%;
+                        }
                     }
                 }
             }

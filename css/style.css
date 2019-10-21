@@ -8490,7 +8490,7 @@ body.adminimal-admin-toolbar.navbar-is-fixed-top.toolbar-vertical #navbar-collap
 
 @media (min-width: 0px) and (max-width: 979px) {
   body.adminimal-admin-toolbar.navbar-is-fixed-top.toolbar-vertical #navbar-collapse {
-    top: 90px;
+    top: 89px;
   }
 }
 
@@ -8794,18 +8794,28 @@ p {
   background: #ddd;
 }
 
+.navbar .navbar-nav > li.open {
+  background-color: #e7e7e7;
+  border-radius: 4px;
+}
+
+.navbar .navbar-nav > li.open > a {
+  background: none;
+}
+
 .navbar .navbar-nav > li.open .dropdown-menu > li {
   text-align: right;
 }
 
 .navbar .navbar-nav > li.open .dropdown-menu > li > a {
-  color: #fff;
+  color: #75625b;
+  margin-right: 5px;
   width: auto;
   display: inline-block;
   border-radius: 4px;
 }
 
-.navbar .navbar-nav > li.open .dropdown-menu > li > a:hover {
+.navbar .navbar-nav > li.open .dropdown-menu > li > a:hover, .navbar .navbar-nav > li.open .dropdown-menu > li > a.is-active {
   color: #75635b;
   background: #ddd;
 }
