@@ -35,6 +35,7 @@
  *   comment/reply/12345).
  *
  * Regions:
+ * - page.top: Items for the top bar region.
  * - page.header: Items for the header region.
  * - page.navigation: Items for the navigation region.
  * - page.navigation_collapsible: Items for the navigation (collapsible) region.
@@ -62,16 +63,11 @@
       theme.settings.navbar_position ? 'navbar-' ~ theme.settings.navbar_position|clean_class : container,
     ]
   %}
-  <header{{ navbar_attributes.addClass(navbar_classes) }} id="navbar" role="banner">
+  <div{{ navbar_attributes.addClass(navbar_classes) }} id="navbar" role="banner">
     {% if not navbar_attributes.hasClass(container) %}
       <div class="{{ container }}">
     {% endif %}
-    {# Navigation (collapsible) #}
-    {% if page.navigation_collapsible %}
-      <div id="navbar-collapse" class="navbar-collapse collapse">
-        {{ page.navigation_collapsible }}
-      </div>
-    {% endif %}
+
     <div class="navbar-header">
       {{ page.navigation }}
       {# .btn-navbar is used as the toggle for collapsed navbar content #}
@@ -83,26 +79,43 @@
           <span class="icon-bar"></span>
         </button>
       {% endif %}
-
       <div class="banner-header"><h1>{{ site_name }}</h1></div>
     </div>
+
+    {# Navigation (collapsible) #}
+    {% if page.navigation_collapsible %}
+      <div id="navbar-collapse" class="navbar-collapse collapse">
+        {{ page.navigation_collapsible }}
+      </div>
+    {% endif %}
+
     {% if not navbar_attributes.hasClass(container) %}
       </div>
     {% endif %}
-  </header>
+  </div>
 {% endblock %}
 {% endif %}
+
+{# Header #}
+{% if page.header %}
+  {% block header %}
+    <div class="col-sm-12" role="header">
+      {{ page.header }}
+    </div>
+  {% endblock %}
+{% endif %}
+
 
 {# Main #}
 {% block main %}
   <div role="main" class="main-container {{ container }} js-quickedit-main-content">
     <div class="row">
 
-      {# Header #}
-      {% if page.header %}
-        {% block header %}
+      {# Top Bar #}
+      {% if page.top %}
+        {% block top %}
           <div class="col-sm-12" role="heading">
-            {{ page.header }}
+            {{ page.top }}
           </div>
         {% endblock %}
       {% endif %}
