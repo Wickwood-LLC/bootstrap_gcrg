@@ -127,6 +127,9 @@ p {
 }
 
 body.toolbar-vertical {
+    #navbar {
+        top: 39px;
+    }
     #navbar-collapse {
         margin: 0px;
         padding: 0;
@@ -190,7 +193,13 @@ body.toolbar-vertical {
     }
 }
 .navbar-brand {
-    display: block;
+    width: calc(100% - 143px);
+    display: flex;
+    text-align: center;
+    color: white;
+    justify-content: center;
+    align-items: center;    
+    
     @include breakpoint(680px) {
         display: none;
     }
