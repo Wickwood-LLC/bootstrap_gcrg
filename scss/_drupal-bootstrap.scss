@@ -86,7 +86,9 @@ p {
 }
 
 // Navbar
-.navbar {
+#navbar {
+    background-color: #75635b;
+    
     .container {
         padding: 0;
         position: relative;
@@ -97,14 +99,27 @@ p {
         position: absolute;
         width: 100%;
     }
-}
-.navbar-nav {
-    @include breakpoint(980px) {
-        float: right;
+
+    .navbar-nav {
+        background-color: #75635b;
+        
+        @include breakpoint(980px) {
+            float: right;
+        }
+
+        li a {
+            color: #FFF;
+            @include fluid-type(320px, 1250px, 14px, 18px); // values inside are ($min_width,$max_width, $min_font, $max_font);
+            
+            &:hover {
+                color: #555;
+                background-color: #e7e7e7;
+            }
+        }
     }
 
-    li a {
-        @include fluid-type(320px, 1250px, 14px, 18px); // values inside are ($min_width,$max_width, $min_font, $max_font);
+    #navbar-collapse {
+        border: 0px;
     }
 }
 
@@ -115,7 +130,6 @@ body.toolbar-vertical {
         right: 0px;
         position: absolute;
         top: 49px;
-        background: #75635b;
 
         .navbar-nav {
             text-align: right; 
