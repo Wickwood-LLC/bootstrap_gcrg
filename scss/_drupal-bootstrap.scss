@@ -88,6 +88,7 @@ p {
 // Navbar
 #navbar {
     background-color: #75635b;
+    border: 0px;
     
     .container {
         padding: 0;
@@ -107,15 +108,17 @@ p {
             float: right;
         }
 
-        li a {
+        > li > a {
             color: #FFF;
             @include fluid-type(320px, 1250px, 14px, 18px); // values inside are ($min_width,$max_width, $min_font, $max_font);
             
-            &:hover {
+            &:hover, &.is-active {
                 color: #555;
                 background-color: #e7e7e7;
             }
         }
+
+
     }
 
     #navbar-collapse {
@@ -126,16 +129,30 @@ p {
 body.toolbar-vertical {
     #navbar-collapse {
         margin: 0px;
+        padding: 0;
         width: auto;
         right: 0px;
         position: absolute;
         top: 49px;
 
         .navbar-nav {
-            text-align: right; 
+            text-align: right;
+            margin: 0;
+            padding: 0.5em;
+
+            > li > a {
+                background-color: #e7e7e7;
+                border-radius: 4px;
+            }
 
             .dropdown-menu {
+                background-color: #e7e7e7;
                 text-align: right;
+
+                > li > a {
+                    background-color: #75625b;
+                    margin-right: 5px;
+                }
             }
         }
     }
