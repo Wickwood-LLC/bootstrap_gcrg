@@ -140,9 +140,19 @@ body.toolbar-vertical {
             margin: 0;
             padding: 0.5em;
 
-            > li > a:hover, > li > a.is-active {
-                background-color: #e7e7e7;
+            > li {
                 border-radius: 4px;
+                a {
+                    border-radius: 4px;
+
+                    > &:hover, > &.is-active {
+                        background-color: #e7e7e7;
+                        color: #555;
+                    }
+                }
+            }
+
+            li.dropdown.open > a {
                 color: #555;
             }
 
