@@ -34,6 +34,9 @@ body {
             padding-top: 79px !important;
         }
     }
+    &.toolbar-vertical {
+        padding-top: 4px !important;
+    }
 }
 
 a {
@@ -173,7 +176,6 @@ body.toolbar-vertical {
             .dropdown-menu {
                 background-color: #e7e7e7;
                 text-align: right;
-                display: inline-block;
                 max-width: 100%;
 
                 > li > a {
