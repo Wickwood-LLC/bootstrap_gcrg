@@ -90,6 +90,31 @@ p {
 
     .navbar-header {
         position: absolute;
+        width: 100%;
+    }
+}
+.navbar-nav {
+    @include breakpoint(980px) {
+        float: right;
+    }
+}
+
+body.toolbar-vertical {
+    #navbar-collapse {
+        margin: 0px;
+        width: auto;
+        right: 0px;
+        position: absolute;
+        top: 49px;
+        background: brown;
+
+        .navbar-nav {
+            text-align: right; 
+
+            .dropdown-menu {
+                text-align: right;
+            }
+        }
     }
 }
 
@@ -102,9 +127,9 @@ p {
     }
 }
 .navbar-brand {
-    display: none;
+    display: block;
     @include breakpoint(680px) {
-        display: block;
+        display: none;
     }
 }
 
