@@ -8732,7 +8732,7 @@ body.toolbar-vertical #navbar-collapse .navbar-nav .dropdown-menu > li > a:hover
   width: calc(100% - 143px);
   display: flex;
   text-align: center;
-  color: white;
+  color: white !important;
   justify-content: center;
   align-items: center;
 }
