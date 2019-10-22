@@ -9076,6 +9076,7 @@ p {
 
 div[role="heading"] {
   display: inline-block;
+  width: 100%;
 }
 
 .container {
