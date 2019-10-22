@@ -8664,9 +8664,10 @@ body.toolbar-vertical #navbar-collapse .navbar-nav {
   padding: 0.5em;
 }
 
-body.toolbar-vertical #navbar-collapse .navbar-nav > li > a {
+body.toolbar-vertical #navbar-collapse .navbar-nav > li > a:hover, body.toolbar-vertical #navbar-collapse .navbar-nav > li > a.is-active {
   background-color: #e7e7e7;
   border-radius: 4px;
+  color: #555;
 }
 
 body.toolbar-vertical #navbar-collapse .navbar-nav .dropdown-menu {
@@ -8675,8 +8676,14 @@ body.toolbar-vertical #navbar-collapse .navbar-nav .dropdown-menu {
 }
 
 body.toolbar-vertical #navbar-collapse .navbar-nav .dropdown-menu > li > a {
+  display: inline-block;
+  margin: 2px 5px;
+  border-radius: 4px;
+}
+
+body.toolbar-vertical #navbar-collapse .navbar-nav .dropdown-menu > li > a:hover, body.toolbar-vertical #navbar-collapse .navbar-nav .dropdown-menu > li > a.is-active {
+  color: #eee;
   background-color: #75625b;
-  margin-right: 5px;
 }
 
 .logo img {

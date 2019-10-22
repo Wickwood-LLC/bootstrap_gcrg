@@ -140,9 +140,10 @@ body.toolbar-vertical {
             margin: 0;
             padding: 0.5em;
 
-            > li > a {
+            > li > a:hover, > li > a.is-active {
                 background-color: #e7e7e7;
                 border-radius: 4px;
+                color: #555;
             }
 
             .dropdown-menu {
@@ -150,8 +151,14 @@ body.toolbar-vertical {
                 text-align: right;
 
                 > li > a {
-                    background-color: #75625b;
-                    margin-right: 5px;
+                    display: inline-block;
+                    margin: 2px 5px;
+                    border-radius: 4px;
+
+                    &:hover, &.is-active {
+                        color: #eee;
+                        background-color: #75625b;
+                    }
                 }
             }
         }
