@@ -82,7 +82,31 @@ p {
 }
 
 // Navbar
-.navbar {}
+.navbar {
+    .container {
+        position: relative;
+        width: 100%;
+    }
+
+    .navbar-header {
+        position: absolute;
+    }
+}
+
+.logo {
+    img {
+        width: 64px;
+        @include breakpoint(680px) {
+            width: 100px;
+        }
+    }
+}
+.navbar-brand {
+    display: none;
+    @include breakpoint(680px) {
+        display: block;
+    }
+}
 
 #block-views-block-header-slide-show-block-1,
 .view-header-slide-show {
@@ -94,6 +118,10 @@ p {
         object-fit: cover;
         width: 100%;
     }
+}
+
+.page-header {
+    padding: 0;
 }
 
 // Banner
@@ -113,7 +141,7 @@ p {
     background: rgba(0, 0, 0, 0.25);
     top: 0px;
 
-    @include breakpoint (980px) {
+    @include breakpoint (680px) {
         display: flex;
     }
 
