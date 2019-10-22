@@ -35,7 +35,7 @@ body {
         }
     }
     &.toolbar-vertical {
-        padding-top: 4px !important;
+        padding-top: 39px !important;
     }
 }
 
@@ -205,7 +205,7 @@ body.toolbar-vertical {
     width: calc(100% - 143px);
     display: flex;
     text-align: center;
-    color: white;
+    color: white !important;
     justify-content: center;
     align-items: center;    
 
