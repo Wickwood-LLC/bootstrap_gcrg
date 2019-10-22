@@ -8425,6 +8425,14 @@ body.navbar-is-fixed-top {
   margin-top: 50px;
 }
 
+body.toolbar-horizontal {
+  padding-top: 39px !important;
+}
+
+body.toolbar-horizontal.toolbar-tray-open {
+  padding-top: 79px !important;
+}
+
 a {
   color: #116690;
   text-decoration: none;

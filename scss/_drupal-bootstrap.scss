@@ -27,6 +27,13 @@ body {
     &.navbar-is-fixed-top {
         margin-top: 50px;
     }
+
+    &.toolbar-horizontal {
+        padding-top: 39px !important;
+        &.toolbar-tray-open {
+            padding-top: 79px !important;
+        }
+    }
 }
 
 a {
@@ -199,7 +206,7 @@ body.toolbar-vertical {
     color: white;
     justify-content: center;
     align-items: center;    
-    
+
     @include breakpoint(680px) {
         display: none;
     }
