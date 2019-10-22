@@ -23,6 +23,10 @@ html {
 body {
     font-family: proxima-nova, "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: inherit;
+
+    &.navbar-is-fixed-top {
+        margin-top: 50px;
+    }
 }
 
 a {
@@ -84,6 +88,7 @@ p {
 // Navbar
 .navbar {
     .container {
+        padding: 0;
         position: relative;
         width: 100%;
     }
@@ -97,6 +102,10 @@ p {
     @include breakpoint(980px) {
         float: right;
     }
+
+    li a {
+        @include fluid-type(320px, 1250px, 14px, 18px); // values inside are ($min_width,$max_width, $min_font, $max_font);
+    }
 }
 
 body.toolbar-vertical {
@@ -106,7 +115,7 @@ body.toolbar-vertical {
         right: 0px;
         position: absolute;
         top: 49px;
-        background: brown;
+        background: #75635b;
 
         .navbar-nav {
             text-align: right; 
