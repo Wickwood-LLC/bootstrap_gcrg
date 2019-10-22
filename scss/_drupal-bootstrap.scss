@@ -152,13 +152,19 @@ body.toolbar-vertical {
                 }
             }
 
-            li.dropdown.open > a {
-                color: #555;
+            li.dropdown.open {
+                background-color: #e7e7e7;
+
+                > a {
+                    color: #555;
+                }
             }
 
             .dropdown-menu {
                 background-color: #e7e7e7;
                 text-align: right;
+                display: inline-block;
+                max-width: 100%;
 
                 > li > a {
                     display: inline-block;
