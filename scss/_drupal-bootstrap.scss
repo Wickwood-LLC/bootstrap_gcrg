@@ -129,9 +129,10 @@ p {
                 }
             }
 
-            &.open a {
-                color: #555;
-
+            &.open {
+                a {
+                    color: #555;
+                }
                 .dropdown-menu {
                     background-color: #e7e7e7;
                     border: 0;

@@ -8534,12 +8534,12 @@ p {
   color: #555;
 }
 
-#navbar .navbar-nav > li.open a .dropdown-menu {
+#navbar .navbar-nav > li.open .dropdown-menu {
   background-color: #e7e7e7;
   border: 0;
 }
 
-#navbar .navbar-nav > li.open a .dropdown-menu > li > a {
+#navbar .navbar-nav > li.open .dropdown-menu > li > a {
   margin: 0 5px;
 }
 
