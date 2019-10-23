@@ -1857,6 +1857,14 @@
 		"oAP": "/bootstrap/test/test_helper_rails.rb",
 		"oF": 0
 		},
+	"/bootstrap_gcrg.breakpoints.yml": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/bootstrap_gcrg.breakpoints.yml",
+		"oF": 0
+		},
 	"/bootstrap_gcrg.info.yml": {
 		"cB": 0,
 		"ft": 8192,
@@ -2432,6 +2440,24 @@
 		"oAP": "/config/schema/bootstrap_gcrg.schema.yml",
 		"oF": 0
 		},
+	"/css/style.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/css/style-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/css/style.css.map": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/css/style.css.map",
+		"oF": 0
+		},
 	"/drupal_8.sublime-workspace": {
 		"cB": 0,
 		"ft": 8192,
@@ -2799,6 +2825,14 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/templates/maintenance-page.html.twig",
+		"oF": 0
+		},
+	"/templates/page.html.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/templates/page.html.twig",
 		"oF": 0
 		},
 	"/templates/README.md": {
