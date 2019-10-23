@@ -118,17 +118,30 @@ p {
             float: right;
         }
 
-        > li > a {
-            color: #FFF;
-            @include fluid-type(320px, 1250px, 14px, 18px); // values inside are ($min_width,$max_width, $min_font, $max_font);
-            
-            &:hover, &.is-active {
+        > li {
+            > a {
+                color: #FFF;
+                @include fluid-type(320px, 1250px, 14px, 18px); // values inside are ($min_width,$max_width, $min_font, $max_font);
+                
+                &:hover, &.is-active {
+                    color: #555;
+                    background-color: #e7e7e7;
+                }
+            }
+
+            &.open a {
                 color: #555;
-                background-color: #e7e7e7;
+
+                .dropdown-menu {
+                    background-color: #e7e7e7;
+                    border: 0;
+
+                    > li > a {
+                        margin: 0 5px;
+                    }
+                }
             }
         }
-
-
     }
 
     #navbar-collapse {
