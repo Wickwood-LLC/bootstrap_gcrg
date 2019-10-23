@@ -9269,4 +9269,12 @@ p:last-child,
 .view-letters-to-the-editor .views-field-title h4 {
   margin: 0;
 }
+
+.menu--footer {
+  text-align: center;
+}
+
+.menu--footer > li {
+  display: inline-block;
+}
 /*# sourceMappingURL=style.css.map */

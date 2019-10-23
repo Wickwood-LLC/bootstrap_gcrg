@@ -815,3 +815,11 @@ p:last-child,
         margin: 0;
     }
 }
+
+.menu--footer {
+    text-align: center;
+
+    > li {
+        display: inline-block;
+    }
+}
