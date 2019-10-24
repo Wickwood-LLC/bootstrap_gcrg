@@ -833,3 +833,11 @@ p:last-child,
         display: inline-block;
     }
 }
+
+.alert {
+    margin: 0;
+    
+    + .alert {
+        margin-top: 0.5em;
+    }
+}

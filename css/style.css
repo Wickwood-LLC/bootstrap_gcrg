@@ -9416,4 +9416,12 @@ p:last-child,
 .menu--footer > li {
   display: inline-block;
 }
+
+.alert {
+  margin: 0;
+}
+
+.alert + .alert {
+  margin-top: 0.5em;
+}
 /*# sourceMappingURL=style.css.map */
