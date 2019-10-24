@@ -116,6 +116,9 @@ p {
         
         @include breakpoint(980px) {
             float: right;
+            min-height: 50px;
+            display: flex;
+            align-items: center;
         }
 
         > li {
@@ -137,6 +140,7 @@ p {
             &.open {
                 a {
                     color: #555;
+                    border-radius: 4px 4px 0 0;
                 }
                 .dropdown-menu {
                     background-color: #e7e7e7;

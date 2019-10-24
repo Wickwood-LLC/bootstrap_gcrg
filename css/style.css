@@ -8629,6 +8629,9 @@ p {
 @media (min-width: 980px) {
   #navbar .navbar-nav {
     float: right;
+    min-height: 50px;
+    display: flex;
+    align-items: center;
   }
 }
 
@@ -8667,6 +8670,7 @@ p {
 
 #navbar .navbar-nav > li.open a {
   color: #555;
+  border-radius: 4px 4px 0 0;
 }
 
 #navbar .navbar-nav > li.open .dropdown-menu {
