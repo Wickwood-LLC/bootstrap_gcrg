@@ -8738,9 +8738,25 @@ body.toolbar-vertical #navbar-collapse .navbar-nav .dropdown-menu > li > a {
   border-radius: 4px;
 }
 
+body.toolbar-vertical #navbar-collapse .navbar-nav .dropdown-menu > li > a {
+  font-size: 12px;
+}
+
+@media screen and (min-width: 320px) {
+  body.toolbar-vertical #navbar-collapse .navbar-nav .dropdown-menu > li > a {
+    font-size: calc(12px + 4 * ((100vw - 320px) / 930));
+  }
+}
+
+@media screen and (min-width: 1250px) {
+  body.toolbar-vertical #navbar-collapse .navbar-nav .dropdown-menu > li > a {
+    font-size: 16px;
+  }
+}
+
 body.toolbar-vertical #navbar-collapse .navbar-nav .dropdown-menu > li > a:hover, body.toolbar-vertical #navbar-collapse .navbar-nav .dropdown-menu > li > a.is-active {
   color: #eee;
-  background-color: #75625b;
+  background-color: #bfbfbf;
 }
 
 .logo img {

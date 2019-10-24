@@ -205,10 +205,11 @@ body.toolbar-vertical {
                     display: inline-block;
                     margin: 2px 5px;
                     border-radius: 4px;
+                    @include fluid-type(320px, 1250px, 12px, 16px); // values inside are ($min_width,$max_width, $min_font, $max_font);
 
                     &:hover, &.is-active {
                         color: #eee;
-                        background-color: #75625b;
+                        background-color: #bfbfbf;
                     }
                 }
             }
