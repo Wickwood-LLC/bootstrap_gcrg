@@ -8668,9 +8668,10 @@ p {
   background-color: #e7e7e7;
 }
 
-#navbar .navbar-nav > li.open a {
+#navbar .navbar-nav > li.open > a {
   color: #555;
   border-radius: 4px 4px 0 0;
+  background-color: #e7e7e7;
 }
 
 #navbar .navbar-nav > li.open .dropdown-menu {
@@ -8680,6 +8681,11 @@ p {
 
 #navbar .navbar-nav > li.open .dropdown-menu > li > a {
   margin: 0 5px;
+}
+
+#navbar .navbar-nav > li.open .dropdown-menu > li > a:hover, #navbar .navbar-nav > li.open .dropdown-menu > li > a.is-active {
+  color: #eee;
+  background-color: #bfbfbf;
 }
 
 #navbar #navbar-collapse {
