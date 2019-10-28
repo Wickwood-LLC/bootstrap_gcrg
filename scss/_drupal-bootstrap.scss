@@ -379,6 +379,10 @@ p:last-child,
 .region-help {
     margin: 1em;
     overflow: auto;
+
+    &.alert {
+        margin: 1em;
+    }
     
 	>.glyphicon {
 		font-size: $font-size-large;
