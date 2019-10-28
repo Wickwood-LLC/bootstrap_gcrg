@@ -162,66 +162,66 @@ p {
         }
     }
 
-    #navbar-collapse {
-        border: 0px;
+    @include breakpoint(0 979px){
+        #navbar-collapse {
+            border: 0px;
+            margin: 0px;
+            padding: 0;
+            width: auto;
+            right: 0px;
+            position: absolute;
+            top: 49px;
+    
+            .navbar-nav {
+                text-align: right;
+                margin: 0;
+                padding: 0.5em;
+    
+                > li {
+                    border-radius: 4px;
+                    a {
+                        border-radius: 4px;
+    
+                        > &:hover, > &.is-active {
+                            background-color: #e7e7e7;
+                            color: #555;
+                        }
+                    }
+                }
+    
+                li.dropdown.open {
+                    background-color: #e7e7e7;
+    
+                    > a {
+                        color: #555;
+                    }
+                }
+    
+                .dropdown-menu {
+                    background-color: #e7e7e7;
+                    text-align: right;
+                    max-width: 100%;
+    
+                    > li > a {
+                        display: inline-block;
+                        margin: 2px 5px;
+                        border-radius: 4px;
+                        @include fluid-type(320px, 1250px, 12px, 16px); // values inside are ($min_width,$max_width, $min_font, $max_font);
+    
+                        &:hover, &.is-active {
+                            color: #555;
+                            background-color: #bfbfbf;
+                        }
+                    }
+                }
+            }
+        }
     }
 }
 
 body.toolbar-vertical {
     #navbar {
         top: 39px;
-    }
-    #navbar-collapse {
-        margin: 0px;
-        padding: 0;
-        width: auto;
-        right: 0px;
-        position: absolute;
-        top: 49px;
-
-        .navbar-nav {
-            text-align: right;
-            margin: 0;
-            padding: 0.5em;
-
-            > li {
-                border-radius: 4px;
-                a {
-                    border-radius: 4px;
-
-                    > &:hover, > &.is-active {
-                        background-color: #e7e7e7;
-                        color: #555;
-                    }
-                }
-            }
-
-            li.dropdown.open {
-                background-color: #e7e7e7;
-
-                > a {
-                    color: #555;
-                }
-            }
-
-            .dropdown-menu {
-                background-color: #e7e7e7;
-                text-align: right;
-                max-width: 100%;
-
-                > li > a {
-                    display: inline-block;
-                    margin: 2px 5px;
-                    border-radius: 4px;
-                    @include fluid-type(320px, 1250px, 12px, 16px); // values inside are ($min_width,$max_width, $min_font, $max_font);
-
-                    &:hover, &.is-active {
-                        color: #555;
-                        background-color: #bfbfbf;
-                    }
-                }
-            }
-        }
     }
 }
 
