@@ -8946,6 +8946,11 @@ p:last-child,
   margin-bottom: 0;
 }
 
+.region-help {
+  margin: 1em;
+  overflow: auto;
+}
+
 .region-help > .glyphicon {
   font-size: 18px;
   float: left;
