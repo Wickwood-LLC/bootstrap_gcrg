@@ -191,7 +191,7 @@ p {
     
                 li.dropdown.open {
                     background-color: #e7e7e7;
-    
+                        
                     > a {
                         color: #555;
                     }
@@ -202,15 +202,20 @@ p {
                     text-align: right;
                     max-width: 100%;
     
-                    > li > a {
-                        display: inline-block;
-                        margin: 2px 5px;
-                        border-radius: 4px;
-                        @include fluid-type(320px, 1250px, 12px, 16px); // values inside are ($min_width,$max_width, $min_font, $max_font);
-    
-                        &:hover, &.is-active {
-                            color: #555;
-                            background-color: #bfbfbf;
+                    > li {
+                        display: flex;
+                        justify-content: flex-end;
+
+                        > a {
+                            display: inline-block;
+                            margin: 2px 5px;
+                            border-radius: 4px;
+                            @include fluid-type(320px, 1250px, 12px, 16px); // values inside are ($min_width,$max_width, $min_font, $max_font);
+        
+                            &:hover, &.is-active {
+                                color: #555;
+                                background-color: #bfbfbf;
+                            }
                         }
                     }
                 }
