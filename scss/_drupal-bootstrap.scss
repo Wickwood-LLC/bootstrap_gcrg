@@ -196,6 +196,10 @@ p {
                         color: #555;
                     }
                 }
+
+                .li.dropdown:hover ul.dropdown-menu {
+                    display: block;
+                }
     
                 .dropdown-menu {
                     background-color: #e7e7e7;
