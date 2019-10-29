@@ -9,14 +9,8 @@
 
 function bootstrap_gcrg_preprocess_page(&$variables) {
 	$variables['site_name'] = \Drupal::config('system.site')->get('name');
+}
 
-	if ($region === 'help' && !empty($variables['content'])) {
-		$variables['content'] = [
-			'icon' => Bootstrap::glyphicon('question-sign'),
-			'content' => ['#markup' => $variables['content']],
-		];
-		$variables->addClass(['alert', 'alert-info', 'messages', 'info']);
-	}
-
+function bootstrap_gcrg_preprocess_region(&$variables) {
 	kint($variables);
 }
