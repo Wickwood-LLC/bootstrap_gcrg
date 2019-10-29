@@ -234,7 +234,7 @@ body.toolbar-vertical {
     @include breakpoint(680px) {
         margin-left: 1em;
     }
-    
+
     img {
         width: 64px;
         @include breakpoint(680px) {
@@ -856,6 +856,10 @@ p:last-child,
     > li {
         display: inline-block;
     }
+}
+
+#block-copyrightblock {
+    text-align: center;
 }
 
 .alert {

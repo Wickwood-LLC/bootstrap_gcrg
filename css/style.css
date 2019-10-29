@@ -9436,6 +9436,10 @@ p:last-child,
   display: inline-block;
 }
 
+#block-copyrightblock {
+  text-align: center;
+}
+
 .alert {
   margin: 0;
 }
