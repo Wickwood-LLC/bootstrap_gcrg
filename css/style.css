@@ -8763,6 +8763,12 @@ body.toolbar-vertical #navbar {
   top: 39px;
 }
 
+@media (min-width: 680px) {
+  .logo {
+    margin-left: 1em;
+  }
+}
+
 .logo img {
   width: 64px;
 }

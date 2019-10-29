@@ -11,6 +11,6 @@ function bootstrap_gcrg_preprocess_page(&$variables) {
 	$variables['site_name'] = \Drupal::config('system.site')->get('name');
 }
 
-function bootstrap_gcrg_preprocess_region(&$variables) {
-	kint($variables);
-}
+// function bootstrap_gcrg_preprocess_region(&$variables) {
+// 	kint($variables);
+// }
