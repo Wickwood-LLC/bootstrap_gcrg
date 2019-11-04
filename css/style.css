@@ -8762,14 +8762,18 @@ p {
   }
 }
 
+@media (max-width: 679px) {
+  .region-navigation {
+    width: calc(100% - 1em);
+  }
+}
+
 body.toolbar-vertical #navbar {
   top: 39px;
 }
 
-@media (min-width: 680px) {
-  .logo {
-    margin-left: 1em;
-  }
+.logo {
+  margin-left: 1em;
 }
 
 .logo img {

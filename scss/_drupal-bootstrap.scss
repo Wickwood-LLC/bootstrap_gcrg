@@ -228,6 +228,12 @@ p {
     }
 }
 
+.region-navigation {
+    @include breakpoint(max-width 679px) {
+        width: calc(100% - 1em);
+    }
+}
+
 body.toolbar-vertical {
     #navbar {
         top: 39px;
@@ -235,9 +241,7 @@ body.toolbar-vertical {
 }
 
 .logo {
-    @include breakpoint(680px) {
-        margin-left: 1em;
-    }
+    margin-left: 1em;
 
     img {
         width: 64px;
