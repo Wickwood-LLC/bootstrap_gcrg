@@ -8780,7 +8780,13 @@ body.toolbar-vertical #navbar {
   width: 64px;
 }
 
-@media (max-width: 388px) and (min-width: 680px) {
+@media (max-width: 388px) {
+  .logo img {
+    width: 100px;
+  }
+}
+
+@media (min-width: 680px) {
   .logo img {
     width: 100px;
   }
@@ -8795,7 +8801,13 @@ body.toolbar-vertical #navbar {
   align-items: center;
 }
 
-@media (max-width: 388px) and (min-width: 680px) {
+@media (max-width: 388px) {
+  .navbar-brand {
+    display: none;
+  }
+}
+
+@media (min-width: 680px) {
   .navbar-brand {
     display: none;
   }

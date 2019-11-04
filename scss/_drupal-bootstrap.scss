@@ -245,7 +245,10 @@ body.toolbar-vertical {
 
     img {
         width: 64px;
-        @include breakpoint((max-width 388px) (min-width 680px)) {
+        @include breakpoint(max-width 388px) {
+            width: 100px;
+        }
+        @include breakpoint(min-width 680px) {
             width: 100px;
         }
     }
@@ -258,7 +261,10 @@ body.toolbar-vertical {
     justify-content: center;
     align-items: center;    
 
-    @include breakpoint((max-width 388px) (min-width 680px)) {
+    @include breakpoint(max-width 388px) {
+        display: none;
+    }
+    @include breakpoint(min-width 680px) {
         display: none;
     }
 }
