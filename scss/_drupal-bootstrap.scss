@@ -197,7 +197,7 @@ p {
                     }
                 }
 
-                .li.dropdown:hover ul.dropdown-menu {
+                .li.dropdown:hover > ul.dropdown-menu {
                     display: block;
                 }
     
@@ -259,7 +259,7 @@ body.toolbar-vertical {
     text-align: center;
     color: white !important;
     justify-content: center;
-    align-items: center;    
+    align-items: center;
 
     @include breakpoint(max-width 388px) {
         display: none;
