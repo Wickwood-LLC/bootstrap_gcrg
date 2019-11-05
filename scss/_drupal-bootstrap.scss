@@ -113,6 +113,10 @@ p {
 
     .navbar-nav {
         background-color: #75635b;
+
+        li.dropdown:hover > ul.dropdown-menu {
+            display: block;
+        }
         
         @include breakpoint(980px) {
             float: right;
@@ -195,10 +199,6 @@ p {
                     > a {
                         color: #555;
                     }
-                }
-
-                li.dropdown:hover > ul.dropdown-menu {
-                    display: block;
                 }
     
                 .dropdown-menu {

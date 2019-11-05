@@ -8626,6 +8626,10 @@ p {
   background-color: #75635b;
 }
 
+#navbar .navbar-nav li.dropdown:hover > ul.dropdown-menu {
+  display: block;
+}
+
 @media (min-width: 980px) {
   #navbar .navbar-nav {
     float: right;
@@ -8720,9 +8724,6 @@ p {
   }
   #navbar #navbar-collapse .navbar-nav li.dropdown.open > a {
     color: #555;
-  }
-  #navbar #navbar-collapse .navbar-nav li.dropdown:hover > ul.dropdown-menu {
-    display: block;
   }
   #navbar #navbar-collapse .navbar-nav .dropdown-menu {
     background-color: #e7e7e7;
