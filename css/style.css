@@ -8637,7 +8637,7 @@ p {
   border-radius: 0 4px 4px 4px;
 }
 
-@media (max-width: 797px) {
+@media (min-width: 0px) and (max-width: 797px) {
   #navbar .navbar-nav li.dropdown:hover {
     display: flex;
     flex-flow: column;
