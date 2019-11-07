@@ -125,6 +125,14 @@ p {
                 border-radius: 0 4px 4px 4px;
             }
         }
+
+        @include breakpoint(max-width 797px) {
+            display: flex;
+            flex-flow: column;
+            > ul.dropdown-menu {
+                    position: static;
+                }
+            }
         
         @include breakpoint(980px) {
             float: right;
