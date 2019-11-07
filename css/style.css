@@ -8638,11 +8638,11 @@ p {
 }
 
 @media (max-width: 797px) {
-  #navbar .navbar-nav {
+  #navbar .navbar-nav li.dropdown:hover {
     display: flex;
     flex-flow: column;
   }
-  #navbar .navbar-nav > ul.dropdown-menu {
+  #navbar .navbar-nav li.dropdown:hover > ul.dropdown-menu {
     position: static;
   }
 }
