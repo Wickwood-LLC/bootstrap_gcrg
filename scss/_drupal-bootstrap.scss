@@ -115,10 +115,10 @@ p {
         background-color: #75635b;
 
         li.dropdown:hover {
-            a.dropdown-toggle:hover {
+            a.dropdown-toggle {
                 border-radius: 4px 4px 0 0;
             }
-            
+
             > ul.dropdown-menu {
                 display: block;
                 background-color: #e7e7e7;
@@ -130,7 +130,7 @@ p {
                 display: flex;
                 flex-flow: column;
 
-                a.dropdown-toggle:hover {
+                a.dropdown-toggle {
                     border-radius: 4px 4px 0 0;
                 }
 

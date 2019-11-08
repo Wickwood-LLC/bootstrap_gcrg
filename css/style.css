@@ -6424,7 +6424,7 @@ p {
     width: 100%; }
   #navbar .navbar-nav {
     background-color: #75635b; }
-    #navbar .navbar-nav li.dropdown:hover a.dropdown-toggle:hover {
+    #navbar .navbar-nav li.dropdown:hover a.dropdown-toggle {
       border-radius: 4px 4px 0 0; }
     #navbar .navbar-nav li.dropdown:hover > ul.dropdown-menu {
       display: block;
@@ -6438,7 +6438,7 @@ p {
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
                 flex-flow: column; }
-        #navbar .navbar-nav li.dropdown:hover a.dropdown-toggle:hover {
+        #navbar .navbar-nav li.dropdown:hover a.dropdown-toggle {
           border-radius: 4px 4px 0 0; }
         #navbar .navbar-nav li.dropdown:hover > ul.dropdown-menu {
           position: static;
