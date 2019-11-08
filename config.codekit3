@@ -7,7 +7,7 @@
 		"uuidString": "08FCA907-A201-4433-ADB3-44DFFE0B9FD4"
 		}
 	],
-"creatorBuild": "31927",
+"creatorBuild": "31934",
 "files": {
 	"/.idea": {
 		"ft": 65536,
@@ -2573,6 +2573,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"/scss/_off-canvas.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/_off-canvas.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"/scss/drupal-bootstrap/component/_ajax.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -2797,7 +2810,7 @@
 		"oA": 0,
 		"oAP": "/css/style.css",
 		"oF": 2,
-		"oS": 1,
+		"oS": 0,
 		"uL": 1
 		},
 	"/src/README.md": {
@@ -4796,7 +4809,6 @@
 		"autoOutputPathStyle": 0,
 		"createSourceMap": 1,
 		"enableJavascript": 0,
-		"ieCompatibility": 0,
 		"mathStyle": 0,
 		"outputStyle": 0,
 		"rewriteURLStyle": 0,

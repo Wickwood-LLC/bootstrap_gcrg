@@ -118,6 +118,7 @@ p {
             a.dropdown-toggle:hover {
                 border-radius: 4px 4px 0 0;
             }
+            
             > ul.dropdown-menu {
                 display: block;
                 background-color: #e7e7e7;
@@ -125,11 +126,17 @@ p {
                 border-radius: 0 4px 4px 4px;
             }
 
-            @include breakpoint(0px 797px) {
+            @include breakpoint(0px 979px) {
                 display: flex;
                 flex-flow: column;
+
+                a.dropdown-toggle:hover {
+                    border-radius: 4px 4px 0 0;
+                }
+
                 > ul.dropdown-menu {
                     position: static;
+                    border-radius: 0 0 4px 4px;
                 }
             }
         }
@@ -182,7 +189,7 @@ p {
         }
     }
 
-    @include breakpoint(0 979px){
+    @include breakpoint(0px 979px){
         #navbar-collapse {
             border: 0px;
             margin: 0px;
