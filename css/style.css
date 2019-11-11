@@ -8628,7 +8628,7 @@ p {
 
 #navbar #navbar-collapse .navbar-nav li.dropdown:hover {
   background-color: #e7e7e7;
-  border-radius: 4px 4px 0 0;
+  border-radius: 4px;
   color: #555;
 }
 
@@ -8648,6 +8648,11 @@ p {
   color: #777;
   margin: 0 5px;
   padding: 5px 15px 5px 15px;
+}
+
+#navbar #navbar-collapse .navbar-nav li.dropdown:hover > ul.dropdown-menu > li > a:hover {
+  background-color: #bfbfbf;
+  border-radius: 4px;
 }
 
 @media (min-width: 0px) and (max-width: 979px) {
@@ -8720,6 +8725,8 @@ p {
 
 #navbar #navbar-collapse .navbar-nav > li.open .dropdown-menu > li > a {
   margin: 0 5px;
+  padding: 5px 15px;
+  color: #777;
 }
 
 #navbar #navbar-collapse .navbar-nav > li.open .dropdown-menu > li > a:hover, #navbar #navbar-collapse .navbar-nav > li.open .dropdown-menu > li > a.active-trail {
