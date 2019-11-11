@@ -117,8 +117,11 @@ p {
         li.dropdown:hover {
             background-color: #e7e7e7;
             border-radius: 4px 4px 0 0;
+            color: #555;
+
             a.dropdown-toggle {
                 border-radius: 4px 4px 0 0;
+                color: #555;
             }
 
             > ul.dropdown-menu {
@@ -128,7 +131,9 @@ p {
                 border-radius: 0 4px 4px 4px;
                 
                 > li > a {
+                    color: #777;
                     margin: 0 5px;
+                    padding: 5px 15px 5px 15px;
                 }
             }
 

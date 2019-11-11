@@ -8629,10 +8629,12 @@ p {
 #navbar #navbar-collapse .navbar-nav li.dropdown:hover {
   background-color: #e7e7e7;
   border-radius: 4px 4px 0 0;
+  color: #555;
 }
 
 #navbar #navbar-collapse .navbar-nav li.dropdown:hover a.dropdown-toggle {
   border-radius: 4px 4px 0 0;
+  color: #555;
 }
 
 #navbar #navbar-collapse .navbar-nav li.dropdown:hover > ul.dropdown-menu {
@@ -8643,7 +8645,9 @@ p {
 }
 
 #navbar #navbar-collapse .navbar-nav li.dropdown:hover > ul.dropdown-menu > li > a {
+  color: #777;
   margin: 0 5px;
+  padding: 5px 15px 5px 15px;
 }
 
 @media (min-width: 0px) and (max-width: 979px) {
