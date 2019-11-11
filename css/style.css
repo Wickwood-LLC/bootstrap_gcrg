@@ -8876,6 +8876,7 @@ body.toolbar-vertical #navbar {
 
 .unpublished {
   color: red;
+  text-align: center;
 }
 
 .banner-header {
