@@ -8626,6 +8626,11 @@ p {
   background-color: #75635b;
 }
 
+#navbar #navbar-collapse .navbar-nav li.dropdown:hover {
+  background-color: #e7e7e7;
+  border-radius: 4px 4px 0 0;
+}
+
 #navbar #navbar-collapse .navbar-nav li.dropdown:hover a.dropdown-toggle {
   border-radius: 4px 4px 0 0;
 }
