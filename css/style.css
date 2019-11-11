@@ -8650,7 +8650,7 @@ p {
   padding: 5px 15px 5px 15px;
 }
 
-#navbar #navbar-collapse .navbar-nav li.dropdown:hover > ul.dropdown-menu > li > a:hover {
+#navbar #navbar-collapse .navbar-nav li.dropdown:hover > ul.dropdown-menu > li > a:hover, #navbar #navbar-collapse .navbar-nav li.dropdown:hover > ul.dropdown-menu > li > a.active-trail {
   background-color: #bfbfbf;
   border-radius: 4px;
 }
