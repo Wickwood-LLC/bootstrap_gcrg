@@ -8874,6 +8874,10 @@ body.toolbar-vertical #navbar {
   padding: 0;
 }
 
+.unpublished {
+  color: red;
+}
+
 .banner-header {
   color: white;
   font-family: proxima-nova, sans-serif;
