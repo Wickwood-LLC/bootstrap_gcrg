@@ -102,9 +102,6 @@
       {{ page.header }}
       <div class="banner-header"><h1>{{ site_name }}</h1></div>
     </div>
-    {% if not node.isPublished() %}
-      <h6 class="unpublished">Unpublished</h6>
-    {% endif %}
   {% endblock %}
 {% endif %}
 
@@ -125,6 +122,9 @@
         {% block top %}
           <div class="col-sm-12" role="heading">
             {{ page.top }}
+            {% if not node.isPublished() %}
+              <h6 class="unpublished">Unpublished</h6>
+            {% endif %}
           </div>
         {% endblock %}
       {% endif %}
