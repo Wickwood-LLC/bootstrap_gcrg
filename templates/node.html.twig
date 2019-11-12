@@ -66,7 +66,7 @@
  */
 #}
 {% if not node.isPublished() %}
-  {% set body_classes = body_classes|'is-unpublished' %}
+  {% set body_classes = body_classes|merge(['is-unpublished']) %}
 {% endif %}
 {%
   set classes = [
