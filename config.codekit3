@@ -1881,14 +1881,6 @@
 		"oAP": "/bootstrap_gcrg.libraries.yml",
 		"oF": 0
 		},
-	"/bootstrap_gcrg.theme": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/bootstrap_gcrg.theme",
-		"oF": 0
-		},
 	"/bower_components/breakpoint-sass/.bower.json": {
 		"ft": 524288,
 		"oA": 2,
@@ -2832,12 +2824,28 @@
 		"rFN": 0,
 		"uCM": 0
 		},
+	"/templates/html.html.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/templates/html.html.twig",
+		"oF": 0
+		},
 	"/templates/maintenance-page.html.twig": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/templates/maintenance-page.html.twig",
+		"oF": 0
+		},
+	"/templates/node.html.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/templates/node.html.twig",
 		"oF": 0
 		},
 	"/templates/page.html.twig": {
