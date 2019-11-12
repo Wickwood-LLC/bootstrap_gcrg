@@ -54,6 +54,9 @@
     theme.has_glyphicons ? 'has-glyphicons',
   ]
 %}
+{% if node and not node.isPublished() %}
+  {% set body_classes = body_classes|merge(['is-unpublished']) %}
+{% endif %}
 
 <!DOCTYPE html>
 <html {{ html_attributes }}>

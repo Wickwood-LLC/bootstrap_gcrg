@@ -65,9 +65,6 @@
  *   in different view modes.
  */
 #}
-{% if not node.isPublished() %}
-  {% set body_classes = body_classes|merge(['is-unpublished']) %}
-{% endif %}
 {%
   set classes = [
     node.bundle|clean_class,
