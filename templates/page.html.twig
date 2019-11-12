@@ -122,7 +122,7 @@
         {% block top %}
           <div class="col-sm-12" role="heading">
             {{ page.top }}
-            {% if node_is_page and not node.isPublished() %}
+            {% if node and not node.isPublished() %}
               <h6 class="unpublished">Unpublished</h6>
             {% endif %}
           </div>
