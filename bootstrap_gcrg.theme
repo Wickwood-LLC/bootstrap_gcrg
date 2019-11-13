@@ -12,3 +12,7 @@ use Drupal\Core\Render\Markup;
 function bootstrap_gcrg_preprocess_page(&$variables) {
   $variables['site_name'] = Markup::create(strip_tags(html_entity_decode(\Drupal::config('system.site')->get('name'))));
 }
+function bootstrap_gcrg_preprocess_html(&$variables) {
+	$node = \Drupal\content_moderation\EntityOperations::isPublished
+	kint($node);
+}
