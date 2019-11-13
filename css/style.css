@@ -9052,6 +9052,10 @@ p:last-child,
   margin-top: 0;
 }
 
+.region-top > * + * {
+  margin-top: 0.5em;
+}
+
 .nav-tabs {
   border-bottom: 0px;
   display: inline-block;
