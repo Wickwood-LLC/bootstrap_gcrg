@@ -8922,6 +8922,11 @@ body.toolbar-vertical #navbar {
   }
 }
 
+.banner-header a, .banner-header a:hover {
+  color: white;
+  text-decoration: none;
+}
+
 #block-socialsharingblock {
   position: fixed;
   top: 215px;

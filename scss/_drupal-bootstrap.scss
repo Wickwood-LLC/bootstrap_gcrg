@@ -357,6 +357,10 @@ body.toolbar-vertical {
         width: 80vw;
         @include fluid-type(320px, 1200px, 24px, 68px);
     }
+    a, a:hover {
+        color: white;
+        text-decoration: none;
+    }
 }
 
 #block-socialsharingblock {
