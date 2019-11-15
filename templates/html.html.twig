@@ -52,11 +52,9 @@
     db_offline ? 'db-offline',
     theme.settings.navbar_position ? 'navbar-is-' ~ theme.settings.navbar_position,
     theme.has_glyphicons ? 'has-glyphicons',
+    not is_published ? 'is-unpublished'
   ]
 %}
-{% if node and not node.isPublished() %}
-  {% set body_classes = body_classes|merge(['is-unpublished']) %}
-{% endif %}
 
 <!DOCTYPE html>
 <html {{ html_attributes }}>
