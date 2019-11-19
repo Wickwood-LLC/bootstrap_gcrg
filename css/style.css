@@ -6652,10 +6652,10 @@ body.toolbar-vertical #navbar {
   @media (min-width: 980px) {
     #block-socialsharingblock {
       top: 200px; } }
-  #block-socialsharingblock:hover {
+  #block-socialsharingblock:hover, #block-socialsharingblock:focus, #block-socialsharingblock:active {
     left: 0;
     box-shadow: 2px 3px 10px 0 #333; }
-    #block-socialsharingblock:hover:before {
+    #block-socialsharingblock:hover:before, #block-socialsharingblock:focus:before, #block-socialsharingblock:active:before {
       opacity: 0;
       -webkit-transition: 0.5s;
       transition: 0.5s; }

@@ -379,7 +379,9 @@ body.toolbar-vertical {
         top: 200px;
     }
 
-    &:hover {
+    &:hover,
+    &:focus,
+    &:active {
         left: 0;
         box-shadow: 2px 3px 10px 0 #333;
 
