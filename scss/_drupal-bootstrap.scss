@@ -365,7 +365,7 @@ body.toolbar-vertical {
 
 #block-socialsharingblock {
     position: fixed;
-    top: 200px;
+    top: 150px;
     left: -282px;
     padding: 1em;
     border: 1px solid #ccc;
@@ -376,7 +376,7 @@ body.toolbar-vertical {
     z-index: 5;
 
     @include breakpoint(980px) {
-        top: 150px;
+        top: 200px;
     }
 
     &:hover {
