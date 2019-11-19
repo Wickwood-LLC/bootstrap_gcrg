@@ -327,10 +327,6 @@ body.toolbar-vertical {
 .page-header {
     padding: 0;
 }
-.unpublished {
-    color: red;
-    text-align: center;
-}
 
 // Banner
 .banner-header {
@@ -909,11 +905,6 @@ p:last-child,
         height: 100%;
         position: absolute;
         z-index: -1;
-    }
-
-    main {
-        text-align: center;
-        margin-top: 2em;
     }
 }
 
