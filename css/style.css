@@ -6639,7 +6639,7 @@ body.toolbar-vertical #navbar {
 
 #block-socialsharingblock {
   position: fixed;
-  top: 150px;
+  top: 200px;
   left: -282px;
   padding: 1em;
   border: 1px solid #ccc;
@@ -6649,6 +6649,9 @@ body.toolbar-vertical #navbar {
   -webkit-transition: 0.5s;
   transition: 0.5s;
   z-index: 5; }
+  @media (min-width: 980px) {
+    #block-socialsharingblock {
+      top: 150px; } }
   #block-socialsharingblock:hover {
     left: 0;
     box-shadow: 2px 3px 10px 0 #333; }
