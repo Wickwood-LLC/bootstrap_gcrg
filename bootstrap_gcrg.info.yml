@@ -19,7 +19,10 @@ regions:
   page_top: 'Page top'
   page_bottom: 'Page bottom'
 
+libraries:
+  - bootstrap_gcrg/global-scripts
+  - bootstrap_gcrg/jquery-mobile
+
 libraries-extend:
   bootstrap/framework:
     - bootstrap_gcrg/framework
-    - bootstrap_gcrg/global-scripts

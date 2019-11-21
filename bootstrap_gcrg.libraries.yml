@@ -40,3 +40,11 @@ global-scripts:
     - core/jquery
     - core/jquery.once
 
+jquery-mobile:
+  remote: https://jquerymobile.com/
+  css:
+    theme:
+      http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css: { type: external, minified: true }
+  js:
+    http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js: { type: external, minified: true }
+
