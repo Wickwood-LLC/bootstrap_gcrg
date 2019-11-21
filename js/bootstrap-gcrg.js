@@ -1,6 +1,6 @@
 (function ($, Drupal, Bootstrap) {
 
-  $('block-socialsharingblock').on( "tap", function() {
+  $('#block-socialsharingblock').on( "tap", function() {
     $(this).trigger("mouseover");
   } );
 
