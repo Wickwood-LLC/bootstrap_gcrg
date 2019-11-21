@@ -36,4 +36,7 @@ framework:
 global-scripts:
   js: 
     js/bootstrap-gcrg.js: {}
+  dependencies:
+    - core/jquery
+    - core/jquery.once
 
