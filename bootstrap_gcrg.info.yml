@@ -22,3 +22,4 @@ regions:
 libraries-extend:
   bootstrap/framework:
     - bootstrap_gcrg/framework
+    - bootstrap_gcrg/global-scripts

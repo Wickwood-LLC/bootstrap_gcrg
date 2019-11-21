@@ -2505,6 +2505,17 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"/js/bootstrap-gcrg.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 1,
+		"oAP": "/js/bootstrap-gcrg-min.js",
+		"oF": 1,
+		"sC": 3,
+		"tS": 0
+		},
 	"/logo.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -2533,19 +2544,6 @@
 		"opt": 0,
 		"oT": 1,
 		"q": 100
-		},
-	"/scss/_ckeditor-styles.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/scss/_ckeditor-styles.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
 		},
 	"/scss/_default-variables.scss": {
 		"aP": 0,
