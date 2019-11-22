@@ -25,4 +25,8 @@ function bootstrap_gcrg_preprocess_html(&$variables) {
 	  // You can get nid and anything else you need from the node object.
 	  $variables['is_published'] = $node->isPublished();
 	}
+	// kint(\Drupal::request()->getHost() ~ '/' ~ \Drupal::theme()->getActiveTheme()->getPath());
+	// kint(\Drupal::request()->getHost());
+	$variables['theme_path'] = \Drupal::request()->getHost() ~ '/' ~ \Drupal::theme()->getActiveTheme()->getPath();
+	kint$variables['theme_path']);
 }

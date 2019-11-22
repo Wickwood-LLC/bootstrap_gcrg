@@ -2474,6 +2474,77 @@
 		"oAP": "/favicon.ico",
 		"oF": 0
 		},
+	"/favicon/android-chrome-192x192.png": {
+		"ft": 32768,
+		"iS": 36312,
+		"oA": 0,
+		"oAP": "/favicon/android-chrome-192x192.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/favicon/android-chrome-512x512.png": {
+		"ft": 32768,
+		"iS": 150822,
+		"oA": 0,
+		"oAP": "/favicon/android-chrome-512x512.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/favicon/apple-touch-icon.png": {
+		"ft": 32768,
+		"iS": 32782,
+		"oA": 0,
+		"oAP": "/favicon/apple-touch-icon.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/favicon/favicon-16x16.png": {
+		"ft": 32768,
+		"iS": 852,
+		"oA": 0,
+		"oAP": "/favicon/favicon-16x16.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/favicon/favicon-32x32.png": {
+		"ft": 32768,
+		"iS": 2228,
+		"oA": 0,
+		"oAP": "/favicon/favicon-32x32.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/favicon/favicon.ico": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/favicon/favicon.ico",
+		"oF": 0
+		},
+	"/favicon/site.webmanifest": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/favicon/site.webmanifest",
+		"oF": 0
+		},
 	"/images/bleeds.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -2504,6 +2575,17 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"/logo.png": {
+		"ft": 32768,
+		"iS": 96174,
+		"oA": 0,
+		"oAP": "/logo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"/logo.svg": {
 		"ft": 2097152,
@@ -2892,7 +2974,7 @@
 	"creationDate": 581339948.13037002,
 	"displayValue": "bootstrap_gcrg",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "/bootstrap/test/dummy_node_mincer/apple-touch-icon-144-precomposed.png",
+	"iconImageName": "/favicon/apple-touch-icon.png",
 	"iconImageWasSetByUser": 0
 	},
 "projectSettings": {
