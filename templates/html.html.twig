@@ -68,7 +68,7 @@
     <link rel="icon" type="image/png" sizes="16x16" href="{{theme_path}}/favicon/favicon-16x16.png">
     <link rel="manifest" href="{{theme_path}}/favicon/site.webmanifest">
     <script>
-      document.addEventListener("touchstart", function() {},false);
+      (function(l){var i,s={touchend:function(){}};for(i in s)l.addEventListener(i,s)})(document); // sticky hover fix in iOS
     </script>
   </head>
   <body{{ attributes.addClass(body_classes) }}>
