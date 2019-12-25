@@ -582,14 +582,27 @@ p:last-child,
     text-transform: capitalize;
 }
 
-#user-login-form {
+#user-login-form, 
+#user-pass {
     max-width: 600px;
     margin-left: auto;
     margin-right: auto;
     
     #edit-actions {
         text-align: center;
+        margin: 0.5em 0;
     }
+}
+
+.captcha {
+    .help-block {
+        text-align: center;
+        @include fluid-type(320px, 1250px, 16px, 20px); // same values as the paragraph
+    }
+}
+.g-recaptcha {
+    display: flex;
+    justify-content: center;
 }
 
 /********************* MAIN MENU *********************/
