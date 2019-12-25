@@ -8620,6 +8620,7 @@ p {
 #navbar .navbar-header {
   position: absolute;
   width: 100%;
+  height: 0;
 }
 
 #navbar #navbar-collapse .navbar-nav {
