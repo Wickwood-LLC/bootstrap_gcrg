@@ -9160,14 +9160,16 @@ p:last-child,
 }
 
 #user-login-form,
-#user-pass {
+#user-pass,
+#webform-submission-contact-node-114-add-form {
   max-width: 600px;
   margin-left: auto;
   margin-right: auto;
 }
 
 #user-login-form #edit-actions,
-#user-pass #edit-actions {
+#user-pass #edit-actions,
+#webform-submission-contact-node-114-add-form #edit-actions {
   text-align: center;
   margin: 0.5em 0;
 }
