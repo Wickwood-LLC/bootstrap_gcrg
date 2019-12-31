@@ -9523,11 +9523,17 @@ p:last-child,
 .view-press-coverage .views-row,
 .view-letters-to-the-editor .views-row {
   margin-bottom: 1em;
+  overflow: auto;
 }
 
 .view-press-coverage .views-field-title h4,
 .view-letters-to-the-editor .views-field-title h4 {
   margin: 0;
+}
+
+.view-press-coverage .views-field-field-feature-media {
+  float: left;
+  margin-right: 0.5em;
 }
 
 .menu--footer {
