@@ -935,6 +935,14 @@ p:last-child,
 }
 
 .view-press-coverage {
+    .bef-exposed-form .form--inline > .form-item {
+        float: none;
+        margin-bottom: 0.5em;
+        margin-right: 0.5em;
+        max-width: 50%;
+        display: inline-block;
+    }
+
     .views-field-field-feature-media {
         float: left;
         margin-right: 0.5em;
