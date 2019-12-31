@@ -9539,6 +9539,10 @@ p:last-child,
   display: inline-block;
 }
 
+.view-press-coverage .bef-exposed-form .form--inline > .form-item .label {
+  display: block;
+}
+
 .view-press-coverage .views-field-field-feature-media {
   float: left;
   margin-right: 0.5em;

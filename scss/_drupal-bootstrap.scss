@@ -941,6 +941,10 @@ p:last-child,
         margin-right: 0.5em;
         max-width: 50%;
         display: inline-block;
+
+        .label {
+            display: block;
+        }
     }
 
     .views-field-field-feature-media {
