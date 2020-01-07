@@ -7065,11 +7065,22 @@ p:last-child,
 .view-news .views-row,
 .view-letters-to-the-editor .views-row {
   margin-bottom: 1em;
+  padding-bottom: 0.5em;
   overflow: auto; }
+  .view-news .views-row:after,
+  .view-letters-to-the-editor .views-row:after {
+    content: '';
+    width: 25%;
+    display: block;
+    border-bottom: 5px double gray; }
 
-.view-news .views-field-title h4,
-.view-letters-to-the-editor .views-field-title h4 {
+.view-news .views-field-title h2,
+.view-letters-to-the-editor .views-field-title h2 {
   margin: 0; }
+
+.view-news .views-field-body,
+.view-letters-to-the-editor .views-field-body {
+  margin-top: 0.5em; }
 
 .view-news .bef-exposed-form .form--inline {
   -webkit-column-count: 1;

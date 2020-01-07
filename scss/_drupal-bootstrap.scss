@@ -927,10 +927,21 @@ p:last-child,
 .view-letters-to-the-editor {
     .views-row {
         margin-bottom: 1em;
+        padding-bottom: 0.5em;
         overflow: auto;
+
+        &:after {
+            content: '';
+            width: 25%;
+            display: block;
+            border-bottom: 5px double gray;
+        }
     }
-    .views-field-title h4 {
+    .views-field-title h2 {
         margin: 0;
+    }
+    .views-field-body {
+        margin-top: 0.5em;
     }
 }
 
@@ -940,7 +951,7 @@ p:last-child,
         @include breakpoint(530px) {
             column-count: 2;
         }
-        
+
         > .form-item {
             float: none;
             margin-bottom: 0.5em;
