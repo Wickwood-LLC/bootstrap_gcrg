@@ -935,15 +935,24 @@ p:last-child,
 }
 
 .view-news {
-    .bef-exposed-form .form--inline > .form-item {
-        float: none;
-        margin-bottom: 0.5em;
-        margin-right: 0.5em;
-        max-width: 50%;
-        display: inline-block;
-
-        .label {
-            display: block;
+    .bef-exposed-form .form--inline {
+        column-count: 1;
+        @include breakpoint(530px) {
+            column-count: 2;
+        }
+        
+        > .form-item {
+            float: none;
+            margin-bottom: 0.5em;
+            margin-right: 0.5em;
+            display: inline-block;
+            width: 100%;
+            max-width: 100%;
+            margin-bottom: 0.5em;
+    
+            .label {
+                display: block;
+            }
         }
     }
 

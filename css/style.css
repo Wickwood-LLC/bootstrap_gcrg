@@ -7071,16 +7071,27 @@ p:last-child,
 .view-letters-to-the-editor .views-field-title h4 {
   margin: 0; }
 
-.view-press-news .bef-exposed-form .form--inline > .form-item {
-  float: none;
-  margin-bottom: 0.5em;
-  margin-right: 0.5em;
-  max-width: 50%;
-  display: inline-block; }
-  .view-press-news .bef-exposed-form .form--inline > .form-item .label {
-    display: block; }
+.view-news .bef-exposed-form .form--inline {
+  -webkit-column-count: 1;
+     -moz-column-count: 1;
+          column-count: 1; }
+  @media (min-width: 530px) {
+    .view-news .bef-exposed-form .form--inline {
+      -webkit-column-count: 2;
+         -moz-column-count: 2;
+              column-count: 2; } }
+  .view-news .bef-exposed-form .form--inline > .form-item {
+    float: none;
+    margin-bottom: 0.5em;
+    margin-right: 0.5em;
+    display: inline-block;
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 0.5em; }
+    .view-news .bef-exposed-form .form--inline > .form-item .label {
+      display: block; }
 
-.view-press-news .views-field-field-feature-media {
+.view-news .views-field-field-feature-media {
   float: left;
   margin-right: 0.5em; }
 
