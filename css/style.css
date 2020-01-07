@@ -7071,16 +7071,16 @@ p:last-child,
 .view-letters-to-the-editor .views-field-title h4 {
   margin: 0; }
 
-.view-press-coverage .bef-exposed-form .form--inline > .form-item {
+.view-press-news .bef-exposed-form .form--inline > .form-item {
   float: none;
   margin-bottom: 0.5em;
   margin-right: 0.5em;
   max-width: 50%;
   display: inline-block; }
-  .view-press-coverage .bef-exposed-form .form--inline > .form-item .label {
+  .view-press-news .bef-exposed-form .form--inline > .form-item .label {
     display: block; }
 
-.view-press-coverage .views-field-field-feature-media {
+.view-press-news .views-field-field-feature-media {
   float: left;
   margin-right: 0.5em; }
 
