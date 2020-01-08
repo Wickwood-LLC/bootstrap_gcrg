@@ -285,6 +285,8 @@ body.toolbar-vertical {
 
 .logo {
     margin-left: 1em;
+    position: relative;
+    z-index: 1;
 
     img {
         width: 64px;
