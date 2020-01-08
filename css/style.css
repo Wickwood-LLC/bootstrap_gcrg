@@ -7064,15 +7064,21 @@ p:last-child,
 /********************************************************/
 .view-news .views-row,
 .view-letters-to-the-editor .views-row {
-  margin-bottom: 1em;
+  margin-bottom: 2em;
   padding-bottom: 0.5em;
-  overflow: auto; }
+  overflow: auto;
+  position: relative; }
   .view-news .views-row:after,
   .view-letters-to-the-editor .views-row:after {
     content: '';
-    width: 25%;
+    width: 50%;
     display: block;
-    border-bottom: 5px double gray; }
+    border-bottom: 5px double gray;
+    text-align: center;
+    margin: auto;
+    position: absolute;
+    bottom: 0px;
+    left: 25%; }
 
 .view-news .views-field-title h2,
 .view-letters-to-the-editor .views-field-title h2 {
@@ -7101,6 +7107,15 @@ p:last-child,
     margin-bottom: 0.5em; }
     .view-news .bef-exposed-form .form--inline > .form-item .label {
       display: block; }
+  .view-news .bef-exposed-form .form--inline .form-item-title input {
+    width: 100%; }
+  .view-news .bef-exposed-form .form--inline .form-item-field-publication-date-value,
+  .view-news .bef-exposed-form .form--inline .form-item-sort-by,
+  .view-news .bef-exposed-form .form--inline .form-item-sort-order {
+    text-align: center; }
+  .view-news .bef-exposed-form .form--inline .form-actions {
+    width: 100%;
+    text-align: center; }
 
 .view-news .views-field-field-feature-media {
   float: left;
@@ -7121,4 +7136,11 @@ p:last-child,
 
 #block-calltoactionjoingcrg {
   border: 0px; }
+
+.ui-datepicker {
+  z-index: 10; }
+
+.pagination > li > a,
+.pagination > li > span {
+  color: #77BBCF; }
 /*# sourceMappingURL=style.css.map */

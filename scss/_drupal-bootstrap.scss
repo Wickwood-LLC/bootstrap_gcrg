@@ -926,15 +926,21 @@ p:last-child,
 .view-news,
 .view-letters-to-the-editor {
     .views-row {
-        margin-bottom: 1em;
+        margin-bottom: 2em;
         padding-bottom: 0.5em;
         overflow: auto;
+        position: relative;
 
         &:after {
             content: '';
-            width: 25%;
+            width: 50%;
             display: block;
             border-bottom: 5px double gray;
+            text-align: center;
+            margin: auto;
+            position: absolute;
+            bottom: 0px;
+            left: 25%;
         }
     }
     .views-field-title h2 {
@@ -964,6 +970,20 @@ p:last-child,
             .label {
                 display: block;
             }
+        }
+
+        .form-item-title input {
+            width: 100%;
+        }
+        .form-item-field-publication-date-value,
+        .form-item-sort-by,
+        .form-item-sort-order {
+            text-align: center;
+        }
+
+        .form-actions {
+            width: 100%;
+            text-align: center;
         }
     }
 
@@ -995,4 +1015,15 @@ p:last-child,
 
 #block-calltoactionjoingcrg {
     border: 0px;
+}
+
+.ui-datepicker {
+    z-index: 10;
+}
+
+.pagination > li {
+    > a,
+    > span {
+        color: $brand-primary;
+    }
 }
