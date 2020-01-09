@@ -945,6 +945,10 @@ p:last-child,
             left: 25%;
         }
     }
+    .views-field-field-feature-media {
+        float: left;
+        margin-right: 0.5em;
+    }
     .views-field-title h2 {
         margin: 0;
     }
@@ -953,45 +957,38 @@ p:last-child,
     }
 }
 
-.view-news {
-    .bef-exposed-form .form--inline {
-        column-count: 1;
-        @include breakpoint(530px) {
-            column-count: 2;
-        }
+.bef-exposed-form .form--inline {
+    column-count: 1;
+    @include breakpoint(530px) {
+        column-count: 2;
+    }
 
-        > .form-item {
-            float: none;
-            margin-bottom: 0.5em;
-            margin-right: 0.5em;
-            display: inline-block;
-            width: 100%;
-            max-width: 100%;
-            margin-bottom: 0.5em;
-    
-            .label {
-                display: block;
-            }
-        }
+    > .form-item {
+        float: none;
+        margin-bottom: 0.5em;
+        margin-right: 0.5em;
+        display: inline-block;
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: 0.5em;
 
-        .form-item-title input {
-            width: 100%;
-        }
-        .form-item-field-publication-date-value,
-        .form-item-sort-by,
-        .form-item-sort-order {
-            text-align: center;
-        }
-
-        .form-actions {
-            width: 100%;
-            text-align: center;
+        .label {
+            display: block;
         }
     }
 
-    .views-field-field-feature-media {
-        float: left;
-        margin-right: 0.5em;
+    .form-item-title input {
+        width: 100%;
+    }
+    .form-item-field-publication-date-value,
+    .form-item-sort-by,
+    .form-item-sort-order {
+        text-align: center;
+    }
+
+    .form-actions {
+        width: 100%;
+        text-align: center;
     }
 }
 
