@@ -2930,6 +2930,14 @@
 		"oAP": "/templates/maintenance-page.html.twig",
 		"oF": 0
 		},
+	"/templates/menu.html.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/templates/menu.html.twig",
+		"oF": 0
+		},
 	"/templates/node.html.twig": {
 		"cB": 0,
 		"ft": 8192,
