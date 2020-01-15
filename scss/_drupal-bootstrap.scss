@@ -990,6 +990,11 @@ p:last-child,
         width: 100%;
         text-align: center;
     }
+
+    .select-wrapper,
+    .select-wrapper select {
+        max-width: 100%;
+    }
 }
 
 .menu--footer {
