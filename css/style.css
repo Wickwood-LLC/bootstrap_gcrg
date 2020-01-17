@@ -8669,7 +8669,7 @@ p {
   border-radius: 4px;
 }
 
-#navbar #navbar-collapse .navbar-nav li.dropdown:hover > ul.dropdown-menu li.dropdown > ul.dropdown-menu {
+#navbar #navbar-collapse .navbar-nav li.dropdown:hover > ul.dropdown-menu > li.dropdown > ul.dropdown-menu {
   background-color: #f4f4f4;
 }
 
