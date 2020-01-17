@@ -8669,6 +8669,10 @@ p {
   border-radius: 4px;
 }
 
+#navbar #navbar-collapse .navbar-nav li.dropdown:hover > ul.dropdown-menu li.dropdown > ul.dropdown-menu {
+  background-color: #f4f4f4;
+}
+
 @media (min-width: 0px) and (max-width: 979px) {
   #navbar #navbar-collapse .navbar-nav li.dropdown:hover {
     border-radius: 4px;

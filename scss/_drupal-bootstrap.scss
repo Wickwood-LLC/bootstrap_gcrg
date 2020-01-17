@@ -141,6 +141,10 @@ p {
                         border-radius: 4px;
                     }
                 }
+
+                li.dropdown > ul.dropdown-menu {
+                    background-color: lighten(#e7e7e7, 5%);
+                }
             }
 
             @include breakpoint(0px 979px) {
