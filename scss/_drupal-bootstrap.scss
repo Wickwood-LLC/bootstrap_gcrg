@@ -957,6 +957,30 @@ p:last-child,
     }
 }
 
+.view-full-calendar-view {
+    .bef-exposed-form .form--inline {
+        display: block;
+
+        @include breakpoint(530px){
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: auto;
+            grid-column-gap: 0.5em;
+        }
+
+        .form-item-field-event-type-target-id {
+            min-width: 0;
+            grid-column: 1;
+        }
+        .form-item-field-tags-target-id {
+            grid-column: 2;
+        }
+        .form-actions {
+            grid-column: 1 / 3;
+        }
+    }
+}
+
 .bef-exposed-form .form--inline {
     column-count: 1;
     @include breakpoint(530px) {
