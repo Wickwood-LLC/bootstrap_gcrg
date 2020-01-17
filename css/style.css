@@ -9439,14 +9439,14 @@ p:last-child,
 }
 
 /********************* BLOCKS *********************/
-.main-container .block {
+.boxed {
   border: 1px solid #4e7332;
   border-radius: 8px;
   margin-bottom: 1em;
   padding-bottom: 0.5em;
 }
 
-.main-container .block .block-title {
+.boxed .block-title {
   background-color: #4e7332;
   border-radius: 5px 5px 0 0;
   font-size: 1em;
@@ -9456,13 +9456,13 @@ p:last-child,
   color: #fff;
 }
 
-.main-container .block .more-link {
+.boxed .more-link {
   text-align: right;
   margin-right: 1em;
   font-weight: bold;
 }
 
-.main-container .block .more-link a {
+.boxed .more-link a {
   color: #e24f4c;
 }
 
