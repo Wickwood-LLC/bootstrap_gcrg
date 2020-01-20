@@ -84,7 +84,7 @@ h6 {
     @include fluid-type(320px, 1250px, 16px, 20px); // values inside are ($min_width,$max_width, $min_font, $max_font);
 }
 p {
-    font-family: adobe-garamond-pro, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: proxima-nova, "Helvetica Neue", Helvetica, Arial, sans-serif;
     @include fluid-type(320px, 1250px, 16px, 20px); // values inside are ($min_width,$max_width, $min_font, $max_font);
 }
 
@@ -1075,5 +1075,28 @@ p:last-child,
     > a,
     > span {
         color: $brand-primary;
+    }
+}
+
+.layout {
+    margin-bottom: 1em;
+
+    .layout__region {
+        @include breakpoint(640px){
+            margin: 0 0.5em;
+    
+            &:first-child {
+                margin-left: 0;
+            }
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+    }
+
+    .layout--twocol-section--50-50 > .layout__region {
+        @include breakpoint(40em){
+            max-width: calc(50% - 0.5em);
+        }
     }
 }
