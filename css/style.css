@@ -8906,13 +8906,6 @@ body.toolbar-vertical #navbar {
 
 .view-content-image-slideshow .views_slideshow_cycle_slide {
   max-width: 100%;
-  display: -webkit-box !important;
-  display: flex !important;
-  height: 100% !important;
-}
-
-.view-content-image-slideshow .views_slideshow_cycle_slide .views-row {
-  align-self: center;
 }
 
 .page-header {
