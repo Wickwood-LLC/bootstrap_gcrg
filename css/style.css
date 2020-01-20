@@ -8908,6 +8908,7 @@ body.toolbar-vertical #navbar {
   max-width: 100%;
   display: -webkit-box !important;
   display: flex !important;
+  height: 100% !important;
 }
 
 .view-content-image-slideshow .views_slideshow_cycle_slide .views-row {
