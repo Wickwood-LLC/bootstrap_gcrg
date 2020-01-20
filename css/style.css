@@ -8900,6 +8900,20 @@ body.toolbar-vertical #navbar {
   width: 100%;
 }
 
+.view-content-image-slideshow .views_slideshow_cycle_teaser_section {
+  max-width: 100%;
+}
+
+.view-content-image-slideshow .views_slideshow_cycle_slide {
+  max-width: 100%;
+  display: -webkit-box !important;
+  display: flex !important;
+}
+
+.view-content-image-slideshow .views_slideshow_cycle_slide .views-row {
+  align-self: center;
+}
+
 .page-header {
   padding: 0;
 }
@@ -9737,6 +9751,18 @@ p:last-child,
 
 .layout {
   margin-bottom: 1em;
+}
+
+.layout .layout__region {
+  margin: 0.5em 0;
+}
+
+.layout .layout__region:first-child {
+  margin-top: 0;
+}
+
+.layout .layout__region:last-child {
+  margin-bottom: 0;
 }
 
 @media (min-width: 640px) {

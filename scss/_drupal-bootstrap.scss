@@ -330,6 +330,20 @@ body.toolbar-vertical {
     }
 }
 
+.view-content-image-slideshow {
+    .views_slideshow_cycle_teaser_section {
+        max-width: 100%;
+    }
+    .views_slideshow_cycle_slide {
+        max-width: 100%;
+        display: flex !important;
+
+        .views-row {
+            align-self: center;
+        }
+    }
+}
+
 .page-header {
     padding: 0;
 }
@@ -1082,6 +1096,15 @@ p:last-child,
     margin-bottom: 1em;
 
     .layout__region {
+        margin: 0.5em 0;
+
+        &:first-child {
+            margin-top: 0;
+        }
+        &:last-child {
+            margin-bottom: 0;
+        }
+
         @include breakpoint(640px){
             margin: 0 0.5em;
     
