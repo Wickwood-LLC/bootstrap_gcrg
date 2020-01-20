@@ -9604,11 +9604,31 @@ p:last-child,
   margin-top: 0.5em;
 }
 
+.view-full-calendar-view .fc-widget-content {
+  overflow: auto;
+}
+
+.view-full-calendar-view .fc-scroller {
+  min-width: 400px;
+}
+
+.view-full-calendar-view .fc-time {
+  font-weight: normal;
+}
+
+.view-full-calendar-view .fc-event .fc-title {
+  white-space: normal;
+}
+
+.view-full-calendar-view .fc-event .fc-title a {
+  color: white;
+}
+
 .view-full-calendar-view .bef-exposed-form .form--inline {
   display: block;
 }
 
-@media (min-width: 530px) {
+@media (min-width: 700px) {
   .view-full-calendar-view .bef-exposed-form .form--inline {
     display: grid;
     grid-template-columns: 1fr 1fr;

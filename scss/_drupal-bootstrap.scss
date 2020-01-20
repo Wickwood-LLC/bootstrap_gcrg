@@ -962,10 +962,26 @@ p:last-child,
 }
 
 .view-full-calendar-view {
+    .fc-widget-content {
+        overflow: auto;
+    }
+    .fc-scroller {
+        min-width: 400px;
+    }
+    .fc-time {
+        font-weight: normal;
+    }
+    .fc-event .fc-title {
+        white-space: normal;
+
+        a {
+            color: white;
+        }
+    }
     .bef-exposed-form .form--inline {
         display: block;
 
-        @include breakpoint(530px){
+        @include breakpoint(700px){
             display: grid;
             grid-template-columns: 1fr 1fr;
             grid-template-rows: auto;
