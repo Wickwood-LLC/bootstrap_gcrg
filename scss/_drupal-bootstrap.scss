@@ -962,7 +962,7 @@ p:last-child,
 }
 
 .view-full-calendar-view {
-    .fc-widget-content {
+    td.fc-widget-content {
         overflow: auto;
     }
     .fc-scroller {
@@ -980,6 +980,7 @@ p:last-child,
     }
     .bef-exposed-form .form--inline {
         display: block;
+        column-count: 1;
 
         @include breakpoint(700px){
             display: grid;

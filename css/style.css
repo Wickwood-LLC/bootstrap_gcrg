@@ -9604,7 +9604,7 @@ p:last-child,
   margin-top: 0.5em;
 }
 
-.view-full-calendar-view .fc-widget-content {
+.view-full-calendar-view td.fc-widget-content {
   overflow: auto;
 }
 
@@ -9626,6 +9626,9 @@ p:last-child,
 
 .view-full-calendar-view .bef-exposed-form .form--inline {
   display: block;
+  -webkit-column-count: 1;
+     -moz-column-count: 1;
+          column-count: 1;
 }
 
 @media (min-width: 700px) {
