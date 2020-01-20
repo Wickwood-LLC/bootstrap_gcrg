@@ -337,6 +337,7 @@ body.toolbar-vertical {
     .views_slideshow_cycle_slide {
         max-width: 100%;
         display: flex !important;
+        height: 100% !important;
 
         .views-row {
             align-self: center;
