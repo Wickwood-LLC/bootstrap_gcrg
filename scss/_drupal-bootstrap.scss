@@ -337,6 +337,8 @@ body.toolbar-vertical {
     }
     .views_slideshow_cycle_slide {
         max-width: 100%;
+        width: 100% !important;
+        text-align: center;
     }
 }
 

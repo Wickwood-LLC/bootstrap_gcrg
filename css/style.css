@@ -8907,6 +8907,8 @@ body.toolbar-vertical #navbar {
 
 .view-content-image-slideshow .views_slideshow_cycle_slide {
   max-width: 100%;
+  width: 100% !important;
+  text-align: center;
 }
 
 .page-header {
