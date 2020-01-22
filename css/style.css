@@ -9782,10 +9782,4 @@ p:last-child,
     margin-right: 0;
   }
 }
-
-@media (min-width: 40em) {
-  .layout.layout--twocol-section--50-50 > .layout__region {
-    max-width: calc(50% - 0.5em);
-  }
-}
 /*# sourceMappingURL=style.css.map */
