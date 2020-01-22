@@ -8902,6 +8902,7 @@ body.toolbar-vertical #navbar {
 
 .view-content-image-slideshow .views_slideshow_cycle_teaser_section {
   max-width: 100%;
+  margin: auto;
 }
 
 .view-content-image-slideshow .views_slideshow_cycle_slide {
@@ -9759,7 +9760,7 @@ p:last-child,
   margin-bottom: 0;
 }
 
-@media (min-width: 640px) {
+@media (min-width: 740px) {
   .layout .layout__region {
     margin: 0 0.5em;
   }

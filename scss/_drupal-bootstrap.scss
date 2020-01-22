@@ -333,6 +333,7 @@ body.toolbar-vertical {
 .view-content-image-slideshow {
     .views_slideshow_cycle_teaser_section {
         max-width: 100%;
+        margin: auto;
     }
     .views_slideshow_cycle_slide {
         max-width: 100%;
@@ -1100,7 +1101,7 @@ p:last-child,
             margin-bottom: 0;
         }
 
-        @include breakpoint(640px){
+        @include breakpoint(740px){
             margin: 0 0.5em;
     
             &:first-child {
