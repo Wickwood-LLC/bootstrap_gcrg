@@ -811,7 +811,14 @@ p:last-child,
 }
 
 /********************* BLOCKS *********************/
-
+.js-layout-builder-block {
+    padding: 1em;
+    cursor: move;
+    background-color: #fff;
+    border: 1px solid #4e7332;
+    border-radius: 8px;
+    margin-bottom: 1em;
+}
 .boxed {
     border: 1px solid #4e7332;
     border-radius: 8px;
@@ -1090,6 +1097,7 @@ p:last-child,
 
 .layout {
     margin-bottom: 1em;
+    justify-content: space-evenly;
 
     .layout__region {
         margin: 0.5em 0;
