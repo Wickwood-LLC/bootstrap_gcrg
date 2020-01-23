@@ -86,6 +86,7 @@ h6 {
 p {
     font-family: proxima-nova, "Helvetica Neue", Helvetica, Arial, sans-serif;
     @include fluid-type(320px, 1250px, 16px, 20px); // values inside are ($min_width,$max_width, $min_font, $max_font);
+    text-align: justify;
 }
 
 .align-center {
