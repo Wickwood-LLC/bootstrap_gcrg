@@ -8454,6 +8454,7 @@ body.toolbar-vertical {
 a {
   color: #116690;
   text-decoration: none;
+  word-break: break-word;
 }
 
 ol,
