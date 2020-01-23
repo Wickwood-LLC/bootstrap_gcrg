@@ -9813,4 +9813,12 @@ p:last-child,
             flex: 0 1 calc(50% - 1em);
   }
 }
+
+.page-node-type-event .field--name-field-event-location {
+  margin: 1em 0;
+}
+
+.page-node-type-event .block-views-blockcontent-image-slideshow-block-1 {
+  margin: 1em 0;
+}
 /*# sourceMappingURL=style.css.map */
