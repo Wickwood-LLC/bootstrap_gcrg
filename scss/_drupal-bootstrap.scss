@@ -1027,6 +1027,20 @@ p:last-child,
 .views-exposed-form {
     margin: 1em 0;
 
+    .form-item-sort-by,
+    .form-item-sort-order {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        label {
+            flex: 0 1 70px;
+        }
+        .select-wrapper {
+            flex: 1 1 calc(100% - 70px);
+        }
+    }
+
     .form-actions {
         text-align: center;
     }

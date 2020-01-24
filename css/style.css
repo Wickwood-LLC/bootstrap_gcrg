@@ -9684,6 +9684,28 @@ p:last-child,
   margin: 1em 0;
 }
 
+.views-exposed-form .form-item-sort-by,
+.views-exposed-form .form-item-sort-order {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+          justify-content: center;
+}
+
+.views-exposed-form .form-item-sort-by label,
+.views-exposed-form .form-item-sort-order label {
+  -webkit-box-flex: 0;
+          flex: 0 1 70px;
+}
+
+.views-exposed-form .form-item-sort-by .select-wrapper,
+.views-exposed-form .form-item-sort-order .select-wrapper {
+  -webkit-box-flex: 1;
+          flex: 1 1 calc(100% - 70px);
+}
+
 .views-exposed-form .form-actions {
   text-align: center;
 }
