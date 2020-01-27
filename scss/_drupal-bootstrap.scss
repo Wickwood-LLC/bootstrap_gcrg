@@ -1167,7 +1167,7 @@ p:last-child,
             flex: 1 1 100%;
         }
         @include breakpoint(740px) {
-            flex: 0 1 auto;
+            flex: 0 1 calc(50% - 0.5em);
         }
     }
 }

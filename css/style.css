@@ -9851,7 +9851,7 @@ p:last-child,
 @media (min-width: 740px) {
   .layout.layout--twocol-section--50-50 > .layout__region {
     -webkit-box-flex: 0;
-            flex: 0 1 auto;
+            flex: 0 1 calc(50% - 0.5em);
   }
 }
 
