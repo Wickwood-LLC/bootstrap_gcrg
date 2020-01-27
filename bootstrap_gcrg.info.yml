@@ -23,3 +23,10 @@ regions:
 libraries-extend:
   bootstrap/framework:
     - bootstrap_gcrg/framework
+
+libraries-override:
+  bootstrap_wwm_base/framework:
+    css:
+      navigation:
+        css/navbar.css: false
+
