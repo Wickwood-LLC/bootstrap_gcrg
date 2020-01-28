@@ -1174,16 +1174,23 @@ p:last-child,
     &.layout--twocol {
         > .layout__region--first,
         > .layout__region--second {
+            @include breakpoint(40em) {
+                flex: 1 1 100%;
+            }
             @include breakpoint(740px) {
                 flex: 0 1 calc(50% - 0.5em);
             }
         }
 
         > .layout__region--first {
-            margin-left: 0;
+            @include breakpoint(740px) {
+                margin-left: 0;
+            }
         }
         > .layout__region--second {
-            margin-right: 0;
+            @include breakpoint(740px) {
+                margin-right: 0;
+            }
         }
     }
 }
