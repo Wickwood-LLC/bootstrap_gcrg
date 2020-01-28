@@ -1170,6 +1170,22 @@ p:last-child,
             flex: 0 1 calc(50% - 0.5em);
         }
     }
+
+    &.layout--twocol {
+        > .layout__region--first,
+        > .layout__region--second {
+            @include breakpoint(740px) {
+                flex: 0 1 calc(50% - 0.5em);
+            }
+        }
+
+        > .layout__region--first {
+            margin-left: 0;
+        }
+        > .layout__region--second {
+            margin-right: 0;
+        }
+    }
 }
 
 .page-node-type-event {
