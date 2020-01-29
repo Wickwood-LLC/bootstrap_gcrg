@@ -9289,11 +9289,40 @@ p:last-child,
   }
 }
 
+@media (min-width: 40em) {
+  .layout.layout--threecol-section--33-34-33 > .layout__region--first,
+  .layout.layout--threecol-section--33-34-33 > .layout__region--third {
+    -webkit-box-flex: 0;
+            flex: 0 1 calc(33% - 1em);
+  }
+}
+
+@media (min-width: 40em) {
+  .layout.layout--threecol-section--33-34-33 > .layout__region--second {
+    -webkit-box-flex: 0;
+            flex: 0 1 calc(34% - 1em);
+  }
+}
+
+/********************* NODE TYPES *********************/
 .page-node-type-event .field--name-field-event-location {
   margin: 1em 0;
 }
 
 .page-node-type-event .block-views-blockcontent-image-slideshow-block-1 {
   margin: 1em 0;
+}
+
+.field--name-field-fundraising-link {
+  text-align: center;
+}
+
+.field--name-field-fundraising-link .field--label {
+  float: none;
+  display: inline;
+}
+
+.field--name-field-fundraising-link .field--item {
+  display: inline;
 }
 /*# sourceMappingURL=style.css.map */
