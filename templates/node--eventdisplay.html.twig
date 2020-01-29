@@ -78,9 +78,9 @@
 
   {{ title_prefix }}
   {% if label and not page %}
-    <h2{{ title_attributes }}>
+    <h6{{ title_attributes }}>
       <a href="{{ url }}" rel="bookmark">{{ label }}</a>
-    </h2>
+    </h6>
   {% endif %}
   {{ title_suffix }}
 
@@ -95,7 +95,7 @@
   {% endif %}
 
   <div{{ content_attributes.addClass('content') }}>
-    {{ content }}
+    {{ content.field_start_date_and_time }}
   </div>
 
 </article>
