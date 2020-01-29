@@ -2948,12 +2948,12 @@
 		"oAP": "/templates/maintenance-page.html.twig",
 		"oF": 0
 		},
-	"/templates/node--event-display.html.twig": {
+	"/templates/node--eventdisplay.html.twig": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/templates/node--event-display.html.twig",
+		"oAP": "/templates/node--eventdisplay.html.twig",
 		"oF": 0
 		},
 	"/templates/page.html.twig": {
