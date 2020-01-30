@@ -1040,9 +1040,11 @@ p:last-child,
         .select-wrapper {
             flex: 0 1 auto;
             width: auto;
+            max-width: calc(100% - 129px);
 
             select {
                 width: auto;
+                max-width: 100%
             }
         }
     }

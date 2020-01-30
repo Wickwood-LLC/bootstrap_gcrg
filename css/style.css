@@ -9112,11 +9112,13 @@ p:last-child,
   -webkit-box-flex: 0;
           flex: 0 1 auto;
   width: auto;
+  max-width: calc(100% - 129px);
 }
 
 .views-exposed-form .form-item-sort-by .select-wrapper select,
 .views-exposed-form .form-item-sort-order .select-wrapper select {
   width: auto;
+  max-width: 100%;
 }
 
 .views-exposed-form .form-actions {
