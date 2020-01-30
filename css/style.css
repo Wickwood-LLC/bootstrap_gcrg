@@ -9096,6 +9096,9 @@ p:last-child,
   display: flex;
   -webkit-box-align: baseline;
           align-items: baseline;
+  -webkit-box-flex: 0;
+          flex: 0 1 auto;
+  padding-left: 0.5em;
 }
 
 .views-exposed-form .form-item-sort-by label,
@@ -9108,6 +9111,11 @@ p:last-child,
 .views-exposed-form .form-item-sort-order .select-wrapper {
   -webkit-box-flex: 0;
           flex: 0 1 auto;
+  width: auto;
+}
+
+.views-exposed-form .form-item-sort-by .select-wrapper select,
+.views-exposed-form .form-item-sort-order .select-wrapper select {
   width: auto;
 }
 
@@ -9129,7 +9137,7 @@ p:last-child,
 }
 
 .views-exposed-form .layout__region--bottom {
-  margin-top: 1em;
+  padding-top: 1em;
   text-align: center;
 }
 

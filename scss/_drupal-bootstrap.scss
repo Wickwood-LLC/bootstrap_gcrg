@@ -1031,6 +1031,8 @@ p:last-child,
     .form-item-sort-order {
         display: flex;
         align-items: baseline;
+        flex: 0 1 auto;
+        padding-left: 0.5em;
 
         label {
             flex: 0 0 70px;
@@ -1038,6 +1040,10 @@ p:last-child,
         .select-wrapper {
             flex: 0 1 auto;
             width: auto;
+
+            select {
+                width: auto;
+            }
         }
     }
 
@@ -1054,7 +1060,7 @@ p:last-child,
         }
     }
     .layout__region--bottom {
-        margin-top: 1em;
+        padding-top: 1em;
         text-align: center;
 
         #edit-reset {
