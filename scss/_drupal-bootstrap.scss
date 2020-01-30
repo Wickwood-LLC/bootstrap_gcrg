@@ -1202,6 +1202,7 @@ p:last-child,
             }
             @include breakpoint(740px) {
                 flex: 0 1 calc(50% - 0.5em);
+                max-width: calc(50% - 0.5em);
             }
         }
 

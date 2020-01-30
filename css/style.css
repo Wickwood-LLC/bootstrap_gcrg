@@ -9303,6 +9303,7 @@ p:last-child,
   .layout.layout--twocol > .layout__region--second {
     -webkit-box-flex: 0;
             flex: 0 1 calc(50% - 0.5em);
+    max-width: calc(50% - 0.5em);
   }
 }
 
