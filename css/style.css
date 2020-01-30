@@ -9094,26 +9094,47 @@ p:last-child,
 .views-exposed-form .form-item-sort-order {
   display: -webkit-box;
   display: flex;
-  -webkit-box-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-          justify-content: center;
+  -webkit-box-align: baseline;
+          align-items: baseline;
 }
 
 .views-exposed-form .form-item-sort-by label,
 .views-exposed-form .form-item-sort-order label {
   -webkit-box-flex: 0;
-          flex: 0 1 70px;
+          flex: 0 0 70px;
 }
 
 .views-exposed-form .form-item-sort-by .select-wrapper,
 .views-exposed-form .form-item-sort-order .select-wrapper {
-  -webkit-box-flex: 1;
-          flex: 1 1 calc(100% - 70px);
+  -webkit-box-flex: 0;
+          flex: 0 1 auto;
+  width: auto;
 }
 
 .views-exposed-form .form-actions {
   text-align: center;
+}
+
+.views-exposed-form .layout__region--second {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+          flex-flow: row wrap;
+}
+
+.views-exposed-form .layout__region--second .form-item {
+  -webkit-box-flex: 1;
+          flex: 1 100%;
+}
+
+.views-exposed-form .layout__region--bottom {
+  margin-top: 1em;
+  text-align: center;
+}
+
+.views-exposed-form .layout__region--bottom #edit-reset {
+  margin-left: 0.5em;
 }
 
 .bef-exposed-form .form--inline {

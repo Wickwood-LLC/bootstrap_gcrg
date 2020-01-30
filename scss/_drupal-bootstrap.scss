@@ -1030,19 +1030,36 @@ p:last-child,
     .form-item-sort-by,
     .form-item-sort-order {
         display: flex;
-        align-items: center;
-        justify-content: center;
+        align-items: baseline;
 
         label {
-            flex: 0 1 70px;
+            flex: 0 0 70px;
         }
         .select-wrapper {
-            flex: 1 1 calc(100% - 70px);
+            flex: 0 1 auto;
+            width: auto;
         }
     }
 
     .form-actions {
         text-align: center;
+    }
+
+    .layout__region--second {
+        display: flex;
+        flex-flow: row wrap;
+
+        .form-item {
+            flex: 1 100%;
+        }
+    }
+    .layout__region--bottom {
+        margin-top: 1em;
+        text-align: center;
+
+        #edit-reset {
+            margin-left: 0.5em;
+        }
     }
 }
 
