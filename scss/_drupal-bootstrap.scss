@@ -827,16 +827,16 @@ p:last-child,
     border: 1px solid #4e7332;
     border-radius: 8px;
     margin-bottom: 1em;
-    padding-bottom: 0.5em;
+    padding: 0 0.5em 0.5em 0.5em;
 
     .block-title {
         background-color: #4e7332;
         border-radius: 5px 5px 0 0;
         font-size: 1em;
         text-transform: uppercase;
-        margin: 0;
         padding: 16px 15px 13px;
         color: #fff;
+        margin: 0 -0.5em 0.5em -0.5em;
     }
 
     .more-link {
