@@ -9018,6 +9018,12 @@ p:last-child,
   left: 25%;
 }
 
+.view-news .views-row:last-child:after,
+.view-letters-to-the-editor .views-row:last-child:after,
+.view-gcrg-pubic-forums .views-row:last-child:after {
+  display: none;
+}
+
 .view-news .views-field-field-feature-media,
 .view-letters-to-the-editor .views-field-field-feature-media,
 .view-gcrg-pubic-forums .views-field-field-feature-media {
