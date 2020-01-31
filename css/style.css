@@ -9385,4 +9385,26 @@ p:last-child,
   min-width: 200px;
   margin-left: 0.5em;
 }
+
+.page-node-type-development-project .field--name-field-discussion-forum .author {
+  text-align: center;
+}
+
+.page-node-type-development-project .field--name-field-discussion-forum .field--name-taxonomy-forums {
+  text-align: center;
+}
+
+.page-node-type-development-project .field--name-field-discussion-forum .field--name-taxonomy-forums .field--label {
+  float: none;
+  display: inline;
+}
+
+.page-node-type-development-project .field--name-field-discussion-forum .field--name-taxonomy-forums .field-item {
+  display: inline;
+  margin-bottom: 1em;
+}
+
+.page-node-type-development-project .field--name-field-discussion-forum #edit-actions {
+  text-align: center;
+}
 /*# sourceMappingURL=style.css.map */

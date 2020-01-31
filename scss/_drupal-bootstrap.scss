@@ -1281,4 +1281,26 @@ p:last-child,
             }
         }
     }
+
+    .field--name-field-discussion-forum {
+        .author {
+            text-align: center;
+        }
+        .field--name-taxonomy-forums {
+            text-align: center;
+    
+            .field--label {
+                float: none;
+                display: inline;
+            }
+            .field-item {
+                display: inline;
+                margin-bottom: 1em;
+            }
+        }
+    
+        #edit-actions {
+            text-align: center;
+        }
+    }
 }
