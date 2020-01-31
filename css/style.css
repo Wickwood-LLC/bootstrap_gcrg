@@ -9357,4 +9357,26 @@ p:last-child,
 .field--name-field-fundraising-link .field--item {
   display: inline;
 }
+
+.page-node-type-development-project .block-field-blocknodedevelopment-projectfield-project-address {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+          justify-content: center;
+}
+
+.page-node-type-development-project .block-views-blockfull-calendar-view-block-1 .view-content ul {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+          flex-flow: row wrap;
+}
+
+.page-node-type-development-project .block-views-blockfull-calendar-view-block-1 .view-content ul li {
+  -webkit-box-flex: 1;
+          flex: 1 1 0;
+  min-width: 200px;
+  margin-left: 0.5em;
+}
 /*# sourceMappingURL=style.css.map */
