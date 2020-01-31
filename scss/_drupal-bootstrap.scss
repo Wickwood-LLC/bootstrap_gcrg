@@ -970,6 +970,10 @@ p:last-child,
             bottom: 0px;
             left: 25%;
         }
+
+        &:last-child:after; {
+            display: none;
+        }
     }
     .views-field-field-feature-media {
         float: left;
