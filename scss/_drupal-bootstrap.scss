@@ -834,7 +834,10 @@ p:last-child,
         border-radius: 5px 5px 0 0;
         padding: 16px 15px 13px;
         color: #fff;
-        margin: 0 -0.5em 0.5em -0.5em;
+
+        + div {
+            padding: 1em;
+        }
     }
 
     .more-link {
