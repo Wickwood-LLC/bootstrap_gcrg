@@ -2932,6 +2932,14 @@
 		"rFN": 0,
 		"uCM": 0
 		},
+	"/templates/block.html.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/templates/block.html.twig",
+		"oF": 0
+		},
 	"/templates/html.html.twig": {
 		"cB": 0,
 		"ft": 8192,
