@@ -960,6 +960,14 @@ p:last-child,
         overflow: auto;
         position: relative;
 
+        &:last-child {
+            margin-bottom: 0;
+            padding-bottom: 0;
+            &:after {
+                display: none;
+            }
+        }
+
         &:after {
             content: '';
             width: 50%;
@@ -970,10 +978,6 @@ p:last-child,
             position: absolute;
             bottom: 0px;
             left: 25%;
-        }
-
-        &:last-child:after {
-            display: none;
         }
     }
     .views-field-field-feature-media {

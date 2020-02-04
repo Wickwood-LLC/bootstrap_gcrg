@@ -9005,6 +9005,19 @@ p:last-child,
   position: relative;
 }
 
+.view-news .views-row:last-child,
+.view-letters-to-the-editor .views-row:last-child,
+.view-gcrg-pubic-forums .views-row:last-child {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.view-news .views-row:last-child:after,
+.view-letters-to-the-editor .views-row:last-child:after,
+.view-gcrg-pubic-forums .views-row:last-child:after {
+  display: none;
+}
+
 .view-news .views-row:after,
 .view-letters-to-the-editor .views-row:after,
 .view-gcrg-pubic-forums .views-row:after {
@@ -9017,12 +9030,6 @@ p:last-child,
   position: absolute;
   bottom: 0px;
   left: 25%;
-}
-
-.view-news .views-row:last-child:after,
-.view-letters-to-the-editor .views-row:last-child:after,
-.view-gcrg-pubic-forums .views-row:last-child:after {
-  display: none;
 }
 
 .view-news .views-field-field-feature-media,
