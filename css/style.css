@@ -9151,19 +9151,6 @@ p:last-child,
   text-align: center;
 }
 
-.views-exposed-form .layout__region--second {
-  display: -webkit-box;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-          flex-flow: row wrap;
-}
-
-.views-exposed-form .layout__region--second .form-item {
-  -webkit-box-flex: 1;
-          flex: 1 100%;
-}
-
 .views-exposed-form .layout__region--bottom {
   padding-top: 1em;
   text-align: center;
@@ -9420,5 +9407,9 @@ p:last-child,
 
 .page-node-type-development-project .field--name-field-discussion-forum #edit-actions {
   text-align: center;
+}
+
+.page-node-type-development-project .field--name-field-project-description {
+  margin-top: 1em;
 }
 /*# sourceMappingURL=style.css.map */

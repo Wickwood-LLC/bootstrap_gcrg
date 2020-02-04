@@ -1073,15 +1073,6 @@ p:last-child,
     .form-actions {
         text-align: center;
     }
-
-    .layout__region--second {
-        display: flex;
-        flex-flow: row wrap;
-
-        .form-item {
-            flex: 1 100%;
-        }
-    }
     .layout__region--bottom {
         padding-top: 1em;
         text-align: center;
@@ -1322,5 +1313,9 @@ p:last-child,
         #edit-actions {
             text-align: center;
         }
+    }
+
+    .field--name-field-project-description {
+        margin-top: 1em;
     }
 }
