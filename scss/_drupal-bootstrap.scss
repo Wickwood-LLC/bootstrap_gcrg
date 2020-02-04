@@ -1050,9 +1050,7 @@ p:last-child,
 
     .form-item-sort-by,
     .form-item-sort-order {
-        display: flex;
-        align-items: baseline;
-        flex: 0 1 auto;
+        display: inline;
         padding-left: 0.5em;
 
         label {
