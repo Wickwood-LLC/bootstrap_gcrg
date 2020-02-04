@@ -8033,6 +8033,7 @@ p {
 .field--label-inline .field--items {
   display: inline;
   float: none;
+  padding-right: 0;
 }
 
 #navbar {
