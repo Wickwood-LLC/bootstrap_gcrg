@@ -9117,29 +9117,39 @@ p:last-child,
 }
 
 .views-exposed-form .form-item-sort-by,
-.views-exposed-form .form-item-sort-order {
-  display: inline;
+.views-exposed-form .form-item-sort-order,
+.views-exposed-form .form-item-field-publication-date-value-op {
+  display: inline-block;
   padding-left: 0.5em;
 }
 
 .views-exposed-form .form-item-sort-by label,
-.views-exposed-form .form-item-sort-order label {
+.views-exposed-form .form-item-sort-order label,
+.views-exposed-form .form-item-field-publication-date-value-op label {
   -webkit-box-flex: 0;
           flex: 0 0 70px;
 }
 
 .views-exposed-form .form-item-sort-by .select-wrapper,
-.views-exposed-form .form-item-sort-order .select-wrapper {
-  -webkit-box-flex: 0;
-          flex: 0 1 auto;
+.views-exposed-form .form-item-sort-order .select-wrapper,
+.views-exposed-form .form-item-field-publication-date-value-op .select-wrapper {
   width: auto;
-  max-width: calc(100% - 129px);
 }
 
 .views-exposed-form .form-item-sort-by .select-wrapper select,
-.views-exposed-form .form-item-sort-order .select-wrapper select {
+.views-exposed-form .form-item-sort-order .select-wrapper select,
+.views-exposed-form .form-item-field-publication-date-value-op .select-wrapper select {
   width: auto;
   max-width: 100%;
+}
+
+.views-exposed-form .form-item-field-publication-date-value-value {
+  display: inline-block;
+}
+
+.views-exposed-form .form-item-field-publication-date-value-value input {
+  width: auto;
+  display: inline-block;
 }
 
 .views-exposed-form .form-actions {

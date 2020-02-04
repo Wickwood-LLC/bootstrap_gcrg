@@ -1049,22 +1049,29 @@ p:last-child,
     margin: 1em 0;
 
     .form-item-sort-by,
-    .form-item-sort-order {
-        display: inline;
+    .form-item-sort-order,
+    .form-item-field-publication-date-value-op {
+        display: inline-block;
         padding-left: 0.5em;
 
         label {
             flex: 0 0 70px;
         }
         .select-wrapper {
-            flex: 0 1 auto;
             width: auto;
-            max-width: calc(100% - 129px);
 
             select {
                 width: auto;
                 max-width: 100%
             }
+        }
+    }
+    .form-item-field-publication-date-value-value {
+        display: inline-block;
+        
+        input {
+            width: auto;
+            display: inline-block;
         }
     }
 
