@@ -842,10 +842,9 @@ p:last-child,
         padding: 16px 15px 13px;
         color: #fff;
         margin: 0;
-
-        + div {
-            padding: 1em;
-        }
+    }
+    .block-content {
+        padding: 1em;
     }
 
     .more-link {
@@ -1068,7 +1067,7 @@ p:last-child,
     }
     .form-item-field-publication-date-value-value {
         display: inline-block;
-        
+
         input {
             width: auto;
             display: inline-block;

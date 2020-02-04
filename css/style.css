@@ -8889,7 +8889,7 @@ p:last-child,
   margin: 0;
 }
 
-.boxed .block-title + div {
+.boxed .block-content {
   padding: 1em;
 }
 
