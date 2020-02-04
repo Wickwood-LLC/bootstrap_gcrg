@@ -851,6 +851,10 @@ p:last-child,
     }
 }
 
+.centered-content {
+    text-align: center;
+}
+
 /********************* FORUMS *********************/
 .path-forum {
     .region-content {
@@ -1255,8 +1259,6 @@ p:last-child,
 }
 
 .field--name-field-fundraising-link {
-    text-align: center;
-
     .field--label {
         float: none;
         display: inline;
@@ -1268,8 +1270,8 @@ p:last-child,
 
 .page-node-type-development-project {
     .block-field-blocknodedevelopment-projectfield-project-address {
-        display: flex;
-        justify-content: center;
+        // display: flex;
+        // justify-content: center;
     }
 
     .block-views-blockfull-calendar-view-block-1 {
@@ -1285,6 +1287,11 @@ p:last-child,
                 }
             }
         }
+    }
+
+    .block-views-blockletters-to-the-editor-block-1,
+    .block-views-blocknews-block-1 {
+        height: 100%
     }
 
     .field--name-field-discussion-forum {

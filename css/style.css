@@ -8895,6 +8895,10 @@ p:last-child,
   color: #e24f4c;
 }
 
+.centered-content {
+  text-align: center;
+}
+
 /********************* FORUMS *********************/
 .path-forum .region-content {
   max-width: 100%;
@@ -9359,10 +9363,6 @@ p:last-child,
   margin: 1em 0;
 }
 
-.field--name-field-fundraising-link {
-  text-align: center;
-}
-
 .field--name-field-fundraising-link .field--label {
   float: none;
   display: inline;
@@ -9370,13 +9370,6 @@ p:last-child,
 
 .field--name-field-fundraising-link .field--item {
   display: inline;
-}
-
-.page-node-type-development-project .block-field-blocknodedevelopment-projectfield-project-address {
-  display: -webkit-box;
-  display: flex;
-  -webkit-box-pack: center;
-          justify-content: center;
 }
 
 .page-node-type-development-project .block-views-blockfull-calendar-view-block-1 .view-content ul {
@@ -9392,6 +9385,11 @@ p:last-child,
           flex: 1 1 0;
   min-width: 200px;
   margin-left: 0.5em;
+}
+
+.page-node-type-development-project .block-views-blockletters-to-the-editor-block-1,
+.page-node-type-development-project .block-views-blocknews-block-1 {
+  height: 100%;
 }
 
 .page-node-type-development-project .field--name-field-discussion-forum .author {
