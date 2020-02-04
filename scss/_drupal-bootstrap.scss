@@ -97,6 +97,13 @@ p {
     }
 }
 
+.field--label-inline {
+    .field--label, > .field--item, .field--items {
+        display: inline;
+        float: none;
+    }
+}
+
 // Navbar
 #navbar {
     background-color: #75635b;

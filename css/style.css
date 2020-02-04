@@ -8028,6 +8028,13 @@ p {
   display: inline-block;
 }
 
+.field--label-inline .field--label,
+.field--label-inline > .field--item,
+.field--label-inline .field--items {
+  display: inline;
+  float: none;
+}
+
 #navbar {
   background-color: #75635b;
   border: 0px;
