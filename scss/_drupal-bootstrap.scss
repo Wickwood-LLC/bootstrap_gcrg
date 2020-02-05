@@ -973,8 +973,10 @@ p:last-child,
 .view-gcrg-pubic-forums,
 .view-development-projects {
     .views-row {
+        display: inline-block;
         margin-bottom: 2em;
         position: relative;
+        width: 100%;
 
         &:last-child {
             margin-bottom: 0;
@@ -992,7 +994,7 @@ p:last-child,
             text-align: center;
             margin: auto;
             position: absolute;
-            bottom: -1em;
+            bottom: -1.25em;
             left: 25%;
         }
     }

@@ -9016,8 +9016,10 @@ p:last-child,
 .view-letters-to-the-editor .views-row,
 .view-gcrg-pubic-forums .views-row,
 .view-development-projects .views-row {
+  display: inline-block;
   margin-bottom: 2em;
   position: relative;
+  width: 100%;
 }
 
 .view-news .views-row:last-child,
@@ -9046,7 +9048,7 @@ p:last-child,
   text-align: center;
   margin: auto;
   position: absolute;
-  bottom: -1em;
+  bottom: -1.25em;
   left: 25%;
 }
 
