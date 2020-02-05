@@ -9396,11 +9396,6 @@ p:last-child,
   margin-left: 0.5em;
 }
 
-.page-node-type-development-project .block-views-blockletters-to-the-editor-block-1,
-.page-node-type-development-project .block-views-blocknews-block-1 {
-  height: 100%;
-}
-
 .page-node-type-development-project .field--name-field-discussion-forum .author {
   text-align: center;
 }
