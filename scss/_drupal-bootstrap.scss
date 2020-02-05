@@ -863,7 +863,7 @@ p:last-child,
 }
 
 .equal-height {
-    .layout__region > {
+    .layout__region > * {
         height: 100%;
     }
 }

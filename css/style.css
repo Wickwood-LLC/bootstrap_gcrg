@@ -8907,7 +8907,7 @@ p:last-child,
   text-align: center;
 }
 
-.equal-height .layout__region > {
+.equal-height .layout__region > * {
   height: 100%;
 }
 
