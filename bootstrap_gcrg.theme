@@ -18,3 +18,4 @@ use Drupal\node\Entity\Node;
 function bootstrap_gcrg_preprocess_page(&$variables) {
   $variables['site_name'] = Markup::create(strip_tags(html_entity_decode(\Drupal::config('system.site')->get('name'))));
 }
+ 
