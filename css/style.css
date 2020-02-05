@@ -9143,11 +9143,16 @@ p:last-child,
   margin: 1em 0;
 }
 
+.views-exposed-form .layout--twocol > .layout__region {
+  text-align: center;
+}
+
 .views-exposed-form .form-item-sort-by,
 .views-exposed-form .form-item-sort-order,
 .views-exposed-form .form-item-field-publication-date-value-op {
   display: inline-block;
-  padding-left: 0.5em;
+  padding-left: 2em;
+  padding-right: 2em;
 }
 
 .views-exposed-form .form-item-sort-by label,
@@ -9177,6 +9182,12 @@ p:last-child,
 .views-exposed-form .form-item-field-publication-date-value-value input {
   width: auto;
   display: inline-block;
+}
+
+.views-exposed-form input#edit-field-publication-date-value-max,
+.views-exposed-form input#edit-field-publication-date-value-min {
+  width: auto;
+  margin: auto;
 }
 
 .views-exposed-form .form-actions {

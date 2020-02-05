@@ -1062,11 +1062,16 @@ p:last-child,
 .views-exposed-form {
     margin: 1em 0;
 
+    .layout--twocol > .layout__region {
+        text-align: center;
+    }
+
     .form-item-sort-by,
     .form-item-sort-order,
     .form-item-field-publication-date-value-op {
         display: inline-block;
-        padding-left: 0.5em;
+        padding-left: 2em;
+        padding-right: 2em;
 
         label {
             flex: 0 0 70px;
@@ -1087,6 +1092,11 @@ p:last-child,
             width: auto;
             display: inline-block;
         }
+    }
+    input#edit-field-publication-date-value-max,
+    input#edit-field-publication-date-value-min {
+        width: auto;
+        margin: auto;
     }
 
     .form-actions {
