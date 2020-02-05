@@ -9056,8 +9056,24 @@ p:last-child,
 .view-letters-to-the-editor .views-field-field-feature-media,
 .view-gcrg-pubic-forums .views-field-field-feature-media,
 .view-development-projects .views-field-field-feature-media {
-  float: left;
-  margin-right: 1.5em;
+  text-align: center;
+}
+
+@media (min-width: 600px) {
+  .view-news .views-field-field-feature-media,
+  .view-letters-to-the-editor .views-field-field-feature-media,
+  .view-gcrg-pubic-forums .views-field-field-feature-media,
+  .view-development-projects .views-field-field-feature-media {
+    float: left;
+    margin-right: 1.5em;
+  }
+}
+
+.view-news .views-field-field-feature-media img,
+.view-letters-to-the-editor .views-field-field-feature-media img,
+.view-gcrg-pubic-forums .views-field-field-feature-media img,
+.view-development-projects .views-field-field-feature-media img {
+  margin: auto;
 }
 
 .view-news .views-field-title h2,
