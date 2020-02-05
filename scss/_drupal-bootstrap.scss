@@ -968,8 +968,6 @@ p:last-child,
 .view-development-projects {
     .views-row {
         margin-bottom: 2em;
-        padding-bottom: 0.5em;
-        overflow: auto;
         position: relative;
 
         &:last-child {
@@ -988,7 +986,7 @@ p:last-child,
             text-align: center;
             margin: auto;
             position: absolute;
-            bottom: 0px;
+            bottom: -1em;
             left: 25%;
         }
     }
