@@ -827,17 +827,17 @@ p:last-child,
     padding: 1em;
     cursor: move;
     background-color: #fff;
-    border: 1px solid #4e7332;
+    border: 1px solid #5c9630;
     border-radius: 8px;
     margin-bottom: 1em;
 }
 .boxed {
-    border: 1px solid #4e7332;
+    border: 1px solid #5c9630;
     border-radius: 8px;
     margin-bottom: 1em;
 
     .block-title {
-        background-color: #4e7332;
+        background-color: #5c9630;
         border-radius: 5px 5px 0 0;
         padding: 16px 15px 13px;
         color: #fff;
@@ -863,7 +863,7 @@ p:last-child,
 }
 
 .equal-height {
-    .layout__region > * {
+    .layout__region > section {
         height: 100%;
     }
 }
@@ -1015,6 +1015,19 @@ p:last-child,
     }
     .views-field-body {
         margin-top: 0.5em;
+    }
+}
+
+.view-development-projects {
+    .view-content {
+        text-align: center;
+    }
+    .group-title {
+        display: block;
+        
+        @include breakpoint(600px) {
+            display: inline;
+        }
     }
 }
 
