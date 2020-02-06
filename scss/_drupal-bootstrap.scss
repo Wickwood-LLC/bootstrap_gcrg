@@ -862,7 +862,7 @@ p:last-child,
     text-align: center;
 }
 
-.equal-height {
+.equal-height:not(.layout-builder__region) {
     .layout__region > section {
         height: 100%;
     }
