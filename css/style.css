@@ -9061,6 +9061,9 @@ p:last-child,
   .view-development-projects .group-title {
     display: inline;
   }
+  .view-development-projects .view-content {
+    text-align: left;
+  }
 }
 
 .view-full-calendar-view td.fc-widget-content {

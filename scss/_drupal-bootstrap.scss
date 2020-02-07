@@ -1024,9 +1024,14 @@ p:last-child,
     }
     .group-title {
         display: block;
-        
-        @include breakpoint(600px) {
+    }
+
+    @include breakpoint(600px) {
+        .group-title {
             display: inline;
+        }
+        .view-content {
+            text-align: left;
         }
     }
 }
