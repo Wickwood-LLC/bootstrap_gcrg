@@ -105,8 +105,10 @@ p {
     }
 
     &.field-item-list .field--items {
-        display: inline-block;
-        vertical-align: text-top;
+        ol, ul {
+            display: inline-block;
+            vertical-align: text-top;
+        }
     }
 }
 
