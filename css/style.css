@@ -8014,19 +8014,6 @@ p {
   display: inline-block;
 }
 
-.field--label-inline .field--label,
-.field--label-inline > .field--item,
-.field--label-inline .field--items {
-  display: inline;
-  float: none;
-  padding-right: 0;
-}
-
-.field--label-inline.field-item-list .field--items ol, .field--label-inline.field-item-list .field--items ul {
-  display: inline-block;
-  vertical-align: text-top;
-}
-
 #navbar {
   background-color: #75635b;
   border: 0px;
