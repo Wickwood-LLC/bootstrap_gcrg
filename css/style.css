@@ -8022,6 +8022,11 @@ p {
   padding-right: 0;
 }
 
+.field--label-inline.field-item-list .field--items {
+  display: inline-block;
+  vertical-align: text-top;
+}
+
 #navbar {
   background-color: #75635b;
   border: 0px;

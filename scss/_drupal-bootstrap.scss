@@ -103,6 +103,11 @@ p {
         float: none;
         padding-right: 0;
     }
+
+    &.field-item-list .field--items {
+        display: inline-block;
+        vertical-align: text-top;
+    }
 }
 
 // Navbar
