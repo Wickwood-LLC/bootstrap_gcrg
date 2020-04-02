@@ -8966,7 +8966,8 @@ p:last-child,
 .view-news .views-row,
 .view-letters-to-the-editor .views-row,
 .view-gcrg-pubic-forums .views-row,
-.view-development-projects .views-row {
+.view-development-projects .views-row,
+.view-proposed-local-laws .views-row {
   display: inline-block;
   margin-bottom: 2em;
   position: relative;
@@ -8976,7 +8977,8 @@ p:last-child,
 .view-news .views-row:last-child,
 .view-letters-to-the-editor .views-row:last-child,
 .view-gcrg-pubic-forums .views-row:last-child,
-.view-development-projects .views-row:last-child {
+.view-development-projects .views-row:last-child,
+.view-proposed-local-laws .views-row:last-child {
   margin-bottom: 0;
   padding-bottom: 0;
 }
@@ -8984,14 +8986,16 @@ p:last-child,
 .view-news .views-row:last-child:after,
 .view-letters-to-the-editor .views-row:last-child:after,
 .view-gcrg-pubic-forums .views-row:last-child:after,
-.view-development-projects .views-row:last-child:after {
+.view-development-projects .views-row:last-child:after,
+.view-proposed-local-laws .views-row:last-child:after {
   display: none;
 }
 
 .view-news .views-row:after,
 .view-letters-to-the-editor .views-row:after,
 .view-gcrg-pubic-forums .views-row:after,
-.view-development-projects .views-row:after {
+.view-development-projects .views-row:after,
+.view-proposed-local-laws .views-row:after {
   content: '';
   width: 50%;
   display: block;
@@ -9006,7 +9010,8 @@ p:last-child,
 .view-news .views-field-field-feature-media,
 .view-letters-to-the-editor .views-field-field-feature-media,
 .view-gcrg-pubic-forums .views-field-field-feature-media,
-.view-development-projects .views-field-field-feature-media {
+.view-development-projects .views-field-field-feature-media,
+.view-proposed-local-laws .views-field-field-feature-media {
   text-align: center;
 }
 
@@ -9014,7 +9019,8 @@ p:last-child,
   .view-news .views-field-field-feature-media,
   .view-letters-to-the-editor .views-field-field-feature-media,
   .view-gcrg-pubic-forums .views-field-field-feature-media,
-  .view-development-projects .views-field-field-feature-media {
+  .view-development-projects .views-field-field-feature-media,
+  .view-proposed-local-laws .views-field-field-feature-media {
     float: left;
     margin-right: 1.5em;
   }
@@ -9023,22 +9029,42 @@ p:last-child,
 .view-news .views-field-field-feature-media img,
 .view-letters-to-the-editor .views-field-field-feature-media img,
 .view-gcrg-pubic-forums .views-field-field-feature-media img,
-.view-development-projects .views-field-field-feature-media img {
+.view-development-projects .views-field-field-feature-media img,
+.view-proposed-local-laws .views-field-field-feature-media img {
   margin: auto;
 }
 
 .view-news .views-field-title h2,
 .view-letters-to-the-editor .views-field-title h2,
 .view-gcrg-pubic-forums .views-field-title h2,
-.view-development-projects .views-field-title h2 {
+.view-development-projects .views-field-title h2,
+.view-proposed-local-laws .views-field-title h2 {
   margin: 0;
 }
 
 .view-news .views-field-body,
 .view-letters-to-the-editor .views-field-body,
 .view-gcrg-pubic-forums .views-field-body,
-.view-development-projects .views-field-body {
+.view-development-projects .views-field-body,
+.view-proposed-local-laws .views-field-body {
   margin-top: 0.5em;
+}
+
+.view-news .views-field-view-node,
+.view-letters-to-the-editor .views-field-view-node,
+.view-gcrg-pubic-forums .views-field-view-node,
+.view-development-projects .views-field-view-node,
+.view-proposed-local-laws .views-field-view-node {
+  text-align: right;
+}
+
+.view-news .views-field-view-node a,
+.view-letters-to-the-editor .views-field-view-node a,
+.view-gcrg-pubic-forums .views-field-view-node a,
+.view-development-projects .views-field-view-node a,
+.view-proposed-local-laws .views-field-view-node a {
+  color: red;
+  font-weight: bold;
 }
 
 .view-development-projects .view-content {
@@ -9397,14 +9423,5 @@ p:last-child,
 
 .page-node-type-development-project .field--name-field-project-description {
   margin-top: 1em;
-}
-
-.views-field-view-node {
-  text-align: right;
-}
-
-.views-field-view-node a {
-  color: red;
-  font-weight: bold;
 }
 /*# sourceMappingURL=style.css.map */

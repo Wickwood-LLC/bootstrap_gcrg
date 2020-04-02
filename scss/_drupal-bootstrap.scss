@@ -963,7 +963,8 @@ p:last-child,
 .view-news,
 .view-letters-to-the-editor,
 .view-gcrg-pubic-forums,
-.view-development-projects {
+.view-development-projects,
+.view-proposed-local-laws {
     .views-row {
         display: inline-block;
         margin-bottom: 2em;
@@ -1007,6 +1008,14 @@ p:last-child,
     }
     .views-field-body {
         margin-top: 0.5em;
+    }
+    .views-field-view-node {
+        text-align: right;
+        
+        a {
+            color: red;
+            font-weight: bold;
+        }
     }
 }
 
@@ -1346,14 +1355,5 @@ p:last-child,
 
     .field--name-field-project-description {
         margin-top: 1em;
-    }
-}
-
-.views-field-view-node {
-    text-align: right;
-    
-    a {
-        color: red;
-        font-weight: bold;
     }
 }
