@@ -1348,3 +1348,12 @@ p:last-child,
         margin-top: 1em;
     }
 }
+
+.views-field-view-node {
+    text-align: right;
+    
+    a {
+        color: red;
+        font-weight: bold;
+    }
+}
