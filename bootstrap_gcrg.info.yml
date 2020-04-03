@@ -24,6 +24,9 @@ libraries-extend:
   bootstrap/framework:
     - bootstrap_gcrg/framework
 
+ckeditor_stylesheets:
+  - css/ckeditor-styles.css
+
 libraries-override:
   bootstrap_wwm_base/framework:
     css:
