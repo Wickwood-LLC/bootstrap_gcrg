@@ -9424,4 +9424,9 @@ p:last-child,
 .page-node-type-development-project .field--name-field-project-description {
   margin-top: 1em;
 }
+
+.page-node-type-proposed-local-law .field--name-revision-timestamp .field--label, .page-node-type-proposed-local-law .field--name-revision-timestamp .field--item {
+  display: inline;
+  float: none;
+}
 /*# sourceMappingURL=style.css.map */

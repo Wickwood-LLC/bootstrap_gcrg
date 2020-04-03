@@ -1357,3 +1357,12 @@ p:last-child,
         margin-top: 1em;
     }
 }
+
+.page-node-type-proposed-local-law {
+    .field--name-revision-timestamp {
+        .field--label, .field--item {
+            display: inline;
+            float: none;
+        }
+    }
+}
