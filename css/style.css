@@ -8962,6 +8962,7 @@ p:last-child,
 }
 
 /********************************************************/
+.block-views-blockfull-calendar-view-block-2 .views-row,
 .view-news .views-row,
 .view-letters-to-the-editor .views-row,
 .view-gcrg-pubic-forums .views-row,
@@ -8973,6 +8974,7 @@ p:last-child,
   width: 100%;
 }
 
+.block-views-blockfull-calendar-view-block-2 .views-row:last-child,
 .view-news .views-row:last-child,
 .view-letters-to-the-editor .views-row:last-child,
 .view-gcrg-pubic-forums .views-row:last-child,
@@ -8982,6 +8984,7 @@ p:last-child,
   padding-bottom: 0;
 }
 
+.block-views-blockfull-calendar-view-block-2 .views-row:last-child:after,
 .view-news .views-row:last-child:after,
 .view-letters-to-the-editor .views-row:last-child:after,
 .view-gcrg-pubic-forums .views-row:last-child:after,
@@ -8990,6 +8993,7 @@ p:last-child,
   display: none;
 }
 
+.block-views-blockfull-calendar-view-block-2 .views-row:after,
 .view-news .views-row:after,
 .view-letters-to-the-editor .views-row:after,
 .view-gcrg-pubic-forums .views-row:after,
@@ -9006,6 +9010,7 @@ p:last-child,
   left: 25%;
 }
 
+.block-views-blockfull-calendar-view-block-2 .views-field-field-feature-media,
 .view-news .views-field-field-feature-media,
 .view-letters-to-the-editor .views-field-field-feature-media,
 .view-gcrg-pubic-forums .views-field-field-feature-media,
@@ -9015,6 +9020,7 @@ p:last-child,
 }
 
 @media (min-width: 600px) {
+  .block-views-blockfull-calendar-view-block-2 .views-field-field-feature-media,
   .view-news .views-field-field-feature-media,
   .view-letters-to-the-editor .views-field-field-feature-media,
   .view-gcrg-pubic-forums .views-field-field-feature-media,
@@ -9025,6 +9031,7 @@ p:last-child,
   }
 }
 
+.block-views-blockfull-calendar-view-block-2 .views-field-field-feature-media img,
 .view-news .views-field-field-feature-media img,
 .view-letters-to-the-editor .views-field-field-feature-media img,
 .view-gcrg-pubic-forums .views-field-field-feature-media img,
@@ -9033,6 +9040,7 @@ p:last-child,
   margin: auto;
 }
 
+.block-views-blockfull-calendar-view-block-2 .views-field-title h2,
 .view-news .views-field-title h2,
 .view-letters-to-the-editor .views-field-title h2,
 .view-gcrg-pubic-forums .views-field-title h2,
@@ -9041,6 +9049,7 @@ p:last-child,
   margin: 0;
 }
 
+.block-views-blockfull-calendar-view-block-2 .views-field-body,
 .view-news .views-field-body,
 .view-letters-to-the-editor .views-field-body,
 .view-gcrg-pubic-forums .views-field-body,
@@ -9049,6 +9058,7 @@ p:last-child,
   margin-top: 0.5em;
 }
 
+.block-views-blockfull-calendar-view-block-2 .views-field-view-node,
 .view-news .views-field-view-node,
 .view-letters-to-the-editor .views-field-view-node,
 .view-gcrg-pubic-forums .views-field-view-node,
@@ -9057,6 +9067,7 @@ p:last-child,
   text-align: right;
 }
 
+.block-views-blockfull-calendar-view-block-2 .views-field-view-node a,
 .view-news .views-field-view-node a,
 .view-letters-to-the-editor .views-field-view-node a,
 .view-gcrg-pubic-forums .views-field-view-node a,
