@@ -1258,11 +1258,32 @@ p:last-child,
         }
 
         &.rtlb {
-            > .layout__region--first {
-                order: 1;
+            @include breakpoint(740px) {
+                display: block;
 
-                @include breakpoint(740px) {
-                    order: 0;
+                > .layout__region--first {
+                    float: right;
+                    margin-left: 0.5em;
+                    margin-right: 0;
+                    margin-bottom: 0.5em;
+                }
+                > .layout__region--second {
+                    margin: 0;
+                }
+            }
+        }
+        &.ltrb {
+            @include breakpoint(740px) {
+                display: block;
+
+                > .layout__region--first {
+                    float: left;
+                    margin-left: 0;
+                    margin-right: 0.5em;
+                    margin-bottom: 0.5em;
+                }
+                > .layout__region--second {
+                    margin: 0;
                 }
             }
         }
