@@ -9346,6 +9346,13 @@ p:last-child,
   }
   .layout.layout--twocol-section--50-50.rtlb > .layout__region--first {
     float: right;
+    margin-left: 0.5em;
+    margin-right: 0;
+    margin-bottom: 0.5em;
+    width: 50%;
+  }
+  .layout.layout--twocol-section--50-50.rtlb > .layout__region--second {
+    margin: 0;
   }
 }
 
@@ -9355,6 +9362,13 @@ p:last-child,
   }
   .layout.layout--twocol-section--50-50.ltrb > .layout__region--first {
     float: left;
+    margin-left: 0;
+    margin-right: 0.5em;
+    margin-bottom: 0.5em;
+    width: 50%;
+  }
+  .layout.layout--twocol-section--50-50.ltrb > .layout__region--second {
+    margin: 0;
   }
 }
 
