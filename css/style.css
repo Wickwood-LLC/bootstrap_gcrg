@@ -9065,6 +9065,9 @@ p:last-child,
 .view-development-projects .views-field-view-node,
 .view-proposed-local-laws .views-field-view-node {
   text-align: right;
+  position: absolute;
+  bottom: 0;
+  right: 0;
 }
 
 .block-views-blockfull-calendar-view-block-2 .views-field-view-node a,
@@ -9075,6 +9078,25 @@ p:last-child,
 .view-proposed-local-laws .views-field-view-node a {
   color: red;
   font-weight: bold;
+}
+
+.block-views-blockfull-calendar-view-block-2 .views-field-field-start-date-and-time,
+.block-views-blockfull-calendar-view-block-2 .views-field-title,
+.block-views-blockfull-calendar-view-block-2 .views-field-field-event-address {
+  margin: 0;
+}
+
+.block-views-blockfull-calendar-view-block-2 .views-field-field-start-date-and-time a,
+.block-views-blockfull-calendar-view-block-2 .views-field-title a,
+.block-views-blockfull-calendar-view-block-2 .views-field-field-event-address a {
+  color: #333333;
+}
+
+.block-views-blockfull-calendar-view-block-2 .views-field-field-start-date-and-time a:hover,
+.block-views-blockfull-calendar-view-block-2 .views-field-title a:hover,
+.block-views-blockfull-calendar-view-block-2 .views-field-field-event-address a:hover {
+  color: #09364c;
+  text-decoration: none;
 }
 
 .view-development-projects .view-content {
@@ -9346,9 +9368,9 @@ p:last-child,
   }
   .layout.layout--twocol-section--50-50.rtlb > .layout__region--first {
     float: right;
-    margin-left: 0.5em;
+    margin-left: 1em;
     margin-right: 0;
-    margin-bottom: 0.5em;
+    margin-bottom: 1em;
     width: 50%;
   }
   .layout.layout--twocol-section--50-50.rtlb > .layout__region--second {
@@ -9363,8 +9385,8 @@ p:last-child,
   .layout.layout--twocol-section--50-50.ltrb > .layout__region--first {
     float: left;
     margin-left: 0;
-    margin-right: 0.5em;
-    margin-bottom: 0.5em;
+    margin-right: 1em;
+    margin-bottom: 1em;
     width: 50%;
   }
   .layout.layout--twocol-section--50-50.ltrb > .layout__region--second {

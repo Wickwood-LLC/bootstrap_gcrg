@@ -1011,10 +1011,30 @@ p:last-child,
     }
     .views-field-view-node {
         text-align: right;
+        position: absolute;
+        bottom: 0;
+        right: 0;
         
         a {
             color: red;
             font-weight: bold;
+        }
+    }
+}
+
+.block-views-blockfull-calendar-view-block-2 {
+    .views-field-field-start-date-and-time,
+    .views-field-title,
+    .views-field-field-event-address {
+        margin: 0;
+        
+        a {
+            color: rgb(51, 51, 51);
+
+            &:hover {
+                color: #09364c;
+                text-decoration: none;
+            }
         }
     }
 }
@@ -1263,9 +1283,9 @@ p:last-child,
 
                 > .layout__region--first {
                     float: right;
-                    margin-left: 0.5em;
+                    margin-left: 1em;
                     margin-right: 0;
-                    margin-bottom: 0.5em;
+                    margin-bottom: 1em;
                     width: 50%;
                 }
                 > .layout__region--second {
@@ -1280,8 +1300,8 @@ p:last-child,
                 > .layout__region--first {
                     float: left;
                     margin-left: 0;
-                    margin-right: 0.5em;
-                    margin-bottom: 0.5em;
+                    margin-right: 1em;
+                    margin-bottom: 1em;
                     width: 50%;
                 }
                 > .layout__region--second {
