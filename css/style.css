@@ -9100,6 +9100,11 @@ p:last-child,
   display: inline;
 }
 
+.block-views-blockfull-calendar-view-block-2 .views-field-body .read-more a {
+  color: red;
+  font-weight: bold;
+}
+
 .view-development-projects .view-content {
   text-align: center;
 }

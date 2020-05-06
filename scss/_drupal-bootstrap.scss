@@ -1039,6 +1039,10 @@ p:last-child,
         p:last-of-type {
             display: inline;
         }
+        .read-more a {
+            color: red;
+            font-weight: bold;
+        }
     }
 }
 
