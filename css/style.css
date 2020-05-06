@@ -9103,6 +9103,7 @@ p:last-child,
 .block-views-blockfull-calendar-view-block-2 .views-field-body .read-more a {
   color: red;
   font-weight: bold;
+  float: right;
 }
 
 .view-development-projects .view-content {
