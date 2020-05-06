@@ -1011,9 +1011,6 @@ p:last-child,
     }
     .views-field-view-node {
         text-align: right;
-        position: absolute;
-        bottom: 0;
-        right: 0;
         
         a {
             color: red;
@@ -1035,6 +1032,12 @@ p:last-child,
                 color: #116690;
                 text-decoration: none;
             }
+        }
+    }
+
+    .views-field-body {
+        p:last-of-type {
+            display: inline;
         }
     }
 }

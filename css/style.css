@@ -9065,9 +9065,6 @@ p:last-child,
 .view-development-projects .views-field-view-node,
 .view-proposed-local-laws .views-field-view-node {
   text-align: right;
-  position: absolute;
-  bottom: 0;
-  right: 0;
 }
 
 .block-views-blockfull-calendar-view-block-2 .views-field-view-node a,
@@ -9097,6 +9094,10 @@ p:last-child,
 .block-views-blockfull-calendar-view-block-2 .views-field-field-event-address a:hover {
   color: #116690;
   text-decoration: none;
+}
+
+.block-views-blockfull-calendar-view-block-2 .views-field-body p:last-of-type {
+  display: inline;
 }
 
 .view-development-projects .view-content {
