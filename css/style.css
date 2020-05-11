@@ -9505,4 +9505,84 @@ p:last-child,
   display: inline;
   float: none;
 }
+
+.campaignist-send-mail-button {
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: bold;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  touch-action: manipulation;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.428571429;
+  border-radius: 4px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  color: #fff;
+  background-color: #5bc0de;
+  border-color: #46b8da;
+  text-transform: capitalize;
+}
+
+.campaignist-send-mail-button:hover {
+  color: #fff;
+  background-color: #31b0d5;
+  border-color: #269abc;
+  text-decoration: none;
+}
+
+.textfield-copier-button {
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: bold;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  touch-action: manipulation;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.428571429;
+  border-radius: 4px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  color: #333;
+  background-color: #fff;
+  border-color: #ccc;
+  text-transform: capitalize;
+}
+
+.textfield-copier-button:hover {
+  color: #333;
+  background-color: #e6e5e5;
+  border-color: #adadad;
+  text-decoration: none;
+}
+
+.campaignist-textfield-copier .value,
+.campaignist-textfield-copier .textfield-copier-button {
+  display: inline;
+}
+
+.field--name-field-campaign-recipient .field--item,
+.field--name-field-campaign-email-subject .field--item,
+.field--name-field-campaign-email-html .field--item {
+  margin: 0 1em;
+}
+
+.field--name-field-campaign-email-html .textfield-copier-button {
+  display: block;
+  margin: 1em auto;
+}
 /*# sourceMappingURL=style.css.map */
