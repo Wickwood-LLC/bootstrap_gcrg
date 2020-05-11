@@ -7859,6 +7859,10 @@ ul:last-child {
   margin-bottom: 0;
 }
 
+dd {
+  margin: 0 0 1em 1em;
+}
+
 h1 {
   font-family: proxima-nova, sans-serif;
   font-weight: bold;
@@ -7986,6 +7990,7 @@ h6 {
 }
 
 p {
+  margin-bottom: 1em;
   font-family: proxima-nova, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
