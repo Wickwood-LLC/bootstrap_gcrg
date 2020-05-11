@@ -9572,7 +9572,7 @@ p:last-child,
 
 .campaignist-textfield-copier .value,
 .campaignist-textfield-copier .textfield-copier-button {
-  display: inline;
+  display: inline-block;
 }
 
 .field--name-field-campaign-recipient .field--item,
