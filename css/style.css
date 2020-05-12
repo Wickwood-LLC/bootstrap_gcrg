@@ -8861,7 +8861,11 @@ p:last-child,
   color: #e24f4c;
 }
 
-.centered-content {
+.centered-title .block-title {
+  text-align: center;
+}
+
+.centered-content .block-content {
   text-align: center;
 }
 

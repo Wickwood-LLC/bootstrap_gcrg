@@ -854,7 +854,10 @@ p:last-child,
     }
 }
 
-.centered-content {
+.centered-title .block-title {
+    text-align: center;
+}
+.centered-content .block-content{
     text-align: center;
 }
 
