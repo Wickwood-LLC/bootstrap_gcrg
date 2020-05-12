@@ -9611,4 +9611,9 @@ p:last-child,
   display: block;
   margin: 1em auto;
 }
+
+.field--name-field-campaign-expiration-date .field--item {
+  color: red;
+  font-weight: bold;
+}
 /*# sourceMappingURL=style.css.map */
