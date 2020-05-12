@@ -7180,7 +7180,9 @@ html.js .ajax-new-content:empty {
 .field--label-inline .field--label,
 .field--label-inline > .field--item,
 .field--label-inline .field--items {
-  padding-right: 0.5em;
+  display: inline;
+  float: none;
+  padding-right: 0;
 }
 
 [dir="rtl"] .field--label-inline .field--label,
