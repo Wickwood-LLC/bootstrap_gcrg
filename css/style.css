@@ -8292,6 +8292,7 @@ body.toolbar-vertical #navbar {
 
 .view-content-image-slideshow .views_slideshow_cycle_teaser_section {
   max-width: 100%;
+  width: 100% !important;
   margin: auto;
 }
 
