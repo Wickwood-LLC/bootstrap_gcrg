@@ -9534,7 +9534,7 @@ p:last-child,
   float: none;
 }
 
-.campaignist-send-mail-button {
+.field--name-extra-field-send-mail a {
   display: inline-block;
   margin-bottom: 0;
   font-weight: bold;
@@ -9559,7 +9559,7 @@ p:last-child,
   text-transform: capitalize;
 }
 
-.campaignist-send-mail-button:hover {
+.field--name-extra-field-send-mail a:hover {
   color: #fff;
   background-color: #31b0d5;
   border-color: #269abc;
@@ -9603,7 +9603,7 @@ p:last-child,
   display: inline-block;
 }
 
-.field--name-field-campaign-recipient .field--item,
+.field--name-field-campaign-recipients .field--item,
 .field--name-field-campaign-email-subject .field--item,
 .field--name-field-campaign-email-html .field--item {
   margin: 0 1em;
