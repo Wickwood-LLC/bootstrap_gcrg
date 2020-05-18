@@ -8012,6 +8012,11 @@ p {
   }
 }
 
+svg.ext {
+  width: 1em;
+  height: 1em;
+}
+
 .align-center {
   text-align: center;
 }

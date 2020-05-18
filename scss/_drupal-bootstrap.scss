@@ -94,6 +94,11 @@ p {
     @include fluid-type(320px, 1250px, 16px, 20px); // values inside are ($min_width,$max_width, $min_font, $max_font);
 }
 
+svg.ext {
+    width: 1em;
+    height: 1em;
+}
+
 .align-center {
     text-align: center;
     > img {
