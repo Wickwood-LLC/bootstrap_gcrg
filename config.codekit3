@@ -2915,7 +2915,7 @@
 "projectAttributes": {
 	"creationDate": 581339948.13037002,
 	"displayValue": "bootstrap_gcrg",
-	"displayValueWasSetByUser": 0,
+	"displayValueWasSetByUser": 1,
 	"iconImageName": "/favicon/apple-touch-icon.png",
 	"iconImageWasSetByUser": 0
 	},
