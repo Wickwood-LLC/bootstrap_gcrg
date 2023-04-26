@@ -29,6 +29,6 @@ ckeditor_stylesheets:
 libraries-override:
   bootstrap_wwm_base/framework:
     css:
-      navigation:
+      component:
         css/navbar.css: false
 
