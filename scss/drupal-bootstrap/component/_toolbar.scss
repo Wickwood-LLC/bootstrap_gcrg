@@ -12,10 +12,14 @@ body.toolbar-fixed {
   }
 
   .navbar-fixed-top {
-    top: 39px;
+    top: 0;
   }
 
   // Horizontal.
+  &.toolbar-horizontal .navbar-fixed-top {
+    top: 39px;
+  }
+
   &.toolbar-horizontal.toolbar-tray-open .navbar-fixed-top {
     top: 79px;
   }
@@ -32,7 +36,9 @@ body.toolbar-fixed {
 
       .toolbar-tray {
         padding-bottom: 40px;
-        &, > .toolbar-lining:before {
+
+        &,
+        >.toolbar-lining:before {
           width: $toolbar-width;
         }
       }
